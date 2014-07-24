@@ -1,0 +1,116 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: tictactoe/partial/gameboard/gameboard.js
+msgid "Are you sure you want to end the game?"
+msgstr ""
+
+#: tictactoe/partial/gameboard/gameboard.js
+msgid "Are you sure you want to go back home?"
+msgstr ""
+
+#: tictactoe/partial/gameboard/gameboard.js
+msgid "Are you sure?"
+msgstr ""
+
+#: tictactoe/partial/gameboard/gameboard.html
+msgid "Choose topic"
+msgstr ""
+
+#: tictactoe/partial/main/main.html
+msgid "Class"
+msgstr ""
+
+#: tictactoe/partial/gameboard/gameboard.js
+msgid "Do you really want to quit the game and go back to configuration page?"
+msgstr ""
+
+#: tictactoe/partial/main/main.html
+msgid "Draw new teams"
+msgstr ""
+
+#: tictactoe/partial/gameboard/gameboard.html
+msgid "End game"
+msgstr ""
+
+#: tictactoe/partial/gameboard/gameboard.js
+msgid "End game?"
+msgstr ""
+
+#: tictactoe/partial/gameboard/gameboard.js
+msgid "Go home?"
+msgstr ""
+
+#: tictactoe/partial/gameboard/gameboard.html
+msgid "Mix topic"
+msgstr ""
+
+#: service/DialogService.js
+msgid "No"
+msgstr ""
+
+#: tictactoe/partial/main/main.html
+msgid "No class"
+msgstr ""
+
+#: tictactoe/partial/gameboard/gameboard.js
+msgid "No topic!"
+msgstr ""
+
+#: tictactoe/partial/main/main.html
+msgid "Order by name"
+msgstr ""
+
+#: tictactoe/partial/main/main.html
+msgid "Order by teams"
+msgstr ""
+
+#: service/DialogService.js
+msgid "Perform this action?"
+msgstr ""
+
+#: service/DialogService.js
+msgid "Proceed?"
+msgstr ""
+
+#: tictactoe/partial/gameboard/gameboard.js
+msgid "Short list!"
+msgstr ""
+
+#: tictactoe/partial/gameboard/gameboard.html
+msgid "Start game"
+msgstr ""
+
+#: tictactoe/partial/main/main.html
+msgid "Start the game!"
+msgstr ""
+
+#: tictactoe/partial/gameboard/gameboard.html
+msgid "Switch player"
+msgstr ""
+
+#: tictactoe/partial/gameboard/gameboard.html
+msgid "Switch team"
+msgstr ""
+
+#: tictactoe/partial/gameboard/gameboard.js
+msgid "There isn't enough items in your list. You should check the data file and restart the game or choose another topic."
+msgstr ""
+
+#: service/DialogService.js
+msgid "Yes"
+msgstr ""
+
+#: tictactoe/partial/gameboard/gameboard.js
+msgid "You need to select a topic before starting the game."
+msgstr ""
+
+#: tictactoe/partial/main/main.html
+msgid "players"
+msgstr ""
+
+#: tictactoe/partial/main/main.html
+msgid "pupils"
+msgstr ""

@@ -1,0 +1,128 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: FLGames\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Fred Lieutaud <flieutaud@gmail.com>\n"
+"Language-Team: FL <flenglish@tuxfamily.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: fr\n"
+"Language: fr\n"
+"X-Poedit-Country: France\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: tictactoe/partial/gameboard/gameboard.js
+msgid "Are you sure you want to end the game?"
+msgstr "Êtes-vous certain de vouloir terminer la partie?"
+
+#: tictactoe/partial/gameboard/gameboard.js
+msgid "Are you sure you want to go back home?"
+msgstr "Êtes-vous certain de vouloir retourner à l'accueil?"
+
+#: tictactoe/partial/gameboard/gameboard.js
+msgid "Are you sure?"
+msgstr "Confirmez-vous?"
+
+#: tictactoe/partial/gameboard/gameboard.html
+msgid "Choose topic"
+msgstr "Choisir un thème"
+
+#: tictactoe/partial/main/main.html
+msgid "Class"
+msgstr "Mes classes"
+
+#: tictactoe/partial/gameboard/gameboard.js
+msgid "Do you really want to quit the game and go back to configuration page?"
+msgstr "Souhaitez-vous vraiment quitter le jeu et retourner à la page d'accueil?"
+
+#: tictactoe/partial/main/main.html
+msgid "Draw new teams"
+msgstr "Mélanger les équipes"
+
+#: tictactoe/partial/gameboard/gameboard.html
+msgid "End game"
+msgstr "Terminer la partie"
+
+#: tictactoe/partial/gameboard/gameboard.js
+msgid "End game?"
+msgstr "Terminer la partie"
+
+#: tictactoe/partial/gameboard/gameboard.js
+msgid "Go home?"
+msgstr "Retour à l'accueil?"
+
+#: tictactoe/partial/gameboard/gameboard.html
+msgid "Mix topic"
+msgstr "Mélanger les questions"
+
+#: service/DialogService.js
+msgid "No"
+msgstr "Non"
+
+#: tictactoe/partial/main/main.html
+msgid "No class"
+msgstr "Aucune classe"
+
+#: tictactoe/partial/gameboard/gameboard.js
+msgid "No topic!"
+msgstr "Aucun thème!"
+
+#: tictactoe/partial/main/main.html
+msgid "Order by name"
+msgstr "Tri alphabétique"
+
+#: tictactoe/partial/main/main.html
+msgid "Order by teams"
+msgstr "Tri par équipes"
+
+#: service/DialogService.js
+msgid "Perform this action?"
+msgstr "Accepter cette action?"
+
+#: service/DialogService.js
+msgid "Proceed?"
+msgstr "Continuer?"
+
+#: tictactoe/partial/gameboard/gameboard.js
+msgid "Short list!"
+msgstr "Liste trop courte!"
+
+#: tictactoe/partial/gameboard/gameboard.html
+msgid "Start game"
+msgstr "Commencer la partie"
+
+#: tictactoe/partial/main/main.html
+msgid "Start the game!"
+msgstr "Commencer la partie"
+
+#: tictactoe/partial/gameboard/gameboard.html
+msgid "Switch player"
+msgstr "Changer de joueur"
+
+#: tictactoe/partial/gameboard/gameboard.html
+msgid "Switch team"
+msgstr "Changer d'équipe"
+
+#: tictactoe/partial/gameboard/gameboard.js
+msgid "There isn't enough items in your list. You should check the data file and restart the game or choose another topic."
+msgstr "Il n'y a pas suffisamment de données pour créer une grille. Vérifiez votre fichier de données et rechargez la page, ou bien choisissez un autre thème."
+
+#: service/DialogService.js
+msgid "Yes"
+msgstr "Oui"
+
+#: tictactoe/partial/gameboard/gameboard.js
+msgid "You need to select a topic before starting the game."
+msgstr "Vous devez choisir un thème pour pouvoir commencer une partie."
+
+#: tictactoe/partial/main/main.html
+msgid "players"
+msgstr "joueurs"
+
+#: tictactoe/partial/main/main.html
+msgid "pupils"
+msgstr "élèves"
+

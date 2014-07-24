@@ -1,0 +1,22 @@
+<div class="col-md-12" ng-controller="MainCtrl">
+  <div class="row well text-center">
+    <h1>FLGames</h1>
+  </div>
+
+  <div class="row well text-center">
+    <ul class="list-inline">
+      <li ng-repeat="game in allGames">
+      <a ui-sref="{{game.id}}"><img class="img-thumbnail" ng-src="./{{game.id}}/media/img/logo.png" alt="logo.png" width="200px" /><p class="text-center"><span class="badge">{{game.name}}</span></p></a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="row well text-center">
+    <ul class="list-inline">
+      <li ng-repeat="lang in lang" ng-click="setLanguage(lang)">
+        <img ng-src="img/{{lang}}.png" alt="{{lang}}.png" max-width="50" ng-class="{ 'img-thumbnail' : currentLanguage == lang}" />
+      </li>
+    </ul>
+  </div>
+  
+</div>

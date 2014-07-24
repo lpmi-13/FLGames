@@ -1,0 +1,46 @@
+<div class="col-md-12" ng-controller="TictactoeCtrl" ng-init="init">
+
+  <div class="page-header text-center">
+    <h1 class="gameTitle">Tic Tac Toe <span class="badge badge-info">Configuration</span></h1>
+  </div>
+
+  <div class="row well">
+    <span class="title badge badge-success" translate>Class</span>
+    <ul class="list-inline">
+      <li class="btn btn-primary btn-lg" ui-sref-active="selected"><a ui-sref="tictactoe({classId: ''})" translate>No class</a></li>
+      <li class="btn btn-primary btn-lg" ng-repeat="class in allGroups" ui-sref-active="selected"><a ui-sref="tictactoe({classId: '{{class}}'})">{{class}}</a></li>
+    </ul>
+  </div>
+
+  <div class="row well">
+    <h3 class="text-ecenter" ng-show="isSelected">{{playersList.length}} <span translate>pupils</span> / {{remaining()}} <span translate>players</span></h3>
+    <ul ng-show="isSelected" id="playersList" class="playersList list-unstyled">
+      <li>
+        <div class="btn-group">
+          <button class="btn btn-success btn-mini" ng-click="switchOrder('name')" translate>Order by name</button>
+          <button class="btn btn-success btn-mini" ng-click="switchOrder('team')" translate>Order by teams</button>
+        </div>
+      </li>
+      <li ng-repeat="pupil in playersList | orderBy:orderProp">
+       <label class="absent-{{pupil.absent}} team-{{pupil.team}}"><input type="checkbox" ng-model="pupil.absent" ng-change="drawTeams()">
+         {{pupil.name}}
+         <span ng-show="orderProp=='team' && pupil.absent==0">({{pupil.team+1}})</span>
+       </label>
+      </li>
+      <li><button class="btn btn-success btn-mini" ng-click="drawTeams()" translate>Draw new teams</button></li>
+    </ul>
+    <p class="text-center">
+      <a class="btn btn-warning btn-lg" ui-sref="gameboard" translate>Start the game!</a>
+    </p>
+  </div>
+
+  <div class="row">
+    <nav class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" ui-sref="home" href="#"><i class="fa fa-home fa-fw"></i></a>
+        </div>
+      </div><!-- /.container-fluid -->
+    </nav>
+  </div>
+</div>
