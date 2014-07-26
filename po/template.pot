@@ -3,42 +3,64 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#: soccer/partial/gameboard/gameboard.js
 #: tictactoe/partial/gameboard/gameboard.js
 msgid "Are you sure you want to end the game?"
 msgstr ""
 
+#: soccer/partial/gameboard/gameboard.js
 #: tictactoe/partial/gameboard/gameboard.js
 msgid "Are you sure you want to go back home?"
 msgstr ""
 
+#: soccer/partial/gameboard/gameboard.js
 #: tictactoe/partial/gameboard/gameboard.js
 msgid "Are you sure?"
 msgstr ""
 
+#: soccer/partial/gameboard/gameboard.html
+msgid "Change players"
+msgstr ""
+
+#: soccer/partial/gameboard/gameboard.html
 #: tictactoe/partial/gameboard/gameboard.html
 msgid "Choose topic"
 msgstr ""
 
+#: soccer/partial/main/main.html
 #: tictactoe/partial/main/main.html
 msgid "Class"
 msgstr ""
 
+#: soccer/partial/gameboard/gameboard.js
 #: tictactoe/partial/gameboard/gameboard.js
 msgid "Do you really want to quit the game and go back to configuration page?"
 msgstr ""
 
+#: soccer/partial/gameboard/gameboard.html
+msgid "Draw a question"
+msgstr ""
+
+#: soccer/partial/main/main.html
 #: tictactoe/partial/main/main.html
 msgid "Draw new teams"
 msgstr ""
 
+#: soccer/partial/gameboard/gameboard.html
 #: tictactoe/partial/gameboard/gameboard.html
 msgid "End game"
 msgstr ""
 
+#: soccer/partial/gameboard/gameboard.js
 #: tictactoe/partial/gameboard/gameboard.js
 msgid "End game?"
 msgstr ""
 
+#: soccer/partial/gameboard/gameboard.js
+msgid "Free kick for the opposite team."
+msgstr ""
+
+#: soccer/partial/gameboard/gameboard.js
 #: tictactoe/partial/gameboard/gameboard.js
 msgid "Go home?"
 msgstr ""
@@ -47,10 +69,12 @@ msgstr ""
 msgid "Mix topic"
 msgstr ""
 
+#: soccer/partial/gameboard/gameboard.js
 #: service/DialogService.js
 msgid "No"
 msgstr ""
 
+#: soccer/partial/main/main.html
 #: tictactoe/partial/main/main.html
 msgid "No class"
 msgstr ""
@@ -59,10 +83,12 @@ msgstr ""
 msgid "No topic!"
 msgstr ""
 
+#: soccer/partial/main/main.html
 #: tictactoe/partial/main/main.html
 msgid "Order by name"
 msgstr ""
 
+#: soccer/partial/main/main.html
 #: tictactoe/partial/main/main.html
 msgid "Order by teams"
 msgstr ""
@@ -71,8 +97,16 @@ msgstr ""
 msgid "Perform this action?"
 msgstr ""
 
+#: soccer/partial/gameboard/gameboard.js
+msgid "Play the free kick"
+msgstr ""
+
 #: service/DialogService.js
 msgid "Proceed?"
+msgstr ""
+
+#: soccer/partial/gameboard/gameboard.js
+msgid "Red card!"
 msgstr ""
 
 #: tictactoe/partial/gameboard/gameboard.js
@@ -83,6 +117,7 @@ msgstr ""
 msgid "Start game"
 msgstr ""
 
+#: soccer/partial/main/main.html
 #: tictactoe/partial/main/main.html
 msgid "Start the game!"
 msgstr ""
@@ -99,6 +134,10 @@ msgstr ""
 msgid "There isn't enough items in your list. You should check the data file and restart the game or choose another topic."
 msgstr ""
 
+#: soccer/partial/gameboard/gameboard.js
+msgid "Yellow card!"
+msgstr ""
+
 #: service/DialogService.js
 msgid "Yes"
 msgstr ""
@@ -107,10 +146,12 @@ msgstr ""
 msgid "You need to select a topic before starting the game."
 msgstr ""
 
+#: soccer/partial/main/main.html
 #: tictactoe/partial/main/main.html
 msgid "players"
 msgstr ""
 
+#: soccer/partial/main/main.html
 #: tictactoe/partial/main/main.html
 msgid "pupils"
 msgstr ""

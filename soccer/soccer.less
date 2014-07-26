@@ -1,0 +1,167 @@
+/* Component LESS */
+@import "partial/main/main.less";
+@import "partial/gameboard/gameboard.less";
+@import "partial/winner/winner.less";
+/* Add Component LESS Above */
+
+header.soccer {
+  font-size: 1.5em;
+  padding: 5px;
+  height: 100px;
+  background-color: #00D100;
+  border: 3px solid #FFF;
+  border-radius: 30px;
+  text-align: center;
+}
+.score.soccer {
+  display: inline-block;
+  margin: 0px;
+  font-size: 2.5em;
+  color: #FFF;
+  text-shadow: #000 5px 5px 5px;
+}
+ul.scorers {
+  display: inline;
+}
+ul.scorers li {
+  list-style-type: none;
+  display: inline;
+  margin: 0px 5px;
+}
+span.scorer {
+  border : 1px solid #000;
+}
+#field {
+  position: relative;
+  margin: auto;
+  width: 750px;
+  height: 500px;
+  background: url('img/soccer_field.png') no-repeat center;
+}
+#currentSelectedPlayer {
+  position: absolute;
+  padding: 5px;
+  font-size: 1.5em;
+  font-weight: bold;
+  border: 2px solid #000;
+  background-color: #FFF;
+  border-radius: 20px;
+}
+#ball {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  opacity: 1;
+}
+#ball.animBall {
+  transform: rotate(360deg);
+}
+#ball.shootBall {
+  transition : all 0.5s ease;
+  transform: scale(0.7,0.7);
+  opacity: 0;
+}
+ul.team {
+  position: absolute;
+  text-align: left;
+  margin-top: 60px;
+}
+ul.team li {
+  cursor: pointer;
+  list-style-type: none;
+  font-size: 20px;
+}
+#team0Name, ul#team0 {
+  position: absolute;
+  left: 10px;
+}
+#team1Name, ul#team1 {
+  position: absolute;
+  right: 20px;
+}
+#questionDiv {
+  position: absolute;
+  text-align: center;
+  top: 5%;
+  left: 15%;
+  width: 70%;
+  height: 70%;
+  background-color: #FFF;
+  border: 3px solid #000;
+  border-radius: 30px;
+  padding: 20px;
+}
+#questionDiv img {
+  max-width: 60%;
+  max-height: 60%;
+}
+#questionDiv h1 {
+  position: relative;
+  left: 10px;
+  top: -50px;
+}
+#questionDiv button {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+}
+.soccer_currentNames {
+  cursor: pointer;
+  position: relative;
+  left: 0px;
+  top: 30px;
+  font-size: 2em;
+  padding: 5px;
+  border: 2px solid #000;
+  border-radius: 20px;
+  background-color: #606;
+  color: #FFF;
+  transition : all 0.5s ease;
+}
+.soccer_currentNames.team0.started {
+  left: -100px;
+  top: 470px;
+  /*
+  background-color: #FFF;
+  color: #000;
+  */
+}
+.soccer_currentNames.team1.started {
+  left: 150px;
+  top: 470px;
+  /*
+  background-color: #FFF;
+  color: #000;
+  */
+}
+.gameTimer {
+  position: absolute;
+  font-size: 2em;
+  right: 30px;
+  padding: 5px;
+  background-color: #FFF;
+  border: 2px solid #000;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.gameTimer.paused {
+  background-color: #F00;
+  color: #FFF;
+}
+.yellowCard, .redCard {
+  position: absolute;
+  display: inline-block;
+  width: 15px;
+  height: 20px;
+  border: 1px solid #000;
+}
+.yellowCard {
+  left: -30px;
+  background-color: yellow;
+  transform: rotate(-5deg);
+}
+.redCard {
+  left: -20px;
+  background-color: red;
+  transform: rotate(5deg);
+}

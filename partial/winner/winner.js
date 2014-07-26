@@ -1,4 +1,4 @@
-angular.module('tictactoe').controller('tictactoeWinnerCtrl',function($scope, Teams){
+angular.module('FLGames').controller('WinnerCtrl',function($scope, Teams){
 
   $scope.winner = Teams.winner;
   $scope.looser = Teams.looser;

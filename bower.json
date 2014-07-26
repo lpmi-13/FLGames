@@ -22,6 +22,7 @@
     "moment": "~2.5",
     "less.js": "~1.6",
     "font-awesome": "~4.0",
-    "angular-gettext": "~0.4.0"
+    "angular-gettext": "~0.4.0",
+    "angular-readable-time": "~0.1.0"
   }
 }

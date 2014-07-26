@@ -26,6 +26,10 @@
       {
         "name": "home",
         "file": "home/home.js"
+      },
+      {
+        "name": "soccer",
+        "file": "soccer/soccer.js"
       }
     ]
   }

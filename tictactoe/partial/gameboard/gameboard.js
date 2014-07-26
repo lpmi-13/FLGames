@@ -1,4 +1,4 @@
-angular.module('tictactoe').controller('GameboardCtrl',function($scope, $state, $filter, Teams, Data, $sce, $timeout, DialogService, gettext, gettextCatalog){
+angular.module('tictactoe').controller('tictactoeGameboardCtrl',function($scope, $state, $filter, Teams, Data, $sce, $timeout, DialogService, gettext, gettextCatalog){
   
   $scope.init = function() {
     // Disable selection
@@ -168,7 +168,7 @@ angular.module('tictactoe').controller('GameboardCtrl',function($scope, $state, 
               // Jump tp winner page is 5 points for a team
               if ($scope.gameTeams[$scope.currentPlayer.team].score === 5) {
                 $scope.finalScore();
-                $state.go('winner');
+                $state.go('winner', {gameId: 'tictactoe'});
               } else {
                 $scope.selectPlayer();
               }
@@ -262,7 +262,7 @@ angular.module('tictactoe').controller('GameboardCtrl',function($scope, $state, 
       bodyText: gettext('Are you sure you want to end the game?'),
       callback: function () {
         $scope.finalScore();
-        $state.go('winner');
+        $state.go('winner', {gameId: 'tictactoe'});
       }
     };
     DialogService.showModalDialog({}, dialogOptions);

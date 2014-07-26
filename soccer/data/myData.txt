@@ -1,0 +1,750 @@
+:Can / Can't / Likes
+[can_cant_likes/he_can_draw.png] :: He can draw.
+[can_cant_likes/she_can_play_tennis.png] :: She can play tennis.
+[can_cant_likes/he_can_play_football.png] :: He can play football.
+[can_cant_likes/she_can_ride_horse.png] :: She can ride a horse.
+[can_cant_likes/he_cant_ski.png] :: He can't ski.
+[can_cant_likes/she_cant_play_rugby.png] :: She can't play rugby.
+[can_cant_likes/he_cant_surf.png] :: He can't surf.
+[can_cant_likes/she_cant_swim.png] :: She can't swim.
+[can_cant_likes/he_dont_like_sing.png] :: He doesn't like singing.
+[can_cant_likes/she_dont_like_draw.png] :: She doesn't like drawing.
+[can_cant_likes/he_hate_ride_bike.png] :: He hates riding his bike.
+[can_cant_likes/she_hate_swim.png] :: She hates swimming.
+[can_cant_likes/she_like_ride_bike.png] :: She likes riding her bike.
+[can_cant_likes/she_love_ride_horse.png] :: She loves riding a horse. / She loves horse-riding.
+[can_cant_likes/he_love_play_football.png] :: He loves playing football.
+[can_cant_likes/they_can_ride_horse.png] :: They can ride a horse.
+[can_cant_likes/i_can_ride_horse.png] :: I can ride a horse.
+[can_cant_likes/they_cant_play_rugby.png] :: They can't play rugby.
+[can_cant_likes/i_cant_sing.png] :: I can't sing.
+[can_cant_likes/they_hate_surf.png] :: They hate surfing.
+[can_cant_likes/i_hate_rugby.png] :: I hate playing rugby.
+[can_cant_likes/they_like_play_tennis.png] :: They like playing tennis.
+[can_cant_likes/i_like_swim.png" /> :: I like swimming.
+
+:Colors
+Jaune :: Yellow
+Vert :: Green
+Bleu :: Blue
+Rouge :: Red
+Noir :: Black
+Blanc :: White
+Gris :: Grey/gray
+Violet :: Purple
+Rose :: Pink
+
+: Countries & Nationalities
+Country? [countries/world_south_africa_flag.png]
+Nationality? [countries/world_south_africa_flag.png]
+Country? [countries/world_france_flag.png]
+Nationality? [countries/world_france_flag.png]
+Country? [countries/world_australia_flag.png]
+Nationality? [countries/world_australia_flag.png]
+Country? [countries/world_canada_flag.png]
+Nationality? [countries/world_canada_flag.png]
+Country? [flags/england.png]
+Nationality? [flags/england.png]
+Country? [countries/world_ireland_flag.png]
+Nationality? [countries/world_ireland_flag.png]
+Country? [flags/scotland.png]
+Nationality? [flags/scotland.png]
+Country? [countries/world_united_kingdom_flag.png]
+Nationality? [countries/world_united_kingdom_flag.png]
+Country? [countries/world_usa_flag.png]
+Nationality? [countries/world_usa_flag.png]
+Country? [flags/wales.png]
+Country? [countries/world_india_flag.png]
+Nationality? [countries/world_india_flag.png]
+Country? [countries/world_new_zealand_flag.png]
+Country? ENFCAR
+Country? SAOHFRICUAT
+Country? ASATLIARU
+Country? ACADAN :: Canada
+Country? ELNGNDA
+Country? DIRLANE
+Country? NATEDOSTEITEFMASRICAU
+Country? IANID
+Country? OLASTNDC
+Country? NEOTHNDIRLRANER
+Nationality? CHFNER
+Nationality? ASUNTHFICOAR
+Nationality? RAUSAINTLA
+Nationality? IANACNAD
+Nationality? GNLEHIS
+Nationality? SIHIR
+Nationality? ARAICNEM
+Nationality? IADNIN
+Nationality? NRHERNROISHIT
+Nationality? TSOTSHIC
+A person from England is ... or ... :: English or British
+A person from Wales is ... or ... :: Welsh or British
+A person from Ireland is ... :: Irish
+A person from France is ...
+A person from Canada is ...
+A person from USA is ...
+A person from Northern Ireland is ...
+A person from Scotland is ... or ...
+
+:ID Questions
+name?
+age?
+city?
+country?
+nationality?
+family?
+pets?
+hobby?
+birth date?
+
+:Personality adjectives
+Je suis patient(e).
+Je suis responsable.
+soucieux (se)
+sociable
+Je suis honnête.
+Je suis 'souple'.
+facile à vivre, décontracté(e)
+travailleur (se)
+Elle est travailleuse.
+Je suis poli(e).
+audacieux(se) / courageux(se)
+Je suis impatient(e).
+irresponsable
+égoïste
+malhonnête
+têtu(e)
+susceptible
+paresseux (se)
+Je suis impoli(e).
+Il n'est pas poli.
+Elle est malpolie.
+facilement effrayé(e)
+Someone who isn't polite is ...
+Opposite of RUDE
+Someone who doesn't like working is ...
+Opposite of LAZY
+Someone who likes danger is ...
+Someone who gets angry easily is ...
+Someone who doesn't mind waiting is ... 
+Opposite of PATIENT
+Someone who is afraid of speaking is ...
+Opposite of SHY
+Someone who isn't caring is ...
+
+:Places
+[places/library_yes.png]
+[places/library_no.png]
+[places/library_question.png]
+[places/airport_yes.png]
+[places/airport_no.png]
+[places/airport_question.png]
+[places/amusement_park_yes.png]
+[places/amusement_park_no.png]
+[places/amusement_park_question.png]
+[places/car_park_yes.png]
+[places/car_park_no.png]
+[places/car_park_question.png]
+[places/cinema_yes.png]
+[places/cinema_no.png]
+[places/cinema_question.png]
+[places/fire_station_yes.png]
+[places/fire_station_no.png]
+[places/fire_station_question.png]
+[places/hospital_yes.png]
+[places/hospital_no.png]
+[places/hospital_question.png]
+[places/museum_yes.png]
+[places/museum_no.png]
+[places/museum_question.png]
+[places/park_yes.png]
+[places/park_no.png]
+[places/park_question.png]
+[places/police_station_yes.png]
+[places/police_station_no.png]
+[places/police_station_question.png]
+[places/restaurant_yes.png]
+[places/restaurant_no.png]
+[places/restaurant_question.png]
+[places/school_yes.png]
+[places/school_no.png]
+[places/school_question.png]
+[places/supermarket_yes.png]
+[places/supermarket_no.png]
+[places/supermarket_question.png]
+[places/train_station_yes.png]
+[places/train_station_no.png]
+[places/train_station_question.png]
+[places/zoo_yes.png]
+[places/zoo_no.png]
+[places/zoo_question.png]
+
+: Days & Months
+Lundi
+Mardi
+Mercredi
+Jeudi
+Vendredi
+Samedi
+Dimanche
+What's MONDAY in French?
+What's TUESDAY in French?
+What's WEDNESDAY in French?
+What's THURSDAY in French?
+What's FRIDAY in French?
+What's SATURDAY in French?
+What's SUNDAY in French?
+Janvier
+Février
+Mars
+Avril
+Mai
+Juin
+Juillet
+Août
+Septembre
+Octobre
+Novembre
+Décembre
+bpteSreem
+utuAsg
+charM
+lyJu
+
+:Have
+J'ai un chat.
+Elle n'a pas de chien.
+Il a un poisson rouge.
+J'ai un cheval.
+Elle n'a pas de cochon d'Inde.
+Il n'a pas de lapin.
+J'ai une souris.
+Elle n'a pas de vélo.
+Il n'a pas de téléphone portable.
+J'ai un ordinateur.
+Il n'a pas de poisson.
+Je n'ai pas de voiture.
+Elle a un serpent.
+Il a une télévision.
+Je n'ai pas de chat.
+Elle a un chien.
+Il n'a pas de cheval.
+Elle a un téléphone portable.
+J'ai un vélo.
+Elle a une voiture.
+Il n'a pas d'ordinateur.
+Il a un cochon d'Inde.
+
+:Possessives
+ma maman
+mon papa
+mon frère
+ma soeur
+mes parents
+mon nom
+ma bande-dessinée
+mes yeux
+mon nez
+mon visage
+mon meilleur ami
+mon livre
+mon chat et mon chien
+mon ordinateur
+ma, mon, mes
+ta, ton, tes
+ta nationalité
+ta table
+ta maman
+ta soeur
+ton livre
+ton frère
+ton ami
+ton papa
+ton ordinateur
+ton téléphone
+ton vélo
+ton cheval
+tes lunettes
+tes parents
+son, sa, ses (à un garçon) 
+sa soeur (à Julie)
+sa maman (à Jack)
+son papa (à Sarah)
+son hamster (à un garçon)
+son nez (à une fille)
+son visage (à un garçon)
+son nom (à une fille)
+son livre (à un garçon)
+son téléphone (à une fille)
+son vélo (à une fille)
+ses yeux (à un garçon)
+ses cheveux (à une fille)
+ses lunettes (à un garçon)
+ses parents (à une fille)
+ses amis (à un garçon)
+vos amis
+votre ordinateur
+votre chat
+votre chien
+vos, votre
+leur chien
+leur voiture
+leur maison
+leurs yeux
+leurs parents
+leur nom
+leur chat
+notre chien
+nos livres
+
+:UK Countries & Nationalities
+Country number 1? [countries/uk_numbers.png]
+Country number 2? [countries/uk_numbers.png]
+Country number 3? [countries/uk_numbers.png]
+Country number 4? [countries/uk_numbers.png]
+Country number 5? [countries/uk_numbers.png]
+Nationality number 1? [countries/uk_numbers.png]
+Nationality number 2? [countries/uk_numbers.png]
+Nationality number 3? [countries/uk_numbers.png]
+Nationality number 4? [countries/uk_numbers.png]
+Country? [flags/england.png]
+Nationality? [flags/england.png]
+Country? [countries/world_ireland_flag.png]
+Nationality? [countries/world_ireland_flag.png]
+Country? [flags/scotland.png]
+Nationality? [flags/scotland.png]
+Country? [countries/world_united_kingdom_flag.png]
+Nationality? [countries/world_united_kingdom_flag.png]
+Country? [flags/wales.png]
+Nationality? GNLEHIS
+Nationality? SIHIR
+Nationality? TSOTSHIC
+A person from England is ... or ...
+A person from Scotland is ... or ...
+A person from Wales is ... or ...
+A person from Ireland is ...
+
+: Weekend
+J'ai joué aux jeux-vidéos.
+Je suis allé au cinéma.
+J'ai rendu visite à mes grands-parents.
+J'ai fait mes devoirs.
+J'ai passé un bon week-end.
+J'ai beaucoup dormi.
+J'étais malade.
+J'ai fait du cheval.
+J'ai joué au foot.
+Tu es allé à la bibliothèque.
+Tu as fait tes devoirs.
+Tu étais malade.
+Tu as joué aux jeux vidéos.
+Tu es allé à Nancy.
+Tu es resté à la maison.
+Tu es allé au restaurant.
+Il a regardé la télé.
+Il a joué aux jeux-vidéos.
+Il a fait du vélo.
+Il a fait ses devoirs.
+Il est allé à la gare.
+Il est allé à la piscine.
+Il a fait du cheval.
+Il est allé à Saint-Dié.
+Elle a rendu visite à sa soeur.
+Elle est restée à la maison.
+Elle est allée à l'aéroport.
+Elle a joué au tennis.
+Elle est allée à la bibliothèque.
+Elle a fait du cheval.
+Elle est allée au commissariat.
+Elle est allée à Paris.
+Nous sommes allés au restaurant.
+Nous sommes allés au cinéma.
+Nous avons fait nos devoirs.
+Nous avons passé un bon week-end.
+Nous avons dormi.
+Nous sommes allés à la piscine.
+Nous sommes allés à New York.
+Vous avez rendu visite à votre père.
+Vous êtes allés au commissariat.
+Vous avez regardé la télé.
+Vous avez passé un bon week-end.
+Vous avez fait du vélo.
+Vous êtes allés à Strasbourg.
+Vous êtes allés au cinéma.
+
+:Physical description (affirmative)
+J'ai les cheveux blonds.
+J'ai les cheveux frisés.
+J'ai les cheveux longs.
+J'ai les yeux verts.
+J'ai les yeux bleus.
+J'ai des lunettes.
+J'ai un petit nez.
+Je suis grande.
+Je suis petite.
+Je suis jeune.
+Il a les cheveux noirs.
+Il a les cheveux courts.
+Il a les cheveux frisés.
+Il a les yeux bruns.
+Il a les yeux bleus.
+Il a un gros nez.
+Il a une tête ronde.
+Il est petit.
+Il est vieux.
+Il est fort.
+Il est gros.
+Elle a les cheveux chatains.
+Elle a les cheveux roux.
+Elle a les cheveux longs.
+Elle a les cheveux raides.
+Elle a les yeux bruns.
+Elle a les yeux verts.
+Elle a des lunettes.
+Elle a une tête ronde.
+Elle a un petit nez.
+Elle est jeune.
+Elle est grande.
+Tu as les yeux bruns.
+Tu as les yeux verts.
+Tu as des lunettes.
+Tu as une tête ronde.
+Tu as un petit nez.
+Tu es jeune.
+Tu es grande.
+Ils sont vieux.
+Elles sont grandes.
+Ils sont petits.
+Nous sommes forts.
+
+: Classroom English
+Pouvez-vous répéter, s'il-vous-plaît?
+Peux-tu répéter, s'il-te-plaît?
+Désolé...
+Je peux parler français, s'il vous plaît?
+Désolé, j'ai oublié mon livre.
+Mon tour! / Ton tour!
+Qui commence?
+Tais-toi!
+Je ne comprends rien...
+Je ne sais pas.
+Tant pis, c'est pas grave...
+
+: Giving direction
+Tourne à droite.
+Tourne à droite dans Park Avenue.
+Tourne à gauche.
+Tourne à gauche dans London Road.
+Traverse la rue.
+Traverse le parc.
+Prends la première à droite.
+Prends la première à gauche.
+Prends la deuxième à droite.
+Prends la deuxième à gauche.
+Va tout droit.
+Continue tout droit sur Manchester Road.
+Descends Queen Street.
+Remonte West Street.
+À l'angle de Western Road et de Western Avenue.
+Passe devant la bibliothèque.
+Passe devant la piscine.
+Passe devant le zoo.
+Passe devant le cinéma.
+Ce n'est pas loin de la gare.
+Ce n'est pas loin du musée.
+Ce n'est pas loin de ma maison.
+Ce n'est pas loin de l'hôpital.
+C'est en face du commissariat.
+C'est en face du parc.
+C'est en face de l'hôpital.
+
+:Likes
+J'aime bien le thé.
+Je n'aime pas le café.
+Je déteste le chocolat.
+J'adore le fromage.
+Je déteste les pommes.
+J'aime bien l'anglais.
+J'aime bien le français.
+Je n'aime pas le thé.
+Je déteste le fromage.
+Je déteste les bananes.
+Je déteste le lait.
+J'adore le lait.
+J'adore le football.
+J'aime bien les gâteaux.
+Je n'aime pas les gâteaux.
+J'adore l'été.
+Je n'aime pas l'hiver.
+Je déteste le printemps.
+J'adore l'hiver.
+J'adore l'automne.
+J'adore dessiner.
+J'adore jouer au foot.
+J'aime bien faire du cheval.
+J'aime bien faire du vélo.
+J'aime bien faire du ski.
+Je n'aime pas faire du roller.
+Je n'aime pas jouer au foot.
+Je déteste dessiner.
+Je déteste chanter.
+Je déteste nager!
+
+: Numbers
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+24
+30
+37
+40
+42
+50
+58
+60
+61
+70
+77
+80
+83
+90
+94
+99
+
+:Prepositions
+[images/prepositions/on.png]
+[images/prepositions/in.png]
+[images/prepositions/under.png]
+[images/prepositions/next_to.png]
+[images/prepositions/in_front_of_01.png]
+[images/prepositions/behind.png]
+[images/prepositions/under_01.png]
+[images/prepositions/on.png]
+[images/prepositions/on_01.png]
+dessous
+sous
+dessus
+sur
+à côté de
+devant
+derrière
+dans
+entre
+Le chat est dans l'arbre.
+L'oiseau est dans l'arbre.
+Le chat est sur le banc.
+Le chien est sous le banc.
+Le chien est derrière le chat.
+Le chat est devant le chien.
+Le chien est à côté de l'arbre.
+
+: Describing a picture
+[describing_picture/at_the_bottom.png]
+[describing_picture/at_the_top.png]
+[describing_picture/in_the_background.png]
+[describing_picture/in_the_foreground.png]
+[describing_picture/in_the_bottom_left_hand_corner.png]
+[describing_picture/in_the_bottom_right_hand_corner.png]
+[describing_picture/in-the_middle.png]
+[describing_picture/in_the_top_left_hand_corner.png]
+[describing_picture/in_the_top_right_hand_corner.png]
+[describing_picture/on_the_left.png]
+[describing_picture/on_the_right.png]
+
+:Can / Can't
+Je sais faire du cheval.
+Je sais faire du surf.
+Je sais danser.
+Je sais chanter.
+Je sais jouer au football.
+Sais-tu dessiner?
+Est-ce-que tu sais dessiner?
+Savez-vous nager?
+Sais-tu nager?
+Est-ce-que tu sais faire du roller?
+Sais-tu parler anglais?
+Sais-tu faire du surf?
+Savez-vous faire du ski?
+Elle sait faire du surf.
+Elle sait faire du ski.
+Elle sait faire du vélo.
+Il sait monter à cheval.
+Il sait dessiner.
+Je ne sais pas faire du cheval.
+Je ne sais pas faire du surf.
+Je ne sais pas danser.
+Je ne sais pas chanter.
+Je ne sais pas jouer au football.
+Il ne sait pas monter à cheval.
+Il ne sait pas dessiner.
+Elle ne sait pas faire du surf.
+Elle ne sait pas faire du ski.
+Elle ne sait pas faire du vélo.
+
+:Present BE+ING
+[activities/phoning.png]
+[activities/skateboarding.png]
+[activities/drinking_tea.png]
+[activities/surfing.png]
+[activities/swimming.png]
+[activities/reading.png]
+[activities/sledding.png]
+[activities/riding_motorbike.png]
+[activities/jumping.png]
+[activities/riding_horse.png]
+I (play) football.
+We (not go) to the cinema.
+You (ride) a horse.
+She (read) a book.
+Jack (watch) TV.
+They (not play) video games.
+You (do) my homework.
+I (go) to the swimming-pool.
+She (eat) chips.
+We (sleep).
+He (write) a letter.
+They (speak) with their friends.
+Rachel (work) her lessons.
+Sam (not eat) fish.
+You (sing) a song.
+We (not drink) coffee.
+Kelly (not watch) a film.
+I (listen) to music.
+We (run) in the park.
+I (speak) with my grand parents.
+My parents (go) to the restaurant.
+I (not play) on the computer.
+She (walk) to school.
+He (work) in his bedroom.
+Sarah (draw) in the garden.
+My friends (ski).
+
+:WH Questions prétérit
+Où es-tu allé?
+Où est-il allé?
+Où est-elle allée?
+Où sont-ils allés?
+Qu'a t-elle fait?
+Qu'est-ce-que tu as fait?
+Qu'est-ce-qu'il a fait?
+Qu'est-ce-qu'elles ont fait?
+Qu'ont-ils écrit?
+Qu'as-tu écrit?
+Qu'a-t-il écrit?
+Qu'est-ce-qu'elle a vu?
+Qu'a t-il vu?
+Qui a t-il vu?
+Qu'avez-vous vu?
+Qui avez-vous vu?
+Qu'ont t-ils vu?
+Qui as-tu rencontré?
+Qui ont t-ils rencontrés?
+Qu'est-ce que tu as dit?
+Qu'est-ce qu'il a dit?
+Qu'a t'elle dit?
+Qu'ont ils dit?
+Qu'as tu acheté?
+Qu'a t-il acheté?
+Qu'est-ce qu'elle a écrit?
+Qu'est-ce que tu as mangé?
+Qu'est-ce qu'elle a lu?
+Quand est-il venu?
+Quand sommes-nous venus?
+Comment êtes-vous venus?
+Comment l'as-tu cassé?
+Comment l'avez-vous trouvé?
+
+: What time is it?
+16:30
+12:00
+5:15
+3:00
+4:45
+9:00
+6:30
+2:30
+1:15
+18:45
+6:00
+3:30
+15:15
+17:00
+11:30
+10:00
+9:15
+2:00
+5:30
+7:00
+8:00
+10:45
+12:30
+13:00
+13:45
+2:OO
+4:00
+6:00
+7:15
+9:15
+9:50
+8:45
+4:20pm
+11:05am
+12:00
+2:30
+
+:Crossword 60101
+He  __________ very young.
+It's the fourth day of the week.  __________
+It is a sport and a game. You play with a ball.  __________
+It's the second month of the year.  __________
+It's a place where you can swim.  __________
+Mettre les lettres dans l'ordre  MTISEMESO  __________
+Mettre les lettres dans l'ordre  TGRNOS  _________
+How do you say 'treize' in English.  __________
+It's a room where you can sleep.  __________
+What's the capital city of France? __________
+Traduis 'dormir'  __________
+I like  __________ tennis.
+She  __________ TV every day. She loves it!
+It's the first day of the week.  __________
+ Jack and Sarah  __________ got a cat.
+How do you say 'souvent' in English?  __________
+It's the color of the sky when the weather is fine.  __________
+It's a small animal. It likes eating cheese. _________
+Comment dis tu 'bonjour' en anglais? __________
+It's a pink animal.  __________
+ __________ are you doing? I am doing my homework.
+Mike can't swim  __________ he can ski.
+She  __________ got brown hair.
+How do you say 'fille' in English.  __________
+It's a person who likes looking after children.  __________
+You can surf on the net with it. __________
+ __________ old are you?
+How do you say 'jamais' in English?  __________
+Traduis 'professeur'.  __________
+The capital of this country is London. __________
+It's a very poisonous animal. __________
+How do you say 'école' in English?  __________
+It's a season when the snow falls and you can make snowmen.  __________
+Traduis 'gros'. __________
+It's the color of the sun. __________
+__________ Max like drawing?
+8 in English.  __________

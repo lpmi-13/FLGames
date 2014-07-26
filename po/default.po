@@ -5,51 +5,70 @@ msgstr ""
 "PO-Revision-Date: \n"
 "Last-Translator: Fred Lieutaud <flieutaud@gmail.com>\n"
 "Language-Team: FL <flenglish@tuxfamily.org>\n"
-"Language: \n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-Language: fr\n"
-"Language: fr\n"
 "X-Poedit-Country: France\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
+#: soccer/partial/gameboard/gameboard.js
 #: tictactoe/partial/gameboard/gameboard.js
 msgid "Are you sure you want to end the game?"
 msgstr "Êtes-vous certain de vouloir terminer la partie?"
 
+#: soccer/partial/gameboard/gameboard.js
 #: tictactoe/partial/gameboard/gameboard.js
 msgid "Are you sure you want to go back home?"
 msgstr "Êtes-vous certain de vouloir retourner à l'accueil?"
 
+#: soccer/partial/gameboard/gameboard.js
 #: tictactoe/partial/gameboard/gameboard.js
 msgid "Are you sure?"
 msgstr "Confirmez-vous?"
 
+#: soccer/partial/gameboard/gameboard.html
+msgid "Change players"
+msgstr "Changer les joueurs"
+
+#: soccer/partial/gameboard/gameboard.html
 #: tictactoe/partial/gameboard/gameboard.html
 msgid "Choose topic"
 msgstr "Choisir un thème"
 
-#: tictactoe/partial/main/main.html
+#: soccer/partial/main/main.html tictactoe/partial/main/main.html
 msgid "Class"
 msgstr "Mes classes"
 
+#: soccer/partial/gameboard/gameboard.js
 #: tictactoe/partial/gameboard/gameboard.js
 msgid "Do you really want to quit the game and go back to configuration page?"
 msgstr "Souhaitez-vous vraiment quitter le jeu et retourner à la page d'accueil?"
 
-#: tictactoe/partial/main/main.html
+#: soccer/partial/gameboard/gameboard.html
+msgid "Draw a question"
+msgstr "Tirer une question"
+
+#: soccer/partial/main/main.html tictactoe/partial/main/main.html
 msgid "Draw new teams"
 msgstr "Mélanger les équipes"
 
+#: soccer/partial/gameboard/gameboard.html
 #: tictactoe/partial/gameboard/gameboard.html
 msgid "End game"
 msgstr "Terminer la partie"
 
+#: soccer/partial/gameboard/gameboard.js
 #: tictactoe/partial/gameboard/gameboard.js
 msgid "End game?"
 msgstr "Terminer la partie"
 
+#: soccer/partial/gameboard/gameboard.js
+msgid "Free kick for the opposite team."
+msgstr "Coup-franc pour l'équipe adverse."
+
+#: soccer/partial/gameboard/gameboard.js
 #: tictactoe/partial/gameboard/gameboard.js
 msgid "Go home?"
 msgstr "Retour à l'accueil?"
@@ -58,11 +77,11 @@ msgstr "Retour à l'accueil?"
 msgid "Mix topic"
 msgstr "Mélanger les questions"
 
-#: service/DialogService.js
+#: soccer/partial/gameboard/gameboard.js service/DialogService.js
 msgid "No"
 msgstr "Non"
 
-#: tictactoe/partial/main/main.html
+#: soccer/partial/main/main.html tictactoe/partial/main/main.html
 msgid "No class"
 msgstr "Aucune classe"
 
@@ -70,11 +89,11 @@ msgstr "Aucune classe"
 msgid "No topic!"
 msgstr "Aucun thème!"
 
-#: tictactoe/partial/main/main.html
+#: soccer/partial/main/main.html tictactoe/partial/main/main.html
 msgid "Order by name"
 msgstr "Tri alphabétique"
 
-#: tictactoe/partial/main/main.html
+#: soccer/partial/main/main.html tictactoe/partial/main/main.html
 msgid "Order by teams"
 msgstr "Tri par équipes"
 
@@ -82,9 +101,17 @@ msgstr "Tri par équipes"
 msgid "Perform this action?"
 msgstr "Accepter cette action?"
 
+#: soccer/partial/gameboard/gameboard.js
+msgid "Play the free kick"
+msgstr "Jouer le coup-franc"
+
 #: service/DialogService.js
 msgid "Proceed?"
 msgstr "Continuer?"
+
+#: soccer/partial/gameboard/gameboard.js
+msgid "Red card!"
+msgstr "Carton rouge!"
 
 #: tictactoe/partial/gameboard/gameboard.js
 msgid "Short list!"
@@ -94,7 +121,7 @@ msgstr "Liste trop courte!"
 msgid "Start game"
 msgstr "Commencer la partie"
 
-#: tictactoe/partial/main/main.html
+#: soccer/partial/main/main.html tictactoe/partial/main/main.html
 msgid "Start the game!"
 msgstr "Commencer la partie"
 
@@ -110,6 +137,10 @@ msgstr "Changer d'équipe"
 msgid "There isn't enough items in your list. You should check the data file and restart the game or choose another topic."
 msgstr "Il n'y a pas suffisamment de données pour créer une grille. Vérifiez votre fichier de données et rechargez la page, ou bien choisissez un autre thème."
 
+#: soccer/partial/gameboard/gameboard.js
+msgid "Yellow card!"
+msgstr "Carton jaune!"
+
 #: service/DialogService.js
 msgid "Yes"
 msgstr "Oui"
@@ -118,11 +149,11 @@ msgstr "Oui"
 msgid "You need to select a topic before starting the game."
 msgstr "Vous devez choisir un thème pour pouvoir commencer une partie."
 
-#: tictactoe/partial/main/main.html
+#: soccer/partial/main/main.html tictactoe/partial/main/main.html
 msgid "players"
 msgstr "joueurs"
 
-#: tictactoe/partial/main/main.html
+#: soccer/partial/main/main.html tictactoe/partial/main/main.html
 msgid "pupils"
 msgstr "élèves"
 

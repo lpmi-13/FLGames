@@ -1,14 +1,14 @@
-<div class="col-md-12" ng-controller="TictactoeCtrl" ng-init="init">
+<div class="col-md-12" ng-controller="SoccerCtrl">
 
   <div class="page-header text-center">
-    <h1 class="gameTitle">Tic Tac Toe <span class="badge badge-info">Configuration</span></h1>
+    <h1 class="gameTitle">Soccer <span class="badge badge-info">Configuration</span></h1>
   </div>
 
   <div class="row well">
     <span class="title badge badge-success" translate>Class</span>
     <ul class="list-inline">
-      <li class="btn btn-primary btn-lg" ui-sref-active="selected"><a ui-sref="tictactoe({classId: ''})" translate>No class</a></li>
-      <li class="btn btn-primary btn-lg" ng-repeat="class in allGroups" ui-sref-active="selected"><a ui-sref="tictactoe({classId: '{{class}}'})">{{class}}</a></li>
+      <li class="btn btn-primary btn-lg" ui-sref-active="selected"><a ui-sref="soccer({classId: ''})" translate>No class</a></li>
+      <li class="btn btn-primary btn-lg" ng-repeat="class in allGroups" ui-sref-active="selected"><a ui-sref="soccer({classId: '{{class}}'})">{{class}}</a></li>
     </ul>
   </div>
 
@@ -30,7 +30,7 @@
       <li><button class="btn btn-success btn-mini" ng-click="drawTeams()" translate>Draw new teams</button></li>
     </ul>
     <p class="text-center">
-    <a class="btn btn-warning btn-lg" ui-sref="gameboard({gameId: 'tictactoe'})" translate>Start the game!</a>
+      <a class="btn btn-warning btn-lg" ui-sref="gameboard({gameId: 'soccer'})" translate>Start the game!</a>
     </p>
   </div>
 
