@@ -1,64 +1,43 @@
-class,name
-TEST, Nom 01
-TEST, Nom 02
-TEST, Nom 03
-TEST, Nom 04
-TEST, Nom 05
-TEST, Nom 06
-TEST, Nom 07
-TEST, Nom 08
-6B, Amandine
-6B, Amélie
-6B, Anaelle
-6B, Arthur
-6B, Bryan
-6B, Camile
-6B, Cathy
-6B, Chloé
-6B, Corentin
-6B, Elisa
-6B, Emma
-6B, Enael
-6B, Erine
-6B, Evan
-6B, Ewan
-6B, Jennifer
-6B, Julien
-6B, Kalysta
-6B, Léa
-6B, Léo
-6B, Lylie
-6B, Mickaël
-6B, Nicolas
-6B, Quentin
-6B, Rémi
-6B, Tristan
-6CD, Alan M
-6CD, Allan T
-6CD, Alicia 
-6CD, Benjamin
-6CD, Chane-Name
-6CD, Emilie
-6CD, Enzo
-6CD, Fleur
-6CD, Henrick
-6CD, Justine
-6CD, Laura
-6CD, Laurianne
-6CD, Léo  
-6CD, Louane
-6CD, Manuella 
-6CD, Marion
-6CD, Marius 
-6CD, Mathieu L
-6CD, Matthieu R
-6CD, Matthieu S
-6CD, Maxime B
-6CD, Maxime C
-6CD, Nassim
-6CD, Nathanaël
-6CD, Nerissa 
-6CD, Paul
-6CD, Quentin
-6CD, Théo
-6CD, Valentin 
+class, name
+6BC, Chloé
+6BC, Lucie
+6BC, Gaël B
+6BC, Emma
+6BC, Ophélie
+6BC, Angélina
+6BC, Florian
+6BC, Gaël C
+6BC, Dylan
+6BC, Médéric
+6BC, Océane
+6BC, Lolita
+6BC, Lauryne
+6BC, Eve
+6BC, Ophélia
+6BC, Lucas
+6BC, Lilian
+6BC, Agathe
+6BC, Kenny
+6BC, Apolline
+6BC, Kosta
+6BC, Allahdine
+6BC, Maëva
+6BC, Maxime
+6E, Matéo
+6E, Emma
+6E, Clara
+6E, Julie
+6E, Louison
+6E, Ethan
+6E, Mélianes
+6E, Ambres
+6E, Emir
+6E, Clément
+6E, Joanna
+6E, Camille
+6E, Eloïse
+6E, Nikola
+6E, Alban
+6E, Juliane
+6E, Emilie
+6E, Léo
