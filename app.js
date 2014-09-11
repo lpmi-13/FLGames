@@ -1,4 +1,4 @@
-angular.module('FLGames', ['ui.bootstrap', 'ui.utils', 'ui.router', 'ngAnimate', 'tictactoe', 'home', 'gettext', 'soccer']);
+angular.module('FLGames', ['ui.bootstrap', 'ui.utils', 'ui.router', 'ngAnimate', 'tictactoe', 'home', 'gettext', 'soccer', 'carrace']);
 
 angular.module('FLGames').config(function($stateProvider, $urlRouterProvider) {
 
@@ -6,6 +6,11 @@ angular.module('FLGames').config(function($stateProvider, $urlRouterProvider) {
     .state('home', {
       url: "/home",
       templateUrl: "home/partial/main/main.html"
+    })
+
+    .state('carrace', {
+      url: "/carrace/:classId",
+      templateUrl: "carrace/partial/main/main.html"
     })
 
     .state('soccer', {
