@@ -69,6 +69,10 @@ msgstr ""
 msgid "Mix topic"
 msgstr ""
 
+#: tictactoe/partial/gameboard/gameboard.js
+msgid "Mix topic?"
+msgstr ""
+
 #: soccer/partial/gameboard/gameboard.js
 #: service/DialogService.js
 msgid "No"
@@ -132,6 +136,10 @@ msgstr ""
 
 #: tictactoe/partial/gameboard/gameboard.js
 msgid "There isn't enough items in your list. You should check the data file and restart the game or choose another topic."
+msgstr ""
+
+#: tictactoe/partial/gameboard/gameboard.js
+msgid "This will clear the board from all logos! Are you sure?"
 msgstr ""
 
 #: soccer/partial/gameboard/gameboard.js

@@ -35,11 +35,9 @@
 
       <ul class="nav navbar-nav">
         <li><a ng-hide="started || selectedTopic == false" ng-click="gameStart();"><i class="fa fa-check-circle fa-fw"></i> <span translate>Start game</span></a></li>  
-        <!-- <li><a ng-show="started" ng-click="switchTeams(); selectPlayer()" title="Switch teams"><i class="fa fa-exchange fa-fw"></i></a></li> -->
-        <!-- <li><a ng-click="reset();"><i class="fa fa-trash-o fa-fw"></i> <span l10n-text="tictactoe.clearBoard">Clear board</span></a></li> -->
         <li ng-show="started"><a ng-click="switchTeams(); selectPlayer();"><i class="fa fa-exchange fa-fw"></i> <span translate>Switch team</span></a></li>
         <li ng-show="currentPlayer && currentPlayer.name != ''"><a ng-click="selectPlayer();"><i class="fa fa-arrows-v fa-fw"></i> <span translate>Switch player</span></a></li>
-        <li ng-show="selectedTopic && started===false"><a ng-click="mixTopic();"><i class="fa fa-refresh fa-fw"></i> <span translate>Mix topic</span></a></li>
+        <li ng-show="selectedTopic"><a ng-click="mixTopic();"><i class="fa fa-refresh fa-fw"></i> <span translate>Mix topic</span></a></li>
         <li ng-show="started"><a ng-click="endGame();"><i class="fa fa-times fa-fw"></i> <span translate>End game</span></a></li>
         <li class="dropdown">
         <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-file fa-fw"></i> <span translate>Choose topic</span></a>

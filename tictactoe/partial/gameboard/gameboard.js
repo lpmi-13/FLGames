@@ -165,7 +165,7 @@ angular.module('tictactoe').controller('tictactoeGameboardCtrl',function($scope,
               $scope.blink = -1;
               $scope.mixTopic();
               $scope.switchTeams();
-              // Jump tp winner page is 5 points for a team
+              // Jump to winner page is 5 points for a team
               if ($scope.gameTeams[$scope.currentPlayer.team].score === 5) {
                 $scope.finalScore();
                 $state.go('winner', {gameId: 'tictactoe'});
@@ -227,7 +227,14 @@ angular.module('tictactoe').controller('tictactoeGameboardCtrl',function($scope,
   }
 
   $scope.mixTopic = function() {
-    $scope.selectTopic($scope.selectedTopic[0].topic);
+    var dialogOptions = {
+        headerText: gettext('Mix topic?'),
+        bodyText: gettext('This will clear the board from all logos! Are you sure?'),
+        callback: function () {
+          $scope.selectTopic($scope.selectedTopic[0].topic);
+        }
+    };
+    DialogService.showModalDialog({}, dialogOptions);
   };
 
   $scope.goHome = function() {
