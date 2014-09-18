@@ -234,7 +234,11 @@ angular.module('tictactoe').controller('tictactoeGameboardCtrl',function($scope,
           $scope.selectTopic($scope.selectedTopic[0].topic);
         }
     };
-    DialogService.showModalDialog({}, dialogOptions);
+    if ( $scope.winner !== '') { // A game has just been won, just mix topic
+      $scope.selectTopic($scope.selectedTopic[0].topic);
+    } else { // Throw alert message before mixing topic
+      DialogService.showModalDialog({}, dialogOptions);
+    }
   };
 
   $scope.goHome = function() {
