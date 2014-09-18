@@ -1,4 +1,125 @@
-<div class="col-md-12" ng-controller="CarraceGameboardCtrl">
+<section class="col-md-12" ng-controller="CarraceGameboardCtrl" ng-init="init()">
 
-
+<div class="row">
+  <ul>
+    <li class="runner" ng-repeat="team in gameTeams">
+    <span class="bonus negative" ng-switch on="team.negative">
+      <span class="alertBox" ng-switch-when="work" ng-dblclick="team.negative=false" l10n-title="carrace.work"><img ng-src="img/roadwork.png" /></span>
+      <span class="alertBox" ng-switch-when="breakdown" ng-dblclick="team.negative = false" l10n-title="carrace.breakdown"><img ng-src="img/breakdown.png" /></span>
+      <span class="alertBox" ng-switch-when="accident" ng-dblclick="team.negative = false" l10n-title="carrace.accident"><img ng-src="img/accident.png" /></span>
+      <span class="alertBox" ng-switch-when="redlight" ng-dblclick="team.negative = false" l10n-title="carrace.redlight"><img ng-src="img/trafficlight.png" height="30" /></span>
+      <span class="alertBox" ng-switch-when="flat" ng-dblclick="team.negative = false" l10n-title="carrace.fuel"><img ng-src="img/fuel.png" /></span>
+      <span class="alertBox" ng-switch-when="fuel" ng-dblclick="team.negative = false" l10n-title="carrace.flat"><img ng-src="img/flat.png" /></span>
+      <span class="alertBox" ng-switch-when="traffic" ng-dblclick="team.negative = false" l10n-title="carrace.traffic"><img ng-src="img/traffic.png" /></span>
+      <span class="alertBox" ng-switch-when="policeman" ng-dblclick="team.negative = false" l10n-title="carrace.policeman"><img ng-src="img/policeman.png" /></span>
+    </span>
+    <span class="bonus positive" ng-switch on="team.positive">
+      <span class="alertBox" ng-switch-when="speed" ng-dblclick="team.positive = false" l10n-title="carrace.speed"><img ng-src="img/speed.png" /></span>
+      <span class="alertBox" ng-switch-when="highway" ng-dblclick="team.positive = false" l10n-title="carrace.highway"><img ng-src="img/highway.png" /></span>
+      <span class="alertBox" ng-switch-when="downhill" ng-dblclick="team.positive = false" l10n-title="carrace.downhill"><img ng-src="img/downhill.png" /></span>
+      <span class="alertBox" ng-switch-when="escort" ng-dblclick="team.positive = false" l10n-title="carrace.escort"><img ng-src="img/escort.png" /></span>
+    </span>
+    <span class="carSelect" ng-click="team.selected = !team.selected" ng-class="{selected : team.selected, winner: team.winner }"></span>
+    <span class="die" ng-show="team.die">{{team.die}}</span>
+    <img ng-click="team.selected = !team.selected" ng-class="{selected : team.selected, winner: team.winner }" ng-src="{{team.logo}}" ng-style="{'left': team.left+'px'}" />
+    </li>
+  </ul>
+  <div class="finish span12">
+    <img id="flags" src="img/racing_flag.png" />
+  </div>
 </div>
+
+  <nav class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a ng-click="goHome();" class="navbar-brand"><i class="fa fa-home fa-fw"></i></a>
+        <a class="navbar-brand" ng-click="myAlert();"><i class="fa fa-cogs fa-fw"></i></a>
+      </div>
+
+      <ul class="nav navbar-nav">
+        <li ng-show="selectedTopic"><a ng-click="drawQuestion()"><i class="fa fa-question-circle fa-fw"></i> <span translate>Draw a question</draw></a></li>  
+        <li><a ng-click="throwDie(10)"><i class="fa fa-check fa-fw"></i> <span translate>Throw dice</draw></a></li>  
+        <li ng-show="selectedTopic && questionStart"><a ng-click="selectPlayer();"><i class="fa fa-arrows-v fa-fw"></i> <span translate>Change players</span></a></li>
+        <li ng-show="selectedTopic"><a ng-click="endGame();"><i class="fa fa-times fa-fw"></i> <span translate>End game</span></a></li>
+        <li class="dropdown" ng-show="selectedTopic">
+          <a  class="dropdown-toggle"><i class="fa fa-clock-o fa-fw"></i></a>
+          <ul class="dropdown-menu">
+            <li><a ng-click="launchTimer(600)"><span>10:00</span></a></li>
+            <li><a ng-click="launchTimer(480)"><span>8:00</span></a></li>
+            <li><a ng-click="launchTimer(300)"><span>5:00</span></a></li>
+            <li><a ng-click="launchTimer(120)"><span>2:00</span></a></li>
+            <li><a ng-click="launchTimer(60)"><span>1:00</span></a></li>
+            <li><a ng-click="launchTimer(3)"><span>3</span></a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-file fa-fw"></i> <span translate>Choose topic</span></a>
+            <ul class="dropdown-menu topics" role="menu">
+              <li ng-repeat="topic in allTopics | orderBy:'title'">
+              <a ng-class="{selected : topic == selectedTopic.title }" ng-click="selectTopic(topic)">{{topic}}</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <div>
+          <p class="navbar-text">{{selectedTopic[0].topic}}</p>
+        </div>
+    </div><!-- /.container-fluid -->
+  </nav>
+
+  <!--
+<div class="row">
+  <div class="navbar navbar-inverse navbar-fixed-bottom">
+    <div class="navbar-inner">
+      <div class="container">
+      <ul class="nav">  
+        <li class="active"><a class="brand" ng-href="{{value}}" ng-click="backHome();"><img ng-src="img/home.png" /></a></li>  
+        <li><a ng-click="drawQuestion()" l10n-title="carrace.question"><img ng-src="img/question_mark.png" /></a></li>  
+        <li><a ng-click="throwDie(10)" l10n-title="carrace.throwDie"><img ng-src="img/die.png" width="20" /></a></li>
+        <li><a ng-click="setPositive()" l10n-title="carrace.positive"><img ng-src="img/thumb_up.png" width="20" /></a></li>
+        <li><a ng-click="setNegative()" l10n-title="carrace.negative"><img ng-src="img/thumb_down.png" width="20" /></a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle">
+            <i class="icon-wrench icon-white"></i> Options
+          </a>
+          <ul class="dropdown-menu">
+            <li><a ng-click="endGame()"><i class="icon-remove"></i> <span l10n-text="tictactoe.endGame">End game</span></a></li>
+            <li><a ng-click="reset()"><i class="icon-trash"></i> <span l10n-text="tictactoe.clearBoard">Reset game</span></a></li>
+            <li><a ng-click="randomBonus()"><i class="icon-gift"></i> <span l10n-text="carrace.randomBonus">Random bonus</span></a></li>
+            <li><a ng-click="mixTeams()"><i class="icon-refresh"></i> <span l10n-text="carrace.mix">Mix teams</span></a></li>
+          </ul>
+        </li>
+        <li class="dropdown" ng-controller="DropdownCtrl">
+          <a id="topicLink" class="dropdown-toggle"><i class="icon-file icon-white"></i> <span l10n-text="tictactoe.chooseTopic">Choose topic</span> </a>
+          <ul class="dropdown-menu topics">
+            <li ng-repeat="topic in gameData | orderBy:'title'">
+            <a ng-class="{selected : topic.title == selectedTopic.title }"ng-click="selectTopic(topic)">{{topic.title}}</a>
+            </li>
+          </ul>
+        </li>
+        <li><a>{{selectedTopic.title}}</a></li>
+      </ul>
+      </div>
+    </div>
+  </div>
+  -->
+</div>
+
+<div id="questionDiv" draggable ng-show="questionAnswer">
+  <p id="questionTimer" ng-class="{blink : question == false || questionTimer == 0, started: question }" ng-hide="showAnswer == true">{{questionTimer}}</p>
+  <p class="" ng-bind-html-unsafe="question"></p>
+  <p class="blink lead" ng-show="questionTimer == 0" ng-hide="questionTimer == 0 && showAnswer == true">Boards up !!!</p>
+  <p class="answer" ui-toggle="showAnswer" ng-bind-html-unsafe="questionAnswer"></p>
+  <button class="btn btn-info" ng-show="question" id="answerButton" ng-click="showAnswer=!showAnswer">Answer</button>
+  <button class="btn btn-inverse" id="stopTimer" ng-show="stopButton" ng-click="stopTimer()">Stop</button>
+  <button class="btn btn-inverse" id="closeButton" ng-click="close()">Close</button>
+</div>
+<audio src="media/car_move.ogg" id="audio_move"></audio>
+<audio src="media/klaxon.ogg" id="audio_klaxon"></audio>
+<audio src="media/car_start.ogg" id="audio_car_start"></audio>
+<audio src="media/applause.ogg" id="audio_winner"></audio>
+<audio src="media/tick.ogg" id="audio_tick"></audio>
+<div id="backdrop" class="transparent-backdrop"></div>
+
+
+</section>
