@@ -3,44 +3,71 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#: carrace/partial/gameboard/gameboard.html
+msgid "Answer"
+msgstr ""
+
+#: carrace/partial/gameboard/gameboard.js
+msgid "Are you sure you want to change all vehicles?"
+msgstr ""
+
 #: soccer/partial/gameboard/gameboard.js
 #: tictactoe/partial/gameboard/gameboard.js
 msgid "Are you sure you want to end the game?"
 msgstr ""
 
+#: carrace/partial/gameboard/gameboard.js
 #: soccer/partial/gameboard/gameboard.js
 #: tictactoe/partial/gameboard/gameboard.js
 msgid "Are you sure you want to go back home?"
 msgstr ""
 
+#: carrace/partial/gameboard/gameboard.js
 #: soccer/partial/gameboard/gameboard.js
 #: tictactoe/partial/gameboard/gameboard.js
 msgid "Are you sure?"
+msgstr ""
+
+#: carrace/partial/gameboard/gameboard.html
+msgid "Boards up !!!"
+msgstr ""
+
+#: carrace/partial/gameboard/gameboard.html
+msgid "Bonus"
 msgstr ""
 
 #: soccer/partial/gameboard/gameboard.html
 msgid "Change players"
 msgstr ""
 
+#: carrace/partial/gameboard/gameboard.html
 #: soccer/partial/gameboard/gameboard.html
 #: tictactoe/partial/gameboard/gameboard.html
 msgid "Choose topic"
 msgstr ""
 
+#: carrace/partial/main/main.html
 #: soccer/partial/main/main.html
 #: tictactoe/partial/main/main.html
 msgid "Class"
 msgstr ""
 
+#: carrace/partial/gameboard/gameboard.html
+msgid "Close"
+msgstr ""
+
+#: carrace/partial/gameboard/gameboard.js
 #: soccer/partial/gameboard/gameboard.js
 #: tictactoe/partial/gameboard/gameboard.js
 msgid "Do you really want to quit the game and go back to configuration page?"
 msgstr ""
 
+#: carrace/partial/gameboard/gameboard.html
 #: soccer/partial/gameboard/gameboard.html
 msgid "Draw a question"
 msgstr ""
 
+#: carrace/partial/main/main.html
 #: soccer/partial/main/main.html
 #: tictactoe/partial/main/main.html
 msgid "Draw new teams"
@@ -60,9 +87,14 @@ msgstr ""
 msgid "Free kick for the opposite team."
 msgstr ""
 
+#: carrace/partial/gameboard/gameboard.js
 #: soccer/partial/gameboard/gameboard.js
 #: tictactoe/partial/gameboard/gameboard.js
 msgid "Go home?"
+msgstr ""
+
+#: carrace/partial/gameboard/gameboard.html
+msgid "Malus"
 msgstr ""
 
 #: tictactoe/partial/gameboard/gameboard.html
@@ -73,25 +105,37 @@ msgstr ""
 msgid "Mix topic?"
 msgstr ""
 
+#: carrace/partial/gameboard/gameboard.html
+msgid "Mix vehicles"
+msgstr ""
+
+#: carrace/partial/gameboard/gameboard.js
+msgid "Mix vehicles?"
+msgstr ""
+
 #: soccer/partial/gameboard/gameboard.js
 #: service/DialogService.js
 msgid "No"
 msgstr ""
 
+#: carrace/partial/main/main.html
 #: soccer/partial/main/main.html
 #: tictactoe/partial/main/main.html
 msgid "No class"
 msgstr ""
 
+#: carrace/partial/gameboard/gameboard.js
 #: tictactoe/partial/gameboard/gameboard.js
 msgid "No topic!"
 msgstr ""
 
+#: carrace/partial/main/main.html
 #: soccer/partial/main/main.html
 #: tictactoe/partial/main/main.html
 msgid "Order by name"
 msgstr ""
 
+#: carrace/partial/main/main.html
 #: soccer/partial/main/main.html
 #: tictactoe/partial/main/main.html
 msgid "Order by teams"
@@ -109,6 +153,10 @@ msgstr ""
 msgid "Proceed?"
 msgstr ""
 
+#: carrace/partial/gameboard/gameboard.html
+msgid "Random bonus"
+msgstr ""
+
 #: soccer/partial/gameboard/gameboard.js
 msgid "Red card!"
 msgstr ""
@@ -121,9 +169,14 @@ msgstr ""
 msgid "Start game"
 msgstr ""
 
+#: carrace/partial/main/main.html
 #: soccer/partial/main/main.html
 #: tictactoe/partial/main/main.html
 msgid "Start the game!"
+msgstr ""
+
+#: carrace/partial/gameboard/gameboard.html
+msgid "Stop"
 msgstr ""
 
 #: tictactoe/partial/gameboard/gameboard.html
@@ -142,6 +195,14 @@ msgstr ""
 msgid "This will clear the board from all logos! Are you sure?"
 msgstr ""
 
+#: carrace/partial/gameboard/gameboard.html
+msgid "Throw dice"
+msgstr ""
+
+#: carrace/partial/main/main.html
+msgid "Vehicles"
+msgstr ""
+
 #: soccer/partial/gameboard/gameboard.js
 msgid "Yellow card!"
 msgstr ""
@@ -150,15 +211,18 @@ msgstr ""
 msgid "Yes"
 msgstr ""
 
+#: carrace/partial/gameboard/gameboard.js
 #: tictactoe/partial/gameboard/gameboard.js
 msgid "You need to select a topic before starting the game."
 msgstr ""
 
+#: carrace/partial/main/main.html
 #: soccer/partial/main/main.html
 #: tictactoe/partial/main/main.html
 msgid "players"
 msgstr ""
 
+#: carrace/partial/main/main.html
 #: soccer/partial/main/main.html
 #: tictactoe/partial/main/main.html
 msgid "pupils"

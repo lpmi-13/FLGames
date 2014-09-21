@@ -255,6 +255,7 @@ angular.module('carrace').controller('CarraceGameboardCtrl',function($scope, $st
     // img width = 100px (runners)
     if (team.left > 870-100) {
       team.winner = true;
+      $scope.winner = true;
       return true;
     } else {
       return false;

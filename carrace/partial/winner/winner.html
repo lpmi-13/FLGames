@@ -6,12 +6,15 @@
   <div class="row well text-center" ng-if="winner">
     <h1>Congratulations to <img ng-src="{{winner.logo}}" alt="logo" /> !</h1>
     <h2>The team won the race!</h2>
-    <ul ng-show="{winner.players.class : false}" class="playersList list-unstyled">
+    <ul ng-hide="{winner.players.class : false}" class="playersList list-unstyled">
       <li ng-repeat="player in winner.players">{{player.name}}</li>
     </ul>
     <h3>Followed by :</h3>
     <ul class="list-unstyled">
-      <li ng-repeat="loose in looser|orderBy:left"><img ng-src="{{loose.logo}}" alt="logo" /></li>
+      <!-- TODO : Turn looser into Array to use orderBy -->
+      <li ng-repeat="loose in looser|orderBy:loose.left">
+      <img ng-src="{{loose.logo}}" alt="logo" /> <span>({{loose.left}})</span>
+      </li>
     </ul>
   </div>
 

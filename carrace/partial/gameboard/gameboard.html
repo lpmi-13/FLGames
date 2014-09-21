@@ -1,46 +1,47 @@
 <section class="col-md-12" ng-controller="CarraceGameboardCtrl" ng-init="init()">
+  <header class="carrace row">
+    <h1>Car race!</h1>
+  </header>
 
-<div class="row">
-  <ul>
-    <!-- <li class="runner" ng-repeat="team in gameTeams"> -->
-    <li ng-class="{ 'runner':true, 'selected':team.selected, 'blink':team.winner}" ng-click="team.selected = !team.selected" ng-repeat="team in gameTeams">
-    <span class="bonus negative" ng-switch on="team.negative">
-      <span class="alertBox" ng-switch-when="work" ng-dblclick="team.negative=false" l10n-title="carrace.work"><img ng-src="img/roadwork.png" /></span>
-      <span class="alertBox" ng-switch-when="breakdown" ng-dblclick="team.negative = false" l10n-title="carrace.breakdown"><img ng-src="img/breakdown.png" /></span>
-      <span class="alertBox" ng-switch-when="accident" ng-dblclick="team.negative = false" l10n-title="carrace.accident"><img ng-src="img/accident.png" /></span>
-      <span class="alertBox" ng-switch-when="redlight" ng-dblclick="team.negative = false" l10n-title="carrace.redlight"><img ng-src="img/trafficlight.png" height="30" /></span>
-      <span class="alertBox" ng-switch-when="flat" ng-dblclick="team.negative = false" l10n-title="carrace.fuel"><img ng-src="img/fuel.png" /></span>
-      <span class="alertBox" ng-switch-when="fuel" ng-dblclick="team.negative = false" l10n-title="carrace.flat"><img ng-src="img/flat.png" /></span>
-      <span class="alertBox" ng-switch-when="traffic" ng-dblclick="team.negative = false" l10n-title="carrace.traffic"><img ng-src="img/traffic.png" /></span>
-      <span class="alertBox" ng-switch-when="policeman" ng-dblclick="team.negative = false" l10n-title="carrace.policeman"><img ng-src="img/policeman.png" /></span>
-    </span>
-    <span class="bonus positive" ng-switch on="team.positive">
-      <span class="alertBox" ng-switch-when="speed" ng-dblclick="team.positive = false" l10n-title="carrace.speed"><img ng-src="img/speed.png" /></span>
-      <span class="alertBox" ng-switch-when="highway" ng-dblclick="team.positive = false" l10n-title="carrace.highway"><img ng-src="img/highway.png" /></span>
-      <span class="alertBox" ng-switch-when="downhill" ng-dblclick="team.positive = false" l10n-title="carrace.downhill"><img ng-src="img/downhill.png" /></span>
-      <span class="alertBox" ng-switch-when="escort" ng-dblclick="team.positive = false" l10n-title="carrace.escort"><img ng-src="img/escort.png" /></span>
-    </span>
-    <!-- <span class="carSelect" ng-click="team.selected = !team.selected" ng-class="{selected : team.selected, winner: team.winner }"></span> -->
-    <span class="die" ng-show="team.die">{{team.die}}</span>
-    <!-- <img ng-click="team.selected = !team.selected" ng-class="{selected : team.selected, winner: team.winner }" ng-src="{{team.logo}}" ng-style="{'left': team.left+'px', 'transition': transition, 'transform': transform}" /></span> -->
-    <img ng-src="{{team.logo}}" ng-style="{'left': team.left+'px', 'transition': transition}" /></span>
-    </li>
-  </ul>
-  <div id="finish" class="checkered">
-    <img id="flags" src="img/racing_flag.png" />
+  <div class="row">
+    <ul class="col-md-11">
+      <li ng-class="{ 'runner':true, 'selected':team.selected, 'blink':team.winner}" ng-click="team.selected = !team.selected" ng-repeat="team in gameTeams">
+      <span class="bonus negative" ng-switch on="team.negative">
+        <span class="alertBox" ng-switch-when="work" ng-dblclick="team.negative=false" l10n-title="carrace.work"><img ng-src="img/roadwork.png" /></span>
+        <span class="alertBox" ng-switch-when="breakdown" ng-dblclick="team.negative = false" l10n-title="carrace.breakdown"><img ng-src="img/breakdown.png" /></span>
+        <span class="alertBox" ng-switch-when="accident" ng-dblclick="team.negative = false" l10n-title="carrace.accident"><img ng-src="img/accident.png" /></span>
+        <span class="alertBox" ng-switch-when="redlight" ng-dblclick="team.negative = false" l10n-title="carrace.redlight"><img ng-src="img/trafficlight.png" height="30" /></span>
+        <span class="alertBox" ng-switch-when="flat" ng-dblclick="team.negative = false" l10n-title="carrace.fuel"><img ng-src="img/fuel.png" /></span>
+        <span class="alertBox" ng-switch-when="fuel" ng-dblclick="team.negative = false" l10n-title="carrace.flat"><img ng-src="img/flat.png" /></span>
+        <span class="alertBox" ng-switch-when="traffic" ng-dblclick="team.negative = false" l10n-title="carrace.traffic"><img ng-src="img/traffic.png" /></span>
+        <span class="alertBox" ng-switch-when="policeman" ng-dblclick="team.negative = false" l10n-title="carrace.policeman"><img ng-src="img/policeman.png" /></span>
+      </span>
+      <span class="bonus positive" ng-switch on="team.positive">
+        <span class="alertBox" ng-switch-when="speed" ng-dblclick="team.positive = false" l10n-title="carrace.speed"><img ng-src="img/speed.png" /></span>
+        <span class="alertBox" ng-switch-when="highway" ng-dblclick="team.positive = false" l10n-title="carrace.highway"><img ng-src="img/highway.png" /></span>
+        <span class="alertBox" ng-switch-when="downhill" ng-dblclick="team.positive = false" l10n-title="carrace.downhill"><img ng-src="img/downhill.png" /></span>
+        <span class="alertBox" ng-switch-when="escort" ng-dblclick="team.positive = false" l10n-title="carrace.escort"><img ng-src="img/escort.png" /></span>
+      </span>
+      <!-- <span class="carSelect" ng-click="team.selected = !team.selected" ng-class="{selected : team.selected, winner: team.winner }"></span> -->
+      <span class="die" ng-show="team.die">{{team.die}}</span>
+      <!-- <img ng-click="team.selected = !team.selected" ng-class="{selected : team.selected, winner: team.winner }" ng-src="{{team.logo}}" ng-style="{'left': team.left+'px', 'transition': transition, 'transform': transform}" /></span> -->
+      <img ng-src="{{team.logo}}" ng-style="{'left': team.left+'px', 'transition': transition}" /></span>
+      </li>
+    </ul>
+    <div id="finish" ng-class="{'checkered': true, 'blink': winner}">
+      <img id="flags" src="img/racing_flag.png" />
+    </div>
   </div>
 
-</div>
-
-<div id="carrace_questionDiv" class="row" ng-show="questionAnswer">
-  <p id="questionTimer" ng-class="{blink : question == false || questionTimer == 0, started: question }">{{questionTimer}}</p>
-  <p class="" ng-show="question" ng-bind-html="question"></p>
-  <p class="blink lead" ng-show="questionTimer == 0">Boards up !!!</p>
-  <p class="answer" ng-show="showAnswer" ng-bind-html="questionAnswer"></p>
-  <button class="btn btn-info" ng-show="question" id="answerButton" ng-click="showAnswer=!showAnswer">Answer</button>
-  <button class="btn btn-inverse" id="stopTimer" ng-show="stopButton" ng-click="stopTimer()">Stop</button>
-  <button class="btn btn-inverse" id="closeButton" ng-click="close()">Close</button>
-</div>
+  <div id="carrace_questionDiv" class="row" ng-show="questionAnswer">
+    <p id="questionTimer" ng-class="{blink : question == false || questionTimer == 0, started: question }">{{questionTimer}}</p>
+    <p class="" ng-show="question" ng-bind-html="question"></p>
+    <p class="blink lead" ng-show="questionTimer == 0" translate>Boards up !!!</p>
+    <p class="answer" ng-show="showAnswer" ng-bind-html="questionAnswer"></p>
+    <button class="btn btn-info" ng-show="question" id="answerButton" ng-click="showAnswer=!showAnswer" translate>Answer</button>
+    <button class="btn btn-inverse" id="stopTimer" ng-show="stopButton" ng-click="stopTimer()" translate>Stop</button>
+    <button class="btn btn-inverse" id="closeButton" ng-click="close()" translate>Close</button>
+  </div>
 
   <nav class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
     <div class="container-fluid">
@@ -71,10 +72,10 @@
     </div><!-- /.container-fluid -->
   </nav>
 
-<audio src="carrace/media/audio/car_move.ogg" id="audio_move"></audio>
-<audio src="carrace/media/audio/klaxon.ogg" id="audio_klaxon"></audio>
-<audio src="carrace/media/audio/car_start.ogg" id="audio_car_start"></audio>
-<audio src="carrace/media/audio/applause.ogg" id="audio_winner"></audio>
-<audio src="carrace/media/audio/tick.ogg" id="audio_tick"></audio>
+  <audio src="carrace/media/audio/car_move.ogg" id="audio_move"></audio>
+  <audio src="carrace/media/audio/klaxon.ogg" id="audio_klaxon"></audio>
+  <audio src="carrace/media/audio/car_start.ogg" id="audio_car_start"></audio>
+  <audio src="carrace/media/audio/applause.ogg" id="audio_winner"></audio>
+  <audio src="carrace/media/audio/tick.ogg" id="audio_tick"></audio>
 
 </section>
