@@ -10,6 +10,9 @@ angular.module('carrace').controller('CarraceCtrl',function($scope, Teams, $stat
       document.body.onmousedown = function(){ return false; };
     }
     document.body.style.cursor = "default";
+
+    // Select 6 groups by default
+    $scope.select($scope.nbGroups);
   };
 
   Teams.load('data/myClasses.txt').then( function(result) {
@@ -44,6 +47,7 @@ angular.module('carrace').controller('CarraceCtrl',function($scope, Teams, $stat
 
       $scope.isSelected = true;
     } else {
+      $scope.playersList = false;
       $scope.isSelected = false;
     }
   });
