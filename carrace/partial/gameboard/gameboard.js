@@ -1,3 +1,5 @@
+/* jshint loopfunc: true */
+
 angular.module('carrace').controller('CarraceGameboardCtrl',function($scope, $state, $filter, Teams, Data, $sce, $timeout, DialogService, gettext, gettextCatalog){
 
   //$scope.question = false;
@@ -30,7 +32,7 @@ angular.module('carrace').controller('CarraceGameboardCtrl',function($scope, $st
       $scope.gameTeams.push({die: '', negative: false, positive: false,'logo': $scope.logoList[i], 'name': 'Team '+i, 'score':0, left: 0, selected: false, 'winner':false, 'players': $filter('filter')(Teams.savedTeams, {'team':i})});
       
     } else {
-      $scope.gameTeams.push({die: '', negative: false, positive: false,'logo': $scope.logoList[i], 'name': 'Team '+i, 'score':0, left: 600, selected: false, 'winner':false, 'players': [{'team':i}]});
+      $scope.gameTeams.push({die: '', negative: false, positive: false,'logo': $scope.logoList[i], 'name': 'Team '+i, 'score':0, left: 0, selected: false, 'winner':false, 'players': [{'team':i}]});
     }
   }
 
@@ -76,7 +78,7 @@ angular.module('carrace').controller('CarraceGameboardCtrl',function($scope, $st
     $timeout.cancel($scope.qTime);
     $scope.questionTimer = false;
     $scope.stopButton = false;
-  }
+  };
 
   $scope.goHome = function() {
     var dialogOptions = {
@@ -105,7 +107,7 @@ angular.module('carrace').controller('CarraceGameboardCtrl',function($scope, $st
   };
 
   $scope.drawQuestion = function() {
-    if  ($scope.selectedTopic == false) {
+    if  ($scope.selectedTopic === false) {
       var dialogOptions = {
         closeButtonText: 'Ok',
         actionButtonText: '',
@@ -146,7 +148,7 @@ angular.module('carrace').controller('CarraceGameboardCtrl',function($scope, $st
         $scope.qTime = $scope.launchTimer($scope.questionTimer);
       }, 3000);
     }
-  }
+  };
 
   $scope.launchTimer = function(seconds) {
     $scope.questionTimer = seconds;
@@ -154,20 +156,20 @@ angular.module('carrace').controller('CarraceGameboardCtrl',function($scope, $st
       if ($scope.questionTimer < 6) {
         $scope.audio_tick.play();
       }
-      $scope.qTime = $timeout( function() { $scope.launchTimer($scope.questionTimer-1)}, 1000 );
+      $scope.qTime = $timeout( function() { $scope.launchTimer($scope.questionTimer-1); }, 1000 );
     } else {
       // Timer ended : Play klaxon !
       $scope.audio_klaxon.play();
       $scope.stopTimer();
     }
-  }
+  };
 
   $scope.stopTimer = function() {
     $timeout.cancel($scope.qTime);
     $scope.questionTimer = 0;
     $scope.audio_klaxon.play();
     $scope.stopButton = false;
-  }
+  };
 
   function getRandom(minVal, maxVal) {
     var randNum = Math.ceil((Math.random()*parseInt(maxVal-minVal))+minVal);
@@ -203,7 +205,7 @@ angular.module('carrace').controller('CarraceGameboardCtrl',function($scope, $st
           team.die = getRandom(1,20);
         }
       });
-      stop = $timeout( function() {
+      var stop = $timeout( function() {
         if (nb_time > 0) {
           nb_time--;
           $scope.throwDie(nb_time);
@@ -214,7 +216,7 @@ angular.module('carrace').controller('CarraceGameboardCtrl',function($scope, $st
         }
       }, 200);
     }
-  }
+  };
 
   $scope.move = function() {
     var selectedTeams = $filter('filter')($scope.gameTeams, {selected:true});
@@ -227,7 +229,6 @@ angular.module('carrace').controller('CarraceGameboardCtrl',function($scope, $st
       angular.forEach(selectedTeams, function(team) {
         team.selected = false;
         if (keepGoing) {
-        //if ($scope.winner.length == 0) { // No winner
           var step = Math.round((team.die*8)/4);
           team.left += step;
           if ($scope.checkWinner(team)) {
@@ -237,7 +238,7 @@ angular.module('carrace').controller('CarraceGameboardCtrl',function($scope, $st
             team.positive = false;
             $scope.finalScore();
           } else {
-            if (i == 4) {
+            if (i === 4) {
               $timeout( function() {
                 team.die = '';
                 team.negative = false;
@@ -249,7 +250,30 @@ angular.module('carrace').controller('CarraceGameboardCtrl',function($scope, $st
       });
       }
     }
-  }
+  };
+
+  $scope.moveStep = function(team, keepGoing) {
+    team.selected = false;
+    if (keepGoing) {
+      var step = Math.round((team.die*8)/4);
+      team.left += step;
+      if ($scope.checkWinner(team)) {
+        keepGoing = false;
+        team.die = '';
+        team.negative = false;
+        team.positive = false;
+        $scope.finalScore();
+      } else {
+        if (i === 4) {
+          $timeout( function() {
+            team.die = '';
+            team.negative = false;
+            team.positive = false;
+          }, 2500);
+        }
+      }
+    }
+  };
 
   $scope.checkWinner = function(team) {
     // img width = 100px (runners)
@@ -260,7 +284,7 @@ angular.module('carrace').controller('CarraceGameboardCtrl',function($scope, $st
     } else {
       return false;
     }
-  }
+  };
 
   $scope.setSpeed = function() {
     var selectedTeams = $filter('filter')($scope.gameTeams, {selected:true});
@@ -268,7 +292,7 @@ angular.module('carrace').controller('CarraceGameboardCtrl',function($scope, $st
       team.speed = !team.speed;
       team.selected = false;
     });
-  }
+  };
 
   $scope.setNegative = function() {
     var selectedTeams = $filter('filter')($scope.gameTeams, {selected:true});
@@ -280,7 +304,7 @@ angular.module('carrace').controller('CarraceGameboardCtrl',function($scope, $st
       team.negative = picked;
       team.selected = false;
     });
-  }
+  };
 
   $scope.setPositive = function() {
     var selectedTeams = $filter('filter')($scope.gameTeams, {selected:true});
@@ -292,7 +316,7 @@ angular.module('carrace').controller('CarraceGameboardCtrl',function($scope, $st
       team.positive = picked;
       team.selected = false;
     });
-  }
+  };
 
   $scope.randomBonus = function() {
     // TODO : Add animations to decide on gifts
@@ -301,9 +325,10 @@ angular.module('carrace').controller('CarraceGameboardCtrl',function($scope, $st
       team.positive = false;
       team.negative = false;
     });
+    var randBonus;
     // Pick a random nb of teams to add bonus to (at least 1)
     var randNbTeam = Math.floor(Math.random() * $scope.gameTeams.length);
-    if (randNbTeam == 0) randNbTeam = 1;
+    if (randNbTeam === 0) { randNbTeam = 1; }
     for (var i=0; i<randNbTeam; i++) {
       // Pick a random team
       var randTeam = $scope.gameTeams[Math.floor(Math.random() * $scope.gameTeams.length)];
@@ -311,16 +336,16 @@ angular.module('carrace').controller('CarraceGameboardCtrl',function($scope, $st
       var randType = Math.floor(Math.random()*2);
       switch (randType) {
         case 0 : 
-          var randBonus = $scope.positives[Math.floor(Math.random() * $scope.positives.length)];
+          randBonus = $scope.positives[Math.floor(Math.random() * $scope.positives.length)];
           randTeam.positive = randBonus;
           break;
         case 1 : 
-          var randBonus = $scope.negatives[Math.floor(Math.random() * $scope.positives.length)];
+          randBonus = $scope.negatives[Math.floor(Math.random() * $scope.positives.length)];
           randTeam.negative = randBonus;
           break;
       }
     }
-  }
+  };
 
   $scope.mixTeams = function() {
     var dialogOptions = {
@@ -337,13 +362,13 @@ angular.module('carrace').controller('CarraceGameboardCtrl',function($scope, $st
         }
     };
     DialogService.showModalDialog({}, dialogOptions);
-  }
+  };
 
   $scope.finalScore = function() {
     // Record final winning team
     //Teams.winner = $scope.winner;
     angular.forEach($scope.gameTeams, function(team) {
-      if (team.winner == false) {
+      if (team.winner === false) {
         Teams.looser.push(team);
       } else {
         Teams.winner = team;

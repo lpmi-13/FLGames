@@ -30,11 +30,12 @@ angular.module('FLGames').factory('Teams',function($http) {
     },
 
     draw: function(nb, pupilsList) {
+      var team;
       if (pupilsList) {
         // Shuffle class
         pupilsList = this.shuffle(pupilsList);
         // Draw nb teams
-        var team = 0;
+        team = 0;
         angular.forEach(pupilsList, function (pupil) {
           if (pupil.absent === 0) {
             pupil.team = team;
@@ -55,7 +56,7 @@ angular.module('FLGames').factory('Teams',function($http) {
 
         return pupilsList;
       } else {
-        var team = 0;
+        team = 0;
         pupilsList = [];
         for (var i=0; i<nb; i++) {
           pupilsList.push({ 'name': false, 'class': false, 'team': i, 'active':1});
