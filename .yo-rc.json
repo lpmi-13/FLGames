@@ -30,6 +30,10 @@
       {
         "name": "soccer",
         "file": "soccer/soccer.js"
+      },
+      {
+        "name": "carrace",
+        "file": "carrace/carrace.js"
       }
     ]
   }

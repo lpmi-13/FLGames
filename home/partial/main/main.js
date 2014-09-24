@@ -3,7 +3,7 @@ angular.module('home').controller('MainCtrl',function($scope, gettextCatalog){
   $scope.allGames = [
     {id:'tictactoe', name:'TicTacToe'},
     {id:'soccer', name:'Soccer'},
-    {id:'race', name:'Car race'}
+    {id:'carrace', name:'Car race'}
   ];
 
   $scope.lang = ['en', 'fr'];

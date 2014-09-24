@@ -30,29 +30,42 @@ angular.module('FLGames').factory('Teams',function($http) {
     },
 
     draw: function(nb, pupilsList) {
-      // Shuffle class
-      pupilsList = this.shuffle(pupilsList);
-      // Draw nb teams
-      var team = 0;
-      angular.forEach(pupilsList, function (pupil) {
-        if (pupil.absent === 0) {
-          pupil.team = team;
-          pupil.active = 1;
-          team += 1;
-          if ( team === nb ) { // # of teams limit
-            team = 0; // Start over
+      if (pupilsList) {
+        // Shuffle class
+        pupilsList = this.shuffle(pupilsList);
+        // Draw nb teams
+        var team = 0;
+        angular.forEach(pupilsList, function (pupil) {
+          if (pupil.absent === 0) {
+            pupil.team = team;
+            pupil.active = 1;
+            team += 1;
+            if ( team === nb ) { // # of teams limit
+              team = 0; // Start over
+            }
+          } else {
+            // Absent pupil : no team and inactive
+            pupil.team = '';
+            pupil.active = 0;
           }
-        } else {
-          // Absent pupil : no team and inactive
-          pupil.team = '';
-          pupil.active = 0;
-        }
-      });
-      
-      // Save teams to share with different views
-      this.savedTeams = pupilsList;
+        });
+        
+        // Save teams to share with different views
+        this.savedTeams = pupilsList;
 
-      return pupilsList;
+        return pupilsList;
+      } else {
+        var team = 0;
+        pupilsList = [];
+        for (var i=0; i<nb; i++) {
+          pupilsList.push({ 'name': false, 'class': false, 'team': i, 'active':1});
+        }
+
+        // Save teams to share with different views
+        this.savedTeams = pupilsList;
+
+        return pupilsList;
+      }
     },
     
       /* TODO : Remove jslint error

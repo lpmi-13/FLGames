@@ -13,44 +13,71 @@ msgstr ""
 "X-Poedit-Country: France\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
+#: carrace/partial/gameboard/gameboard.html
+msgid "Answer"
+msgstr "Réponse"
+
+#: carrace/partial/gameboard/gameboard.js
+msgid "Are you sure you want to change all vehicles?"
+msgstr "Êtes-vous certain de vouloir changer tous les véhicules?"
+
 #: soccer/partial/gameboard/gameboard.js
 #: tictactoe/partial/gameboard/gameboard.js
 msgid "Are you sure you want to end the game?"
 msgstr "Êtes-vous certain de vouloir terminer la partie?"
 
+#: carrace/partial/gameboard/gameboard.js
 #: soccer/partial/gameboard/gameboard.js
 #: tictactoe/partial/gameboard/gameboard.js
 msgid "Are you sure you want to go back home?"
 msgstr "Êtes-vous certain de vouloir retourner à l'accueil?"
 
+#: carrace/partial/gameboard/gameboard.js
 #: soccer/partial/gameboard/gameboard.js
 #: tictactoe/partial/gameboard/gameboard.js
 msgid "Are you sure?"
 msgstr "Confirmez-vous?"
 
+#: carrace/partial/gameboard/gameboard.html
+msgid "Boards up !!!"
+msgstr "On lève les ardoises !!!"
+
+#: carrace/partial/gameboard/gameboard.html
+msgid "Bonus"
+msgstr "Bonus"
+
 #: soccer/partial/gameboard/gameboard.html
 msgid "Change players"
 msgstr "Changer les joueurs"
 
+#: carrace/partial/gameboard/gameboard.html
 #: soccer/partial/gameboard/gameboard.html
 #: tictactoe/partial/gameboard/gameboard.html
 msgid "Choose topic"
 msgstr "Choisir un thème"
 
-#: soccer/partial/main/main.html tictactoe/partial/main/main.html
+#: carrace/partial/main/main.html soccer/partial/main/main.html
+#: tictactoe/partial/main/main.html
 msgid "Class"
 msgstr "Mes classes"
 
+#: carrace/partial/gameboard/gameboard.html
+msgid "Close"
+msgstr "Fermer"
+
+#: carrace/partial/gameboard/gameboard.js
 #: soccer/partial/gameboard/gameboard.js
 #: tictactoe/partial/gameboard/gameboard.js
 msgid "Do you really want to quit the game and go back to configuration page?"
 msgstr "Souhaitez-vous vraiment quitter le jeu et retourner à la page d'accueil?"
 
+#: carrace/partial/gameboard/gameboard.html
 #: soccer/partial/gameboard/gameboard.html
 msgid "Draw a question"
 msgstr "Tirer une question"
 
-#: soccer/partial/main/main.html tictactoe/partial/main/main.html
+#: carrace/partial/main/main.html soccer/partial/main/main.html
+#: tictactoe/partial/main/main.html
 msgid "Draw new teams"
 msgstr "Mélanger les équipes"
 
@@ -68,10 +95,15 @@ msgstr "Terminer la partie"
 msgid "Free kick for the opposite team."
 msgstr "Coup-franc pour l'équipe adverse."
 
+#: carrace/partial/gameboard/gameboard.js
 #: soccer/partial/gameboard/gameboard.js
 #: tictactoe/partial/gameboard/gameboard.js
 msgid "Go home?"
 msgstr "Retour à l'accueil?"
+
+#: carrace/partial/gameboard/gameboard.html
+msgid "Malus"
+msgstr "Malus"
 
 #: tictactoe/partial/gameboard/gameboard.html
 msgid "Mix topic"
@@ -81,23 +113,35 @@ msgstr "Mélanger les questions"
 msgid "Mix topic?"
 msgstr "Mélanger les questions"
 
+#: carrace/partial/gameboard/gameboard.html
+msgid "Mix vehicles"
+msgstr "Changer les véhicules"
+
+#: carrace/partial/gameboard/gameboard.js
+msgid "Mix vehicles?"
+msgstr "Changer les véhicules?"
+
 #: soccer/partial/gameboard/gameboard.js service/DialogService.js
 msgid "No"
 msgstr "Non"
 
-#: soccer/partial/main/main.html tictactoe/partial/main/main.html
+#: carrace/partial/main/main.html soccer/partial/main/main.html
+#: tictactoe/partial/main/main.html
 msgid "No class"
 msgstr "Aucune classe"
 
+#: carrace/partial/gameboard/gameboard.js
 #: tictactoe/partial/gameboard/gameboard.js
 msgid "No topic!"
 msgstr "Aucun thème!"
 
-#: soccer/partial/main/main.html tictactoe/partial/main/main.html
+#: carrace/partial/main/main.html soccer/partial/main/main.html
+#: tictactoe/partial/main/main.html
 msgid "Order by name"
 msgstr "Tri alphabétique"
 
-#: soccer/partial/main/main.html tictactoe/partial/main/main.html
+#: carrace/partial/main/main.html soccer/partial/main/main.html
+#: tictactoe/partial/main/main.html
 msgid "Order by teams"
 msgstr "Tri par équipes"
 
@@ -113,6 +157,10 @@ msgstr "Jouer le coup-franc"
 msgid "Proceed?"
 msgstr "Continuer?"
 
+#: carrace/partial/gameboard/gameboard.html
+msgid "Random bonus"
+msgstr "Bonus aléatoire"
+
 #: soccer/partial/gameboard/gameboard.js
 msgid "Red card!"
 msgstr "Carton rouge!"
@@ -125,9 +173,14 @@ msgstr "Liste trop courte!"
 msgid "Start game"
 msgstr "Commencer la partie"
 
-#: soccer/partial/main/main.html tictactoe/partial/main/main.html
+#: carrace/partial/main/main.html soccer/partial/main/main.html
+#: tictactoe/partial/main/main.html
 msgid "Start the game!"
 msgstr "Commencer la partie"
+
+#: carrace/partial/gameboard/gameboard.html
+msgid "Stop"
+msgstr "Arrêter"
 
 #: tictactoe/partial/gameboard/gameboard.html
 msgid "Switch player"
@@ -145,6 +198,14 @@ msgstr "Il n'y a pas suffisamment de données pour créer une grille. Vérifiez 
 msgid "This will clear the board from all logos! Are you sure?"
 msgstr "Cette action enlèvera tous les logos présents dans le jeu. Êtes-vous certain de vouloir continuer?"
 
+#: carrace/partial/gameboard/gameboard.html
+msgid "Throw dice"
+msgstr "Jeter les dés"
+
+#: carrace/partial/main/main.html
+msgid "Vehicles"
+msgstr "Véhicules"
+
 #: soccer/partial/gameboard/gameboard.js
 msgid "Yellow card!"
 msgstr "Carton jaune!"
@@ -153,15 +214,18 @@ msgstr "Carton jaune!"
 msgid "Yes"
 msgstr "Oui"
 
+#: carrace/partial/gameboard/gameboard.js
 #: tictactoe/partial/gameboard/gameboard.js
 msgid "You need to select a topic before starting the game."
 msgstr "Vous devez choisir un thème pour pouvoir commencer une partie."
 
-#: soccer/partial/main/main.html tictactoe/partial/main/main.html
+#: carrace/partial/main/main.html soccer/partial/main/main.html
+#: tictactoe/partial/main/main.html
 msgid "players"
 msgstr "joueurs"
 
-#: soccer/partial/main/main.html tictactoe/partial/main/main.html
+#: carrace/partial/main/main.html soccer/partial/main/main.html
+#: tictactoe/partial/main/main.html
 msgid "pupils"
 msgstr "élèves"
 

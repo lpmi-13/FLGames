@@ -1,0 +1,172 @@
+/* Component LESS */
+@import "partial/main/main.less";
+@import "partial/gameboard/gameboard.less";
+@import "partial/winner/winner.less";
+/* Add Component LESS Above */
+
+header.carrace {
+  padding: 5px;
+  height: 80px;
+  border: 3px solid #FFF;
+  border-radius: 30px 30px 0px 0px;
+  background-color: grey;
+  color: #FFF;
+  text-align: center;
+  margin: 10px 0px;
+}
+.runner {
+  display: block;
+  list-style-type: none;
+  padding: 3px;
+  background: -moz-linear-gradient( center bottom, #254117, #C9D1B1, #C9D1B1, #C9D1B1, #C9D1B1);
+  border-right: 3px dotted #000; 
+  width: 900px;
+  height: 50px;
+  cursor: pointer;
+}
+.runner > img {
+  margin-left: 3em;
+  position: relative;
+  z-index: 3;
+}
+.runner .bonus {
+  position: absolute;
+  left: -20px;
+}
+.alertBox {
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 20px;
+  background-color: #FFF;
+}
+.alertBox img {
+  max-width: 40px;
+  max-height: 40px;
+}
+.bonus.negative .alertBox {
+  border: 3px solid #F00;
+  background-color: yellow;
+}
+.bonus.positive .alertBox {
+  border: 3px solid #000;
+}
+.die {
+  position: absolute;
+  font-size: 1.8em;
+  margin: 5px 0px;
+  width: 50px;
+  padding: 2px;
+  background-color: #FFF;
+  text-align: center;
+  border-radius: 30px;
+  border: 1px solid #000;
+}
+.selected {
+  background: -moz-linear-gradient( center bottom, #254117, #FFF, #FFF, #FFF, #FFF);
+}
+.winner {
+  transform: rotate(720deg);
+}
+.checkered {
+  background-image: -webkit-gradient(linear, 0 0, 100% 100%, color-stop(.25, #555), color-stop(.25, transparent), to(transparent)),
+  -webkit-gradient(linear, 0 100%, 100% 0, color-stop(.25, #555), color-stop(.25, transparent), to(transparent)),
+  -webkit-gradient(linear, 0 0, 100% 100%, color-stop(.75, transparent), color-stop(.75, #555)),
+  -webkit-gradient(linear, 0 100%, 100% 0, color-stop(.75, transparent), color-stop(.75, #555));
+  background-image: -webkit-linear-gradient(45deg, #555 25%, transparent 25%, transparent),
+  -webkit-linear-gradient(-45deg, #555 25%, transparent 25%, transparent),
+  -webkit-linear-gradient(45deg, transparent 75%, #555 75%),
+  -webkit-linear-gradient(-45deg, transparent 75%, #555 75%);
+  background-image: -moz-linear-gradient(45deg, #555 25%, transparent 25%, transparent),
+  -moz-linear-gradient(-45deg, #555 25%, transparent 25%, transparent),
+  -moz-linear-gradient(45deg, transparent 75%, #555 75%),
+  -moz-linear-gradient(-45deg, transparent 75%, #555 75%);
+  background-image: -ms-linear-gradient(45deg, #555 25%, transparent 25%, transparent),
+  -ms-linear-gradient(-45deg, #555 25%, transparent 25%, transparent),
+  -ms-linear-gradient(45deg, transparent 75%, #555 75%),
+  -ms-linear-gradient(-45deg, transparent 75%, #555 75%);
+  background-image: -o-linear-gradient(45deg, #555 25%, transparent 25%, transparent),
+  -o-linear-gradient(-45deg, #555 25%, transparent 25%, transparent),
+  -o-linear-gradient(45deg, transparent 75%, #555 75%),
+  -o-linear-gradient(-45deg, transparent 75%, #555 75%);
+  background-image: linear-gradient(45deg, #555 25%, transparent 25%, transparent),
+  linear-gradient(-45deg, #555 25%, transparent 25%, transparent),
+  linear-gradient(45deg, transparent 75%, #555 75%),
+  linear-gradient(-45deg, transparent 75%, #555 75%);
+  -webkit-background-size: 10px 10px;
+  -moz-background-size: 10px 10px;
+  background-size: 10px 10px;
+}
+#flags {
+  position: absolute;
+  bottom: -50px;
+  right: -50px;
+}
+#finish {
+  position: absolute;
+  top: 95px;
+  left: 900px;
+  width: 20px;
+  height: 80%;
+  z-index: 2;
+  background-color: #FFF;
+}
+#carrace_questionDiv {
+  position: absolute;
+  text-align: center;
+  font-size:2em;
+  top: 5%;
+  left: 15%;
+  width: 70%;
+  background-color: #FFF;
+  border: 3px solid #000;
+  border-radius: 30px;
+  padding: 20px;
+}
+#carrace_questionDiv p {
+  line-height: 1.3em;
+  margin: 5px;
+}
+#carrace_questionDiv img {
+  max-width: 500px;
+}
+#answerButton {
+}
+#closeButton {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+p.answer {
+  border-top : 2px dotted #000;
+}
+#questionTimer {
+  float: right;
+  padding: 20px;
+  transition : all 0.5s ease;
+  border: 3px solid #000;
+  border-radius: 30px;
+  background-color: #F00;
+  color: #FFF;
+  font-size: 70px;
+}
+#questionTimer.started {
+  transform: rotate(360deg);
+}
+.blink {
+  animation-duration: 0.3s;
+  animation-name: blink;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+@keyframes blink {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+.ui-hide {
+  display: none;
+}
+.ui-show {
+  display: block;
+}

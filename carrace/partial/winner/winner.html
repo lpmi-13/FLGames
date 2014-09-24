@@ -1,0 +1,30 @@
+<div class="col-md-12" ng-controller="WinnerCtrl">
+  <div class="page-header text-center">
+    <h1 class="gameTitle">Car race <span class="badge badge-info">Results!</span></h1>
+  </div>
+
+  <div class="row well text-center" ng-if="winner">
+    <h1>Congratulations to <img ng-src="{{winner.logo}}" alt="logo" /> !</h1>
+    <h2>The team won the race!</h2>
+    <ul ng-hide="{winner.players.class : false}" class="playersList list-unstyled">
+      <li ng-repeat="player in winner.players">{{player.name}}</li>
+    </ul>
+    <h3>Followed by :</h3>
+    <ul class="list-unstyled">
+      <!-- TODO : Turn looser into Array to use orderBy -->
+      <li ng-repeat="loose in looser|orderBy:loose.left">
+      <img ng-src="{{loose.logo}}" alt="logo" /> <span>({{loose.left}})</span>
+      </li>
+    </ul>
+  </div>
+
+  <nav class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" ui-sref="home" href="#"><i class="fa fa-home fa-fw"></i></a>
+      </div>
+    </div><!-- /.container-fluid -->
+  </nav>
+
+  <audio src="carrace/media/audio/applause.ogg" id="audio_winner"></audio>
+</div>

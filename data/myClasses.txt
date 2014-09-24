@@ -28,7 +28,7 @@ class, name
 6E, Clara
 6E, Julie
 6E, Louison
-6E, Ethan
+6E, Éthan
 6E, Méliane
 6E, Ambre
 6E, Emir
@@ -41,10 +41,10 @@ class, name
 6E, Juliane
 6E, Émilie
 6E, Léo
-5B, Manon
+5B, Manon A
 5B, Alice
 5B, Enaël
-5B, Nicolas
+5B, Nicolas C
 5B, Emma
 5B, Cathy
 5B, Justine
@@ -53,13 +53,14 @@ class, name
 5B, Mathieu
 5B, Ewan
 5B, Mathias
+5B, Nérissa
 5B, Chane-Name
 5B, Tristan
 5B, Erine
 5B, Alicia
-5B, Nicolas
+5B, Nicolas R
 5B, Julien
-5B, Manon
+5B, Manon S
 5B, Arthur
 5F, Manola
 5F, Chloé

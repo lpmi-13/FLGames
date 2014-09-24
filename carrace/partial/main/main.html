@@ -1,0 +1,55 @@
+<div class="col-md-12" ng-controller="CarraceCtrl" ng-init="init()">
+
+  <div class="page-header text-center">
+    <h1 class="gameTitle">Car race <span class="badge badge-info">Configuration</span></h1>
+  </div>
+
+  <div class="row well">
+    <span class="title badge badge-success" translate>Class</span>
+    <ul class="list-inline">
+      <li class="btn btn-primary btn-lg" ui-sref-active="selected"><a ui-sref="carrace({classId: ''})" translate>No class</a></li>
+      <li class="btn btn-primary btn-lg" ng-repeat="class in allGroups" ui-sref-active="selected"><a ui-sref="carrace({classId: '{{class}}'})">{{class}}</a></li>
+    </ul>
+  </div>
+
+  <div class="row well">
+    <span class="title badge badge-success" translate>Vehicles</span>
+    <ul class="list-inline">
+      <li ng-repeat="i in getNumber(maxGroups) track by $index" ng-click="select($index+1)" ng-class="$index+1 == nbGroups ? 'btn btn-default btn-lg sel' : 'btn btn-lg btn-primary'"><span>{{$index+1}}</span></li>
+    </ul>
+  </div>
+
+  <div class="row well">
+    <h3 class="text-center" ng-show="isSelected">{{playersList.length}} <span translate>pupils</span> / {{remaining()}} <span translate>players</span></h3>
+    <ul ng-show="isSelected" id="playersList" class="playersList list-unstyled">
+      <li>
+        <div class="btn-group">
+          <button class="btn btn-success btn-mini" ng-click="switchOrder('name')" translate>Order by name</button>
+          <button class="btn btn-success btn-mini" ng-click="switchOrder('team')" translate>Order by teams</button>
+        </div>
+      </li>
+      <li ng-repeat="pupil in playersList | orderBy:orderProp">
+       <label class="absent-{{pupil.absent}} team-{{pupil.team}}"><input type="checkbox" ng-model="pupil.absent" ng-change="drawTeams()">
+         {{pupil.name}}
+         <span ng-show="orderProp=='team' && pupil.absent==0">({{pupil.team+1}})</span>
+       </label>
+      </li>
+      <li><button class="btn btn-success btn-mini" ng-click="drawTeams()" translate>Draw new teams</button></li>
+    </ul>
+    <p class="text-center">
+    <a class="btn btn-warning btn-lg" ui-sref="gameboard({gameId: 'carrace'})" translate>Start the game!</a>
+    </p>
+  </div>
+
+  <div class="row">
+    <nav class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" ui-sref="home"><i class="fa fa-home fa-fw"></i></a>
+        </div>
+      </div><!-- /.container-fluid -->
+    </nav>
+  </div>
+
+
+</div>
