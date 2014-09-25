@@ -7,7 +7,7 @@
     <h1>Congratulations to <img ng-src="{{winner.logo}}" alt="logo" /> !</h1>
     <h2>The team won the race!</h2>
     <ul ng-hide="{winner.players.class : false}" class="playersList list-unstyled">
-      <li ng-repeat="player in winner.players">{{player.name}}</li>
+      <li ng-repeat="player in winner.players | orderBy: 'name' ">{{player.name}}</li>
     </ul>
     <h3>Followed by :</h3>
     <ul class="list-unstyled">
