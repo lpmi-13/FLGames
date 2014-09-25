@@ -63,7 +63,7 @@ class, name
 5B, Manon S
 5B, Arthur
 5F, Manola
-5F, Chloé
+5F, Chloé B
 5F, Élisa
 5F, Camile
 5F, Maëva
@@ -74,7 +74,7 @@ class, name
 5F, Apolline
 5F, Clara
 5F, Clémentine
-5F, Chloé
+5F, Chloé G
 5F, Guillaume
 5F, Florian
 5F, Cindy
