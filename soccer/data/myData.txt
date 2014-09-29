@@ -60,7 +60,7 @@ Country? [countries/world_new_zealand_flag.png]
 Country? ENFCAR
 Country? SAOHFRICUAT
 Country? ASATLIARU
-Country? ACADAN :: Canada
+Country? ACADAN
 Country? ELNGNDA
 Country? DIRLANE
 Country? NATEDOSTEITEFMASRICAU
@@ -77,9 +77,9 @@ Nationality? ARAICNEM
 Nationality? IADNIN
 Nationality? NRHERNROISHIT
 Nationality? TSOTSHIC
-A person from England is ... or ... :: English or British
-A person from Wales is ... or ... :: Welsh or British
-A person from Ireland is ... :: Irish
+A person from England is ... or ...
+A person from Wales is ... or ...
+A person from Ireland is ...
 A person from France is ...
 A person from Canada is ...
 A person from USA is ...
