@@ -108,7 +108,7 @@ angular.module('soccer').controller('soccerGameboardCtrl',function($scope, $stat
 
     $timeout( function() {
       $scope.question = $sce.trustAsHtml(randQuestion); // Trigger question display
-    }, 2000);
+    }, 3000);
   };
   
   $scope.selectTopic = function(topic) {
