@@ -90,8 +90,9 @@ angular.module('soccer').controller('soccerGameboardCtrl',function($scope, $stat
 
   $scope.drawQuestion = function() {
     // Init question
-    $scope.questionStart = false;
-    $scope.question = false;
+    //$scope.questionStart = false;
+    //$scope.question = false;
+    $scope.close();
     $scope.questionAnswer = false;
     $scope.questionTimer = false;
     $scope.showAnswer = false;
@@ -354,7 +355,7 @@ angular.module('soccer').controller('soccerGameboardCtrl',function($scope, $stat
         angular.forEach($scope.gameTeams[1].players, function(player) {
             player.active = 1;
         });
-        $scope.activePlayers[1] = $filter('filter')(Teams.savedTeams, { team:0, active:1});
+        $scope.activePlayers[1] = $filter('filter')(Teams.savedTeams, { team:1, active:1});
         $scope.currentPlayer[1] = Teams.drawPlayer($scope.activePlayers[1], 1);
       }
     }
