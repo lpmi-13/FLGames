@@ -21,7 +21,17 @@ header.soccer {
   text-shadow: #000 5px 5px 5px;
 }
 ul.scorers {
+  position: absolute;
+  width: 40%;
+  height: 85px;
+  overflow: auto;
   display: inline;
+}
+ul.scorers:nth-of-type(1) {
+  left: 5%;
+}
+ul.scorers:nth-of-type(2) {
+  left: 55%;
 }
 ul.scorers li {
   list-style-type: none;
@@ -84,55 +94,58 @@ ul.team li {
   text-align: center;
   top: 5%;
   left: 15%;
-  width: 70%;
-  height: 70%;
-  background-color: #FFF;
-  border: 3px solid #000;
+  width: 75%;
+  height: 80%;
+  border: 3px solid #FFF;
   border-radius: 30px;
-  padding: 20px;
+  padding: 5px 20px;
+  background-color: #000;
+  color: #FFF;
 }
 #questionDiv img {
   max-width: 60%;
   max-height: 60%;
 }
 #questionDiv h1 {
-  position: relative;
-  left: 10px;
-  top: -50px;
+  font-size: 4em;
 }
 #questionDiv button {
   position: absolute;
   left: 10px;
   bottom: 10px;
+  color: #000;
+}
+#questionDiv button:hover {
+  color: #FFF;
 }
 .soccer_currentNames {
   cursor: pointer;
-  position: relative;
-  left: 0px;
-  top: 30px;
-  font-size: 2em;
+  position: absolute;
+  font-size: 4em;
   padding: 5px;
-  border: 2px solid #000;
+  border: 2px solid #FFF;
   border-radius: 20px;
   background-color: #606;
   color: #FFF;
   transition : all 0.5s ease;
 }
+.soccer_currentNames.team0 {
+  left: 20%;
+  top: 30px;
+}
+.soccer_currentNames.team1 {
+  left: 60%;
+  top: 30px;
+}
 .soccer_currentNames.team0.started {
-  left: -100px;
-  top: 470px;
-  /*
-  background-color: #FFF;
-  color: #000;
-  */
+  left: 15%;
+  top: 450px;
+  font-size: 3em;
 }
 .soccer_currentNames.team1.started {
-  left: 150px;
-  top: 470px;
-  /*
-  background-color: #FFF;
-  color: #000;
-  */
+  left: 65%;
+  top: 450px;
+  font-size: 3em;
 }
 .gameTimer {
   position: absolute;
