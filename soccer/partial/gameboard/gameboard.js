@@ -186,12 +186,10 @@ angular.module('soccer').controller('soccerGameboardCtrl',function($scope, $stat
       case 0 :
         randX = 750;
         randY = 230;
-        $scope.scorer = Teams.drawPlayer($scope.gameTeams[0].players, 0);
         break;
       case 1 :
         randX = -25;
         randY = 230;
-        $scope.scorer = Teams.drawPlayer($scope.gameTeams[1].players, 1);
         break;
     }
     $scope.ball.posX = randX;
@@ -205,7 +203,6 @@ angular.module('soccer').controller('soccerGameboardCtrl',function($scope, $stat
   $scope.animGoal = function(team) {
     $scope.shootBall = false;
     $scope.goal = false;
-    //alert('GOAL for team '+ team +'! Scorer : '+ $scope.scorer.name);
     $scope.gameTeams[team].score++;
     $scope.gameTeams[team].scorers.push($scope.scorer.name);
     $scope.ball.posX = 355;
