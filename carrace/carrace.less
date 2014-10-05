@@ -114,22 +114,28 @@ header.carrace {
 #carrace_questionDiv {
   position: absolute;
   text-align: center;
-  font-size:2em;
   top: 5%;
   left: 15%;
-  width: 70%;
-  background-color: #FFF;
-  border: 3px solid #000;
+  width: 75%;
+  min-height: 500px;
+  border: 3px solid #FFF;
   border-radius: 30px;
-  padding: 20px;
+  padding: 5px 20px;
+  background-color: #000;
+  color: #FFF;
   z-index: 4;
 }
 #carrace_questionDiv p {
-  line-height: 1.3em;
-  margin: 5px;
+  font-size: 3em;
 }
 #carrace_questionDiv img {
-  max-width: 500px;
+  max-height: 60%;
+}
+#carrace_questionDiv button {
+  color: #000;
+}
+#carrace_questionDiv button:hover {
+  color: #FFF;
 }
 #answerButton {
 }
@@ -139,13 +145,13 @@ header.carrace {
   left: 10px;
 }
 p.answer {
-  border-top : 2px dotted #000;
+  border-top : 2px dotted #FFF;
 }
 #questionTimer {
   float: right;
   padding: 20px;
   transition : all 0.5s ease;
-  border: 3px solid #000;
+  border: 3px solid #FFF;
   border-radius: 30px;
   background-color: #F00;
   color: #FFF;
