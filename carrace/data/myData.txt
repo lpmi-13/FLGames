@@ -2,18 +2,18 @@
 J'adore aller à la piscine. :: I love/I'm crazy about going to the swimming-pool.::60
 Elle adore aller au cinéma. :: She loves/She's crazy about going to the cinema.::60
 Il adore manger des frites. :: He loves/He's crazy about eating chips.::60
-Ils adorent parler anglais! :: They love/'re crazy about speaking English!::60
-J'aime aider les gens. :: I like/enjoy helping people.::60
+Ils adorent parler anglais! :: They love/'re crazy about speaking English!::50
+J'aime aider les gens. :: I like/enjoy helping people.::45
 Il aime jouer aux jeux vidéos. :: He likes/enjoys playing video games.::60
-Elle aime lire des livres. :: She likes/enjoys reading books.::60
+Elle aime lire des livres. :: She likes/enjoys reading books.::35
 J'aime rendre visite à mes grands-parents. :: I like/enjoy visiting my grand parents.::60
 Je n'aime pas parler anglais. :: I don't like speaking English.::60
 Il n'aime pas faire du shopping. :: He doesn't like doing shopping.::60
-Elle n'aime pas travailler. :: She doesn't like working.::60
+Elle n'aime pas travailler. :: She doesn't like working.::35
 Je déteste aller à la pêche. :: I hate/I can't stand going fishing.::60
-Il déteste faire du sport. :: He hates/He can't stand doing sport.::60
+Il déteste faire du sport. :: He hates/He can't stand doing sport.::50
 Elle déteste les fantomes. :: She hates/She can't stand ghosts.::60
-Mes amis me font rire! :: My friends make me laugh!::60
+Mes amis me font rire! :: My friends make me laugh!::40
 Ma soeur me met souvent en colère. :: My sister often makes me angry.::60
 L'école me rend triste. :: School makes me sad.::50
 J'ai peur des araignées. :: I'm afraid of spiders.::50
@@ -22,15 +22,22 @@ Elle a peur de ses parents. :: She's afraid of her parents.::60
 Ils ont peur de parler. :: They're afraid of speaking.::60
 Je rêve d'aller aux Etats-Unis. :: I dream about going to the USA.::60
 Il rêve d'avoir sa nouvelle voiture. :: He dreams about having his new car.::60
-Elle rêve de prendre l'avion. :: She dreams about taking the plane.::60
-Je rêve de visiter Londres. :: I dream about visiting London.::60
-Elle est un peu impatiente. :: She is a little/a bit impatient.::60
-Il est extrêmement courageux. :: He is extremely bold.::50
-Je ne suis pas égoïste. :: I'm not selfish.::50
-Je suis plutôt timide. :: I'm quite shy.::50
+Elle rêve de prendre l'avion. :: She dreams about taking the plane.::50
+Je rêve de visiter Londres. :: I dream about visiting London.::40
+Elle est un peu impatiente. :: She is a little/a bit impatient.::40
+Il est extrêmement courageux. :: He is extremely bold.::40
+Je ne suis pas égoïste. :: I'm not selfish.::40
+Je suis plutôt timide. :: I'm quite shy.::40
 Je suis très poli. :: I'm very/extremely polite.::50
 Je ne suis pas du tout malpoli! :: I'm not rude at all!::50
-Replace l'adverbe not... at all dans 'I am rude.' :: I am <u>not</u> rude <u>at all</u>.::60
+Replace l'adverbe not... at all dans 'I am rude.' :: I am <u>not</u> rude <u>at all</u>.::40
+Recopie et corrige (si besoin) :<br /> I'm french and I live in Raon. :: I'm <u>F</u>rench and I live in Raon.
+Recopie et corrige (si besoin) :<br /> Do you have got a swimming-pool? :: Do you have a swimming-pool? / Have you got a swimming-pool?
+Recopie et corrige (si besoin) :<br /> I not like coffee but I like tea. :: I <u>don't</u> like coffee but I like tea.
+Recopie et corrige (si besoin) :<br /> I haven't a cat. :: I haven't got a cat. / I don't have a cat. :: 30
+Recopie et corrige (si besoin) : He love dancing! :: He love<u>s</u> dancing! :: 30
+Recopie et corrige (si besoin) :<br /> I can't stand to listen to rap music! :: I can't stand listen<u>ing</u> to rap music!::50
+Recopie et corrige (si besoin) :<br /> I am not at all patient! :: I'm not patient at all! :: 40
 
 :CM2
 What's JAUNE in English?::60
@@ -399,41 +406,39 @@ Traduis : Pouviez-vous voir le loup? :: Could you see the wolf?::60
 Traduis : Ils pouvaient parler mais ils ne pouvaient pas crier. :: They could speak but they couldn't scream.::60
 
 :Révisions 6 01
-Remplace les mots soulignés par le pronom qui convient : <u>Sam</u> is English.::<u>He</u>is English.::60
-Remplace les mots soulignés par le pronom qui convient : <u>Kelly</u> has a dog.::<u>She</u> has a dog.::60
+Remplace les mots soulignés par le pronom qui convient : <u>Tom</u> is English.::<u>He</u>is English.::45
+Remplace les mots soulignés par le pronom qui convient : <u>Sarah</u> is American.::<u>She</u>is American.::40
+Remplace les mots soulignés par le pronom qui convient : <u>Kelly</u> has a dog.::<u>She</u> has a dog.::45
+Remplace les mots soulignés par le pronom qui convient : <u>Kevin</u> has 2 cats.::<u>He</u> has 2 cats.::45
 Remplace les mots soulignés par le pronom qui convient : <u>Sam and Tom</u> like school.::<u>They</u> like school.::60
-Remplace les mots soulignés par le pronom qui convient : <u>English</u> is very nice.::<u>It</u> is very nice.::60
-Remplace les mots soulignés par le pronom qui convient : <u>Jim and I</u> love playing video games.::<u>We</u> love playing video games.::60
-Traduis les pronoms suivants : Je, tu, elle::I, you, she::50
-Traduis les pronoms suivants : Ils, il, elles::They, he, they::50
-Traduis les pronoms suivants : Nous, vous, tu::We, you, you::50
-Traduis les pronoms suivants : Vous, il, nous::You, he, we::50
-Traduis les pronoms suivants : Elles, ils, il, elle::They, they, he, she::60
-Traduis : J'ai un hamster.::I've got a guinea pig. / I have a guinea pig.::60
-Traduis : Elle a un oiseau.::She's got a bird. / She has a bird.::60
-Traduis : Ils ont une souris.::They've got a mouse. / They have a mouse.::60
-Traduis : Nous avons un poisson::We've got a fish. / We have a fish.::60
-Traduis : Je n'aime pas la viande:: I don't like meat.::60
-Traduis : des poires vertes::green pears::60
-Traduis : J'adore les frites::I love chips.::60
-Traduis : des pommes rouges::red apples::60
-Réponds par une réponse courte : Do you like playing tennis?::Yes, I do. / No, I don't.::50
-Réponds par une réponse courte : Can you ride a horse?::Yes, I can. / No, I can't.::50
-Réponds par une réponse courte : Do you like History?::Yes, I do. / No, I don't.::50
-Réponds par une réponse courte : Can he ride a bike?::Yes, he can. / No, he can't.::50
-Réponds par une réponse courte : Do they like surfing?::Yes, they do. / No, they don't.::50
-Ecris les nombres suivants : 99::ninety nine::50
-Ecris les nombres suivants : 25::twenty two::50
-Ecris les nombres suivants : 64::sixty four::50
-Ecris les nombres suivants : 36::thirty six::50
-Ecris les nombres suivants : 42::forty two::50
-Ecris les nombres suivants : 55::fifty five::50
-Conjugue le verbe souligné : Donna <u>(have)</u> blue eyes.::Donna <u>has</u> blue eyes.::60
-Conjugue le verbe souligné : He <u>(be)</u> very strong.::He <u>is</u> very strong.::60
-Conjugue le verbe souligné : Jack <u>(have)</u> a round face.::Jack <u>has</u> a round face.::60
-Conjugue le verbe souligné : Terry <u>(be)</u> intelligent.::Terry <u>is</u> intelligent.::60
-Conjugue le verbe souligné : I <u>(be)</u> 12.::I <u>am</u> 12.::50
-Conjugue le verbe souligné : I <u>(have)</u> long blond hair.::I <u>have</u> long blond hair.::60
+Traduis les pronoms suivants : Je, tu, elle::I, you, she::30
+Traduis les pronoms suivants : Ils, il, elles::They, he, they::30
+Traduis les pronoms suivants : Vous, il, tu::You, he, you::30
+Traduis les pronoms suivants : Elles, ils, il, elle::They, they, he, she::30
+Traduis : Je suis français.::I am/'m <u>F</u>rench.::40
+Traduis : Je suis française.::I am/'m <u>F</u>rench.::35
+Traduis : Elle est anglaise.::She is/'s <u>E</u>nglish.::40
+Traduis : Il est anglais.::He is/'s <u>E</u>nglish.::40
+Traduis : J'ai treize ans.:: I'm thirteen (years old).::40
+Traduis : Je m'apelle Tom et je suis écossais.::I'm Tom / My name is Tom and I'm <u>S</u>cottish.::60
+Traduis : Pays de Galle / Irlandais :: Wales / Irish ::40
+Traduis : Royaume Uni / Britannique :: United Kingdom / British ::40
+Traduis : Gallois / Irlande du Nord :: Welsh / Northern Ireland ::40
+Traduis : Angleterre / Anglais :: England / English ::40
+Ecris les nombres suivants : 25 / 12 / 8::twenty five / twelve / eight::40
+Ecris les nombres suivants : 64 / 88::sixty four / eighty eight::40
+Ecris les nombres suivants : 36 / 13::thirty six / thirteen::40
+Ecris les nombres suivants : 42 / 4 / 3::forty two / four / three::40
+Ecris les nombres suivants : 55 / 15 / 2::fifty five / fifteen / two::40
+Recopie et conjugue le verbe souligné : He <u>(be)</u> 53.::He <u>is</u> 53.::50
+Recopie et conjugue le verbe souligné : I <u>(be)</u> 12.::I <u>am</u> 12.::40
+Comment prononces-tu la lettre soulignée dans : <u>I</u>rish?::ai::30
+Comment prononces-tu la lettre soulignée dans : Br<u>i</u>tish?::i::30
+Comment prononces-tu la lettre : <u>A</u>?::ei::30
+Remets les mots dans l'ordre : I / speak / French / please / ? / Can :: Can I speak French, please? :: 50
+Tu veux savoir comment dire 'tortue' en anglais, tu dis... :: What's 'tortue' in English, please? :: 50
+Indique la syllabe accentuée dans : American / Elizabeth / Obama :: A'merican / E'lizabeth / O'bama::40
+Indique la syllabe accentuée dans : seventeen / forty / thirty / thirteen :: seven'teen / 'forty / 'thirty / thir'teen
 
 :Révisions 6 02
 Remplace les mots soulignés par le pronom qui convient : <u>Sam</u> is English.::<u>He</u>is English.::50
