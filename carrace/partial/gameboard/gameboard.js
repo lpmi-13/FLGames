@@ -46,6 +46,9 @@ angular.module('carrace').controller('CarraceGameboardCtrl',function($scope, $st
       document.body.onmousedown = function(){ return false; };
     }
     document.body.style.cursor = "default";
+    Teams.winner = [];
+    Teams.looser = [];
+    //console.log(Teams.looser);
   };
 
   // Load data

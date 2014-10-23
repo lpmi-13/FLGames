@@ -11,9 +11,8 @@
     </ul>
     <h3>Followed by :</h3>
     <ul class="list-unstyled">
-      <!-- TODO : Turn looser into Array to use orderBy -->
-      <li ng-repeat="loose in looser|orderBy:loose.left">
-      <img ng-src="{{loose.logo}}" alt="logo" /> <span>({{loose.left}})</span>
+      <li ng-repeat="loose in looser | orderBy: 'left':'reverse' ">
+        <img title="{{loose.left}} px" ng-src="{{loose.logo}}" alt="logo" />
       </li>
     </ul>
   </div>
