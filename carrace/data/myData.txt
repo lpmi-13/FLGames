@@ -978,3 +978,49 @@ Indique les participes passés des verbes suivants : be / go / ring / eat / slee
 Indique les participes passés des verbes suivants : have / read / take / come / ride :: had / read / taken / come / ridden :: 35
 Comment construis-tu le 'present perfect'? :: HAVE au présent + verbe au participe passé :: 30
 Pourquoi utiliser le 'present perfect'? :: Pour parler de ses expériences / Pour faire un lien entre le passé et le présent. :: 35
+
+: Negative form (BE/HAVE)
+Mets à la forme négative : I am tall.::I am not tall.::35
+Mets à la forme négative : He is sypid.::I isn't (is not) stupid.::35
+Mets à la forme négative : You are the best at English.::You aren't (are not) the best at English.::50
+Mets à la forme négative : They have a dog.:: They haven't got / don't have a dog.::45
+Mets à la forme négative : I have a turtle.:: I haven't got / don't have a turtle.::40
+Mets à la forme négative : She has a little brother.:: She doesn't have / hasn't got a little brother.::50
+Mets à la forme négative : Mike has a little sister.:: Mike doesn't have / hasn't got a little sister.::45
+
+: BE/HAVE
+Traduis ; Je suis grand. J'ai 12 ans. :: I am tall. I'm 12 (years old). :: 40
+Traduis ; J'ai les yeux verts? :: I have ('ve got) green eyes. :: 35
+Traduis : J'ai un hamster.::I've got a guinea pig. / I have a guinea pig.::40
+Traduis : Elle a un oiseau.::She's got a bird. / She has a bird.::40
+Traduis : Ils ont une souris.::They've got a mouse. / They have a mouse.::35
+Traduis : Nous avons un poisson::We've got a fish. / We have a fish.::40
+Traduis : Nous sommes français mais nous parlons anglais::We are French but we speak English. :: 50
+Traduis : Êtes-vous blonde? :: Are you blonde? :: 30
+Traduis : Es-tu blond? :: Are you blonde? :: 30
+Recopie et corrige (si besoin) :<br /> I'm french and I live in Raon. :: I'm <u>F</u>rench and I live in Raon. :: 45
+Recopie et corrige (si besoin) :<br /> Do you have got a swimming-pool? :: Do you have a swimming-pool? / Have you got a swimming-pool? :: 50
+Recopie et corrige (si besoin) :<br /> I haven't a cat. :: I haven't got a cat. / I don't have a cat. :: 30
+Recopie et complète avec le verbe ÊTRE ou AVOIR conjugué correctement : Donna <u>...</u> blue eyes.::Donna <u>has</u> blue eyes.::40
+Recopie et complète avec le verbe ÊTRE ou AVOIR conjugué correctement : He <u>...</u> very strong.::He <u>is</u> very strong.::32
+Recopie et complète avec le verbe ÊTRE ou AVOIR conjugué correctement : Jack <u>...</u> a round face.::Jack <u>has</u> a round face.::38
+Recopie et complète avec le verbe ÊTRE ou AVOIR conjugué correctement : Terry <u>...</u> intelligent.::Terry <u>is</u> intelligent.::30
+Recopie et complète avec le verbe ÊTRE ou AVOIR conjugué correctement : I <u>...</u> 12.::I <u>am</u> 12.::27
+Recopie et complète avec le verbe ÊTRE ou AVOIR conjugué correctement : I <u>...</u> long blond hair.::I <u>have</u> long blond hair.::35
+
+: Giving directions
+Traduis : Tournez à gauche! :: Turn left! :: 22
+Traduis : Ne tourne pas à gauche! :: Don't turn left! :: 25
+Traduis : Continuez tout droit! :: Keep going straight! :: 25
+Traduis : Continuez tout droit sur Park Avenue! :: Keep going straight on Park Avenue! :: 40
+Traduis : Nous y sommes! :: We're there! :: 30
+Traduis : Passe devant le commissariat et tourne à droite. :: Walk past the poice station and turn right. :: 50
+Traduis : Longe la Tamise mais ne la traverse pas! :: Walk along the Thames but don't cross it! :: 55
+Traduis : Longe la Tamise. :: Walk along the Thames. :: 31
+Traduis : Prends la première à gauche. :: Take the first left. :: 33
+Traduis : Traverse le pont. :: Cross the bridge. :: 29
+Traduis : Ne traverse pas le pont! :: Don't cross the bridge! :: 32
+Traduis : Tourne et continue tout droit! :: Turn and keep going straight! :: 39
+Traduis : La caserne de pompiers est sur ta droite. :: The fire station is on your right. :: 43
+Traduis : Passe devant le parc. :: Walk past the park. :: 33
+Traduis : Ma maison est sur ta gauche. :: My house is on your left. :: 35
