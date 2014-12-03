@@ -1,28 +1,3 @@
-:Can / Can't / Likes
-[can_cant_likes/he_can_draw.png] :: He can draw.
-[can_cant_likes/she_can_play_tennis.png] :: She can play tennis.
-[can_cant_likes/he_can_play_football.png] :: He can play football.
-[can_cant_likes/she_can_ride_horse.png] :: She can ride a horse.
-[can_cant_likes/he_cant_ski.png] :: He can't ski.
-[can_cant_likes/she_cant_play_rugby.png] :: She can't play rugby.
-[can_cant_likes/he_cant_surf.png] :: He can't surf.
-[can_cant_likes/she_cant_swim.png] :: She can't swim.
-[can_cant_likes/he_dont_like_sing.png] :: He doesn't like singing.
-[can_cant_likes/she_dont_like_draw.png] :: She doesn't like drawing.
-[can_cant_likes/he_hate_ride_bike.png] :: He hates riding his bike.
-[can_cant_likes/she_hate_swim.png] :: She hates swimming.
-[can_cant_likes/she_like_ride_bike.png] :: She likes riding her bike.
-[can_cant_likes/she_love_ride_horse.png] :: She loves riding a horse. / She loves horse-riding.
-[can_cant_likes/he_love_play_football.png] :: He loves playing football.
-[can_cant_likes/they_can_ride_horse.png] :: They can ride a horse.
-[can_cant_likes/i_can_ride_horse.png] :: I can ride a horse.
-[can_cant_likes/they_cant_play_rugby.png] :: They can't play rugby.
-[can_cant_likes/i_cant_sing.png] :: I can't sing.
-[can_cant_likes/they_hate_surf.png] :: They hate surfing.
-[can_cant_likes/i_hate_rugby.png] :: I hate playing rugby.
-[can_cant_likes/they_like_play_tennis.png] :: They like playing tennis.
-[can_cant_likes/i_like_swim.png" /> :: I like swimming.
-
 :Colors
 Jaune :: Yellow
 Vert :: Green
@@ -598,6 +573,41 @@ Il ne sait pas dessiner.
 Elle ne sait pas faire du surf.
 Elle ne sait pas faire du ski.
 Elle ne sait pas faire du vélo.
+Ils savent dessiner.
+Elles savent dessiner.
+Elles savent jouer au rugby.
+Ils ne savent pas dessiner.
+Elles ne savent pas dessiner.
+Ils ne savent pas nager.
+Elles ne savent pas jouer au rugby.
+Ils ne savent pas faire du cheval.
+Elles ne savent pas faire du vélo.
+Nous ne savons pas chanter.
+
+:Can - Can't - Likes
+[can_cant_likes/he_can_draw.png]
+[can_cant_likes/she_can_play_tennis.png]
+[can_cant_likes/he_can_play_football.png]
+[can_cant_likes/she_can_ride_horse.png]
+[can_cant_likes/he_cant_ski.png]
+[can_cant_likes/she_cant_play_rugby.png]
+[can_cant_likes/he_cant_surf.png]
+[can_cant_likes/she_cant_swim.png]
+[can_cant_likes/he_dont_like_sing.png]
+[can_cant_likes/she_dont_like_draw.png]
+[can_cant_likes/he_hate_ride_bike.png]
+[can_cant_likes/she_hate_swim.png]
+[can_cant_likes/she_like_ride_bike.png]
+[can_cant_likes/she_love_ride_horse.png]
+[can_cant_likes/he_love_play_football.png]
+[can_cant_likes/they_can_ride_horse.png]
+[can_cant_likes/i_can_ride_horse.png]
+[can_cant_likes/they_cant_play_rugby.png]
+[can_cant_likes/i_cant_sing.png]
+[can_cant_likes/they_hate_surf.png]
+[can_cant_likes/i_hate_rugby.png]
+[can_cant_likes/they_like_play_tennis.png]
+[can_cant_likes/i_like_swim.png />
 
 :Present BE+ING
 [activities/phoning.png]
