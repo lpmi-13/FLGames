@@ -87,6 +87,7 @@ class, name
 5F, Matthias
 5F, Louanne
 5F, Thomas
+5F, Laura
 3CD, Marion
 3CD, Dilay
 3CD, Asya
@@ -121,3 +122,4 @@ class, name
 3C, Erwan
 3C, Léa
 3C, Camille
+3C, Sébastien
