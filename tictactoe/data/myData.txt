@@ -400,6 +400,31 @@ do
 sleep
 get up
 
+:Can - Can't - Likes
+[can_cant_likes/he_can_draw.png]
+[can_cant_likes/she_can_play_tennis.png]
+[can_cant_likes/he_can_play_football.png]
+[can_cant_likes/she_can_ride_horse.png]
+[can_cant_likes/he_cant_ski.png]
+[can_cant_likes/she_cant_play_rugby.png]
+[can_cant_likes/he_cant_surf.png]
+[can_cant_likes/she_cant_swim.png]
+[can_cant_likes/he_dont_like_sing.png]
+[can_cant_likes/she_dont_like_draw.png]
+[can_cant_likes/he_hate_ride_bike.png]
+[can_cant_likes/she_hate_swim.png]
+[can_cant_likes/she_like_ride_bike.png]
+[can_cant_likes/she_love_ride_horse.png]
+[can_cant_likes/he_love_play_football.png]
+[can_cant_likes/they_can_ride_horse.png]
+[can_cant_likes/i_can_ride_horse.png]
+[can_cant_likes/they_cant_play_rugby.png]
+[can_cant_likes/i_cant_sing.png]
+[can_cant_likes/they_hate_surf.png]
+[can_cant_likes/i_hate_rugby.png]
+[can_cant_likes/they_like_play_tennis.png]
+[can_cant_likes/i_like_swim.png]
+
 : Likes & Disliskes
 [likes_dislikes/like_rabbit.png]
 [likes_dislikes/dont_like_cake.png]

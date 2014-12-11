@@ -453,7 +453,6 @@ J'adore l'été.
 Je n'aime pas l'hiver.
 Je déteste le printemps.
 J'adore l'hiver.
-J'adore l'automne.
 J'adore dessiner.
 J'adore jouer au foot.
 J'aime bien faire du cheval.
@@ -464,6 +463,29 @@ Je n'aime pas jouer au foot.
 Je déteste dessiner.
 Je déteste chanter.
 Je déteste nager!
+Tu aimes le printemps.
+Tu n'aimes pas l'hiver.
+Elles n'aiment pas l'été.
+Ils adorent jouer au tennis.
+Ils détestent faire du roller.
+Vous adorez chanter.
+Elles n'aiment pas chanter.
+Tu adores écouter de la musique.
+Ils adorent écouter de la musique.
+Elles adorent écouter de la musique.
+Elles adorent faire du vélo.
+Nous adorons faire du vélo.
+Nous aimons bien faire du vélo.
+Nous aimons bien monter à cheval.
+Nous n'aimons pas les petits pois.
+Tu n'aimes pas le fromage.
+Vous n'aimez pas dessiner.
+Vous n'aimez pas faire du cheval.
+Aimes-tu le café?
+Aimes-tu danser?
+Aimes-tu chanter?
+Aimez-vous nager?
+Aimez-vous parler anglais?
 
 : Numbers
 0
@@ -607,7 +629,7 @@ Nous ne savons pas chanter.
 [can_cant_likes/they_hate_surf.png]
 [can_cant_likes/i_hate_rugby.png]
 [can_cant_likes/they_like_play_tennis.png]
-[can_cant_likes/i_like_swim.png />
+[can_cant_likes/i_like_swim.png]
 
 :Present BE+ING
 [activities/phoning.png]
