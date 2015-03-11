@@ -454,27 +454,24 @@ get up
 [likes_dislikes/love_pears.png]
 [likes_dislikes/love_tea.png]
 
-: MUST / MUSTN'T (TODO)
-manger du sucre.
-aller au parc.
-perdre du poids.
-manger du chocolat.
-faire du sport.
-conduire au-dessus de 30 km/h.
-faire tes devoirs.
-tourner à droite.
-mettre ta ceinture de sécurité.
-utiliser tes clignotants.
-parler français.
-parler anglais.
-écrire sur la table.
-écouter ton professeur.
-manger du chewing-gum en classe.
-travailler.
-dormir en classe.
-être en retard à l'école.
-chanter en classe.
-être gentil(le).
+: MUST / MUSTN'T / CAN / CAN'T
+[must.png] do my homework.
+[must.png] do his homework.
+[must.png] do her homework.
+[must.png] drive over 30.
+[must.png] listen to the teacher.
+[must.png] turn left.
+[mustnt.png] write on the table!
+[mustnt.png] forget your seatbelt!
+[mustnt.png] forget my seatbelt!
+[mustnt.png] eat chewing-gum in class.
+[mustnt.png] drive over 50.
+[can.png] speak English.
+[can.png] drive over 30.
+[cant.png] sing in class!
+[cant.png] sleep in class!
+[cant.png] be late for school!
+[cant.png] turn right!
 
 :Numbers (big)
 1,200
