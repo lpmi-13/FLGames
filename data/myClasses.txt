@@ -106,6 +106,7 @@ class, name
 3CD, Louis
 3CD, Quentin
 3CD, Hugo
+3CD, Donovan
 3C, Pierre
 3C, Baptiste
 3C, Yavuz
@@ -115,7 +116,6 @@ class, name
 3C, Gabin
 3C, Berkaan
 3C, Marie-Amélie
-3C, Donovan
 3C, Jonathan
 3C, Sofian
 3C, Nathan
