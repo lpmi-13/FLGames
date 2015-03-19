@@ -10,7 +10,7 @@ angular.module('soccer').controller('soccerGameboardCtrl',function($scope, $stat
   $scope.activePlayers = [];
   for (var i=0; i<2; i++) {
     if (Teams.savedTeams.length > 0 ) {
-      $scope.gameTeams.push({'name': 'Team '+i, 'score':0, 'winner':false, 'players': $filter('filter')(Teams.savedTeams, {'team':i}), scorers: []});
+      $scope.gameTeams.push({'name': 'Team '+i, 'score':0, 'winner':false, 'players': $filter('filter')(Teams.savedTeams, {'team':i}, true), scorers: []});
     } else {
       $scope.gameTeams.push({'name': 'Team '+i, 'score':0, 'winner':false, 'players': [{'team':i, name:''}], scorers:[]});
     }
@@ -114,7 +114,7 @@ angular.module('soccer').controller('soccerGameboardCtrl',function($scope, $stat
   
   $scope.selectTopic = function(topic) {
     // Filter selected questions
-    $scope.selectedTopic = $filter('filter')($scope.questions, {'topic': topic});
+    $scope.selectedTopic = $filter('filter')($scope.questions, {'topic': topic}, true);
     console.log($scope.selectedTopic);
     var length = $scope.selectedTopic.length;
   };
@@ -333,26 +333,26 @@ angular.module('soccer').controller('soccerGameboardCtrl',function($scope, $stat
     } else {
       // Team 0
       // Get active players
-      $scope.activePlayers[0] = $filter('filter')(Teams.savedTeams, { team:0, active:1});
+      $scope.activePlayers[0] = $filter('filter')(Teams.savedTeams, { team:0, active:1}, true);
       if ( $scope.activePlayers[0].length > 1) { // Pick a player among active
         $scope.currentPlayer[0] = Teams.drawPlayer($scope.activePlayers[0], 1);
       } else { // Not enough players left : re-activate all players and pick 1
         angular.forEach($scope.gameTeams[0].players, function(player) {
             player.active = 1;
         });
-        $scope.activePlayers[0] = $filter('filter')(Teams.savedTeams, { team:0, active:1});
+        $scope.activePlayers[0] = $filter('filter')(Teams.savedTeams, { team:0, active:1}, true);
         $scope.currentPlayer[0] = Teams.drawPlayer($scope.activePlayers[0], 1);
       }
       // Team 1
       // Get active players
-      $scope.activePlayers[1] = $filter('filter')(Teams.savedTeams, { team:1, active:1});
+      $scope.activePlayers[1] = $filter('filter')(Teams.savedTeams, { team:1, active:1}, true);
       if ( $scope.activePlayers[1].length > 1) { // Pick a player among active
         $scope.currentPlayer[1] = Teams.drawPlayer($scope.activePlayers[1], 1);
       } else { // Not enough players left : re-activate all players and pick 1
         angular.forEach($scope.gameTeams[1].players, function(player) {
             player.active = 1;
         });
-        $scope.activePlayers[1] = $filter('filter')(Teams.savedTeams, { team:1, active:1});
+        $scope.activePlayers[1] = $filter('filter')(Teams.savedTeams, { team:1, active:1}, true);
         $scope.currentPlayer[1] = Teams.drawPlayer($scope.activePlayers[1], 1);
       }
     }
