@@ -12,7 +12,7 @@ class, name
 6BC, Océane
 6BC, Lolita
 6BC, Lauryne
-6BC, Êve
+6BC, Eve
 6BC, Ophélia
 6BC, Lucas
 6BC, Lilian
@@ -28,18 +28,18 @@ class, name
 6E, Clara
 6E, Julie
 6E, Louison
-6E, Éthan
+6E, Ethan
 6E, Méliane
 6E, Ambre
 6E, Emir
 6E, Clément
 6E, Joanna
 6E, Camille
-6E, Éloïse
+6E, Eloïse
 6E, Nikola
 6E, Alban
 6E, Juliane
-6E, Émilie
+6E, Emilie
 6E, Léo
 5B, Manon A
 5B, Alice
@@ -50,7 +50,6 @@ class, name
 5B, Justine
 5B, Lison
 5B, Mickaël
-5B, Mathieu
 5B, Ewan
 5B, Mathias
 5B, Nérissa
