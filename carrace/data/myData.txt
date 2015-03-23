@@ -92,23 +92,25 @@ What's A DOCTOR in French?::60
 What's A MOTHER in French?::60
 
 :Comparing
-Compare en utilisant l'adjectif indiqué : Mike - Thomas (strong) :: Mike is stronger than Thomas::60
-Compare en utilisant l'adjectif indiqué : A giraffe - a mouse (small) :: A mouse is smaller than a giraffe.::60
-Compare en utilisant l'adjectif indiqué : A giraffe - a mouse (tall) :: A giraffe is taller than a mouse.::60
-Compare en utilisant l'adjectif indiqué : The Eiffel Tower - the Statue of Liberty (high) :: The Eiffel Tower is higher than the Statue of Liberty.::60
-Compare en utilisant l'adjectif indiqué : A Ferrari - a Twingo (expensive) :: A Ferrari is more expensive than a Twingo.::60
-Compare en utilisant l'adjectif indiqué : A sofa - a chair (comfortable) :: A sofa is more comfortable than a chair.::60
-Quel est le superlatif de : good + Donne la traduction :: the best (le meilleur)::50
-Quel est le superlatif de : beautiful + Donne la traduction :: the most beautiful (la plus belle/jolie)::60
-Quel est le superlatif de : easy + Donne la traduction :: the easiest (le plus facile)::60
-Quel est le superlatif de : boring + Donne la traduction :: the most boring (le plus ennuyeux)::60
-Quel est le comparatif de : good + Donne la traduction :: better than (meilleur que)::60
-Quel est le comparatif de : bad + Donne la traduction :: worse than (pire que)::60
-Quel est le comparatif de : expensive + Donne la traduction :: more expensive than (plus cher que)::60
-Quel est le comparatif de : silent + Donne la traduction :: more silent than (plus silencieux que)::60
-Traduis : Je suis le meilleur! :: I am the best!::50
-Traduis : Elle est la meilleure! :: She is the best!::50
-Traduis : Il est meilleur qu'elle. :: He is better than her.::60
+Compare en utilisant l'adjectif indiqué : Mike - Thomas (strong) :: Mike is stronger than Thomas::40
+Compare en utilisant l'adjectif indiqué : A giraffe - a mouse (small) :: A mouse is smaller than a giraffe.::40
+Compare en utilisant l'adjectif indiqué : A giraffe - a mouse (tall) :: A giraffe is taller than a mouse.::40
+Compare en utilisant l'adjectif indiqué : The Eiffel Tower - the Statue of Liberty (high) :: The Eiffel Tower is higher than the Statue of Liberty.::50
+Compare en utilisant l'adjectif indiqué : A Twingo - a Ferrari (expensive) :: A Ferrari is more expensive than a Twingo.::40
+Compare en utilisant l'adjectif indiqué : A sofa - a chair (comfortable) :: A sofa is more comfortable than a chair.::40
+Quel est le superlatif de : good + Donne la traduction :: the best (le meilleur)::40
+Quel est le superlatif de : beautiful + Donne la traduction :: the most beautiful (la plus belle/jolie)::40
+Quel est le superlatif de : easy + Donne la traduction :: the easiest (le plus facile)::40
+Quel est le superlatif de : boring + Donne la traduction :: the most boring (le plus ennuyeux)::40
+Quel est le comparatif de : good + Donne la traduction :: better than (meilleur que)::40
+Quel est le comparatif de : bad + Donne la traduction :: worse than (pire que)::40
+Quel est le comparatif de : expensive + Donne la traduction :: more expensive than (plus cher que)::40
+Quel est le comparatif de : silent + Donne la traduction :: more silent than (plus silencieux que)::40
+Traduis : Je suis le meilleur! :: I am the best!::45
+Traduis : Elle est la meilleure! :: She is the best!::45
+Traduis : Rockwell est plus talentueux que moi. :: Rockwell is more talented than me.::47
+Traduis : Il est meilleur qu'elle. :: He is better than her.::45
+Traduis : C'est mon pire ennemi! :: He is my worst ennemy!::50
 Traduis : Elle est meilleure que lui. :: She is better than him.::60
 Traduis : Le Burj Khalifa Building est le plus haut building du monde. :: The Burj Khalifa Building is the highest/tallest building in the world.::60
 Traduis : Il y a le plus haut bâtiment d'Europe à Londres. :: There is the highest/tallest building in Europe in London.::60
@@ -118,12 +120,12 @@ Que signifient les adjectifs suivants : expensive, boring, difficult, easy, nice
 Retrouve les 2 adjectifs cachés : AMLTSLALL :: SMALL / TALL ::40
 Retrouve les 3 adjectifs cachés : IBRONENICEAGYS :: BORING / NICE / EASY::50
 Retrouve les 4 adjectifs cachés : FATASSTNIBINTRCEINGGETODAOD :: FANTASTIC / INTERESTING / GOOD / BAD::60
-Complète la phrase : Quand on compare 2 choses entre elles, on utilise... :: le comparatif!::30
-Complète la phrase : Quand on compare 1 chose à 1 ensemble de choses, on utilise... :: le superlatif!::30
-FUNNY est un adjectif court ou long? Pourquoi? :: Court : 2 syllabes en Y.::60
-COURAGEOUS est un adjectif court ou long? Pourquoi? :: Long : 3 syllabes.::60
-BRAVE est un adjectif court ou long? Pourquoi? :: Court : 1 syllabe.::50
-TIRING (fatigant) est un adjectif court ou long? Pourquoi? :: Long : 2 syllabes pas en Y.::60
+Complète la phrase : Quand on compare 2 choses entre elles, on utilise... :: le comparatif!::25
+Complète la phrase : Quand on compare 1 chose à 1 ensemble de choses, on utilise... :: le superlatif!::25
+FUNNY est un adjectif court ou long? Pourquoi? :: Court : 2 syllabes en Y.::30
+COURAGEOUS est un adjectif court ou long? Pourquoi? :: Long : 3 syllabes.::30
+BRAVE est un adjectif court ou long? Pourquoi? :: Court : 1 syllabe.::30
+TIRING (fatigant) est un adjectif court ou long? Pourquoi? :: Long : 2 syllabes pas en Y.::30
 
 :London
 What is the most visited attraction in London? :: London Eye::60
@@ -587,22 +589,27 @@ Demande a un anglais s'il aime le poisson :: Do you like fish?::60
 Demande a un anglais s'il aime le sport :: Do you like Sport?::60
 
 :Révisions 5 Bilan 03
-Pose la question : I went somewhere. :: Where did you go?::60
 Pose la question : She went somewhere. :: Where did she go?::60
-Pose la question : They saw someone. :: Who did they see?::60
 Pose la question : I saw someone. :: Who did you see?::60
-Pose la question : She did something. :: What did she do?::60
 Pose la question : He did something. :: What did he do?::60
+Remets les mots dans l'ordre : is / going / ? / he / Where :: Where is he going? :: 33
+Remets les mots dans l'ordre : is / doing / ? / she / What :: What is she doing? :: 33
+Traduis les mots interrogatifs : qui / quand / où / quoi :: who / when / where / what :: 30
+Traduis les mots interrogatifs : qui / comment / à qui / quoi :: who / how / whose / what :: 30
+Traduis les mots interrogatifs : comment / quand / où / qu'est-ce-que :: how / when / where / what :: 30
+Recopie et complète : ... is Mr Spencer doing? :: What is Mr Spencer doing? :: 35
+Recopie et complète : ... is Mr Spencer go...? :: Where is Mr Spencer going? :: 40
 Conjugue au présent BE+ING : I (tell) :: I am telling::40
 Conjugue au présent BE+ING : They (be) :: They are being::40
 Conjugue au présent BE+ING : Mike (download) :: Mike is downloading::40
 Conjugue au présent BE+ING : You (ask) :: You are asking::40
 Conjugue au présent BE+ING : I (swim) :: I am swimming::40
-Recopie en conjuguant le verbe au présent BE+ING: He (go) to that big boat!:: He is going to that big boat!::60
-Recopie en Conjuguant le verbe au présent BE+ING: They (play) football in the garden.::They are playing football in the garden.::60
-Recopie en Conjuguant le verbe au présent BE+ING: I (make) a cake for Julia's birthday.::I am making a cake for Julia's birthday.::60
-Recopie en Conjuguant le verbe au présent BE+ING: She (ride) a bike with her friends.::She is riding a bike with her friends.::60
-Recopie en Conjuguant le verbe au présent BE+ING: ... you (tell) me to leave? :: Are you telling me to leave?::60
+Recopie en conjuguant le verbe au présent BE+ING: He (go) to that big boat!:: He is going to that big boat!::55
+Recopie en conjuguant le verbe au présent BE+ING: I (do) my homework!:: I am doing my homework!::40
+Recopie en conjuguant le verbe au présent BE+ING: They (play) football in the garden.::They are playing football in the garden.::55
+Recopie en conjuguant le verbe au présent BE+ING: I (make) a cake for Julia's birthday.::I am making a cake for Julia's birthday.::60
+Recopie en conjuguant le verbe au présent BE+ING: She (ride) a bike with her friends.::She is riding a bike with her friends.::60
+Recopie en conjuguant le verbe au présent BE+ING: ... you (tell) me to leave? :: Are you telling me to leave?::60
 Traduis les pronoms suivants : Je, tu, elle::I, you, she::30
 Traduis les pronoms suivants : Ils, il, elles::They, he, they::25
 Traduis les pronoms suivants : Nous, vous, tu::We, you, you::25
@@ -614,8 +621,8 @@ Recopie et complète avec 'Il n'y a pas' : In my house ........ a garage. :: In 
 Recopie et complète avec 'Il n'y a pas' : ......... music shops in my town. :: There aren't any music shops / There are no music shops in my town.::60
 Recopie et complète avec 'Il y a' : ......... a fire station? Yes, ......... one. :: Is there a fire station? Yes, there is one.::60
 Copie en conjuguant les verbes : Look! He (eat) chocolate. :: Look! He is eating chocolate.::60
-Copie en conjuguant les verbes : Look! She (skate)! :: Look! He is skating!::40
-Copie en conjuguant les verbes : Look! They (dance) so well! :: Look! they are dancing so well!::50
+Copie en conjuguant les verbes : Look! She (skate)! :: Look! She is skating!::40
+Copie en conjuguant les verbes : Look! They (dance) so well! :: Look! They are dancing so well!::50
 Copie en conjuguant les verbes : Look! He (ask) his way to the policeman. :: Look! He is asking his way to the policeman.::60
 Copie en conjuguant les verbes : What are you doing? I (do) my homework. :: What are you doing? I'm doing my homework.::50
 Copie en conjuguant les verbes : What are you doing? I (cook) a cake. :: What are you doing? I'm cooking a cake.::50
@@ -624,7 +631,7 @@ Traduis : dessus, dessous, dessous, dessus :: on, under, under, on ::30
 Traduis : derrière, entre, devant, à côté de :: behind, between, in front of, next to::30
 Traduis : Peux-tu venir à mon anniversaire? :: Can you come to my birthday? :: 50
 Traduis : Peux-tu aller au cinéma avec moi samedi? :: Can you go to the cinema with me on Saturday? :: 60
-Traduis : Peux-tu venir au cinéma avec moi samedi? :: Can you come to the cinema with me on Saturday? :: 60
+Traduis : Peux-tu venir au cinéma avec moi mercredi? :: Can you come to the cinema with me on Wednesday? :: 60
 Traduis : Peux-tu aller au cinéma avec moi dimanche? :: Can you go to the cinema with me on Sunday? :: 60
 Traduis : Peux-tu venir au cinéma avec moi dimanche? :: Can you come to the cinema with me on Sunday? :: 60
 
@@ -817,12 +824,6 @@ Traduis : Elle a un lapin.::She's got a rabbit. / She has a rabbit.::50
 Traduis : Ils ont une souris.::They've got a mouse. / They have a mouse.::50
 Traduis : Nous avons un poisson::We've got a fish. / We have a fish.::50
 Traduis : Je n'aime pas la viande:: I don't like meat.::50
-Ecris le nombre suivant en lettres : 99::ninety nine::30
-Ecris le nombre suivant en lettres : 25::twenty five::30
-Ecris le nombre suivant en lettres : 64::sixty four::30
-Ecris le nombre suivant en lettres : 36::thirty six::30
-Ecris le nombre suivant en lettres : 42::forty two::30
-Ecris le nombre suivant en lettres : 55::fifty five::30
 
 :Clubs revising
 Pour exprimer l'obligation, je peux utiliser ... ou ...:: MUST ou HAVE TO
@@ -936,15 +937,15 @@ Comment l'avez-vous trouvé? :: How did you find it ? :: 40
 : Rockwell
 When was Norman Rockwell born ? (Write a sentence) ::He was born in 1894::45
 Where was Norman Rockwell born ? (Write a sentence) ::He was born in New York City::45
-What's Norman Rockwell's nationality ? (Write a sentence) ::He was American::50
+What's Norman Rockwell's nationality ? (Write a sentence) ::He was American::30
 What's Norman Rockwell's job? (Write a sentence) ::He was a painter and an illustrator.::60
 Quel est le prénom de Rockwell?::Norman::25
-Remettre dans l'ordre le nom de ce tableau par Rockwell : FROEDFMFTRMWANEO::Freedom from Want:60
-Donne 2 tableaux de Rockwell::Freedom from Want, Freedom to Worship, Freedom of Speech, Freedom from Fear::50
+Remettre dans l'ordre le nom de ce tableau par Rockwell : FROEDFMFTRMWANEO::Freedom from Want::60
+Donne le nom de 2 tableaux de Rockwell::Freedom from Want, Freedom to Worship, Freedom of Speech, Freedom from Fear::50
 How many paintings are there in Rockwell's 'Freedom' series?::4 paintings::25
-Quel animal peut-on voir dans le tableau 'Freedom from Want' de Rockwell ?::Une dinde::40
-Dans le tableau 'Freedom from Want' de Rockwell, on assiste à un repas spécial, lequel ? C'est le repas de Thanksgiving:30
-Peux-tu citer 3 objets visibles dans l'autoportrait de Rockwell ?::une toile, une poubelle,une pipe, un miroir, un casque...::60
+Quel animal peut-on voir dans le tableau 'Freedom from Want' de Rockwell ?::Une dinde::20
+Dans le tableau 'Freedom from Want' de Rockwell, on assiste à un repas spécial, lequel ? C'est le repas de Thanksgiving::30
+Peux-tu citer 3 objets visibles dans l'autoportrait de Rockwell ?::une toile, une poubelle, une pipe, un miroir, un casque...::60
 Pour quel magazine Norman Rockwell a-t-il travaillé principalement?::Le Saturday Evening Post.::40
 Trouve le mot caché concernant la vie de Norman Rockwell : CISTKRDGBEO::Il est mort à STOCKBRIDGE::60
 Par le discours de quel président Norman Rockwell a-t-il été inspiré pour peindre les tableaux des 4 libértés ?::Il a été inspiré par le discours de Franklin Roosevelt.::45
@@ -963,7 +964,7 @@ Recopie et conjugue au présent BE+ING : She (not listen) to music. ::  She is n
 Recopie et conjugue au présent BE+ING : We (not play) football. :: We are not (aren't) playing football. :: 30 
 
 : Present perfect
-Recopie et conjugue le verbe au present perfect : Where you (go)? :: Where have you gone? :: 45
+Recopie et conjugue le verbe au present perfect : Where you (go)? :: Where have you gone/been? :: 45
 Recopie et conjugue le verbe au present perfect : I (never eat) snails. :: I have never eaten snails. :: 45
 Recopie et conjugue le verbe au present perfect : She (already take) the plane. :: She has already taken the plane :: 45
 Recopie et conjugue le verbe au present perfect : you (ever do) bungee-jumping? :: Have you ever done bungee-jumping? :: 35
@@ -978,6 +979,12 @@ Indique les participes passés des verbes suivants : be / go / ring / eat / slee
 Indique les participes passés des verbes suivants : have / read / take / come / ride :: had / read / taken / come / ridden :: 35
 Comment construis-tu le 'present perfect'? :: HAVE au présent + verbe au participe passé :: 30
 Pourquoi utiliser le 'present perfect'? :: Pour parler de ses expériences / Pour faire un lien entre le passé et le présent. :: 35
+Recopie la phrase et conjugue le verbe : I (go) to London last summer0 :: I went to London last summer. :: 45
+Recopie la phrase et conjugue le verbe : I (watch) TV last night. :: I watched TV last night. :: 45
+Recopie la phrase et conjugue le verbe : She (finally / understand) the Math lesson!  :: She has finally understood the Maths lesson! :: 50
+Recopie la phrase et conjugue le verbe : They (move) to New-York 2 months ago. :: They moved to New-York 2 months ago. :: 45
+Recopie la phrase et conjugue les verbes : We (be) sad when we (hear) she (be) sick. :: We were sad when we heard she was sick. :: 60
+
 
 : Negative form (BE/HAVE)
 Mets à la forme négative : I am tall.::I am not tall.::35
@@ -1024,3 +1031,37 @@ Traduis : Tourne et continue tout droit! :: Turn and keep going straight! :: 39
 Traduis : La caserne de pompiers est sur ta droite. :: The fire station is on your right. :: 43
 Traduis : Passe devant le parc. :: Walk past the park. :: 33
 Traduis : Ma maison est sur ta gauche. :: My house is on your left. :: 35
+
+: Numbers
+Ecris en lettres : 10 / 13 / 44 :: ten / thirteen / forty four :: 30
+Ecris en lettres : 40 / 3 / 30 :: forty / three / thirty :: 30
+Ecris en lettres : 18 / 20 / 72 :: eighteen / twenty / seventy two :: 30
+Ecris en lettres : 27 / 61 / 88 :: twenty seven / sixty one / eighty eight :: 35
+Ecris en lettres : 99 / 53 / 47 :: ninety nine / fifty three / forty seven :: 35
+Ecris en lettres : 8 / 20 / 10 :: eight / twenty / ten::40
+Trouve 2 nombres : NTNETYIEN :: NINETY / TEN :: 40
+Trouve 2 nombres : OWNTEO :: ONE / TWO :: 40
+Trouve le nombre : STENYTOVWE :: SEVENTY TWO :: 40
+Trouve le nombre : OWNXSITREYTEH :: SIXTY THREE :: 40
+Quel est le résultat (en lettres) : 10+10+10+5+7 = ? :: FORTY TWO :: 30
+Quel est le résultat (en lettres) : 100-51 = ? :: FORTY NINE :: 30
+Quel est le résultat (en lettres) : 99/3 = ? :: THIRTY THREE :: 30
+Quel est le résultat (en lettres) : (100/4)+2 = ? :: FIFTY TWO :: 30
+Quel est le résultat (en lettres) : (70/2)-7+1 = ? :: TWENTY NINE :: 35
+
+: Réponses courtes
+Réponds par une réponse courte : Do you like cheese? :: Yes, I do. / No, I don't :: 35
+Réponds par une réponse courte : Do they speak English? :: Yes, they do. / No, they don't. :: 35
+Réponds par une réponse courte : Have you got a dog? :: Yes, I have. / No, I haven't :: 35
+Réponds par une réponse courte : Are you tall? :: Yes, I am. / No, I'm not. :: 35
+Réponds par une réponse courte : Are you French? :: Yes, I am. / No, I'm not. :: 35
+Réponds par une réponse courte : Can you surf? :: Yes, I can. / No, I can't. :: 35
+Réponds par une réponse courte : Do you like playing tennis?::Yes, I do. / No, I don't.::40
+Réponds par une réponse courte : Have you got a brother?::Yes, I have. / No, I haven't.::40
+Réponds par une réponse courte : Can you ride a horse?::Yes, I can. / No, I can't.::40
+Réponds par une réponse courte : Do you like History?::Yes, I do. / No, I don't.::40
+Réponds par une réponse courte : Can he ride a bike?::Yes, he can. / No, he can't.::40
+Réponds par une réponse courte : Do they like surfing?::Yes, they do. / No, they don't.::40
+Réponds par une réponse courte : Have you got a cat?::Yes, I have. / No, I haven't.::40
+Réponds par une réponse courte : Can he swim?::Yes, he can. / No, he can't.::40
+Réponds par une réponse courte : Have you got a mobile phone?::Yes, I have. / No, I haven't.::40
