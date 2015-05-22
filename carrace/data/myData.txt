@@ -173,7 +173,7 @@ Recopie en corrigeant l'erreur : His friend likes play rugby.::His friend likes 
 Recopie en corrigeant l'erreur : They doesn't like swimming.::They don't like swimming.::60
 Recopie en corrigeant l'erreur : He prefer English.::He prefers English.::60
 
-:Reported speech
+: Reported speech
 "Can you help me?", she asked::She asked if he could help her.::60
 "My father is tall", Jim said.::Jim said his father was tall.::60
 "I don't believe you", she said.::She said she didn't believe him/her.::60
@@ -1065,3 +1065,16 @@ Réponds par une réponse courte : Do they like surfing?::Yes, they do. / No, th
 Réponds par une réponse courte : Have you got a cat?::Yes, I have. / No, I haven't.::40
 Réponds par une réponse courte : Can he swim?::Yes, he can. / No, he can't.::40
 Réponds par une réponse courte : Have you got a mobile phone?::Yes, I have. / No, I haven't.::40
+
+: Question words
+Traduis en anglais : Qui? Quand? Où? Quoi? :: Who? When? Where? What? :: 40
+Traduis en anglais : Quand? Où? Qui? Quoi? :: When? Where? Who? What? :: 40
+Traduis en anglais : Qui? Comment? Quelle heure? Pourquoi? :: Who? How? Wha time? Why? :: 40
+Traduis en anglais : Pourquoi? Quand? Qui? :: Why? When? Who? What? :: 30
+Recopie et complète : ... your name? I'm Mike! :: What's your name? I'm Mike! :: 45
+Recopie et complète : ... old are you? :: How old are you? :: 35
+Recopie et complète : ... do you live? :: Where do you live? :: 35
+Recopie et complète : ... is he going? To the cinema! :: Where is he going? To the cinema! :: 45
+Retrouve les 2 mots interrogatifs : AHWOWHT :: WHO / WHAT :: 32
+Donne le français : Who? What? Where? When? :: Qui? Quoi? Où? Quand? :: 40
+Donne le français : Why? Who? When? How? :: Pourquoi? Qui? Quand? Comment? :: 40

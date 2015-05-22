@@ -56,12 +56,10 @@ class, name
 5B, Chane-Name
 5B, Tristan
 5B, Erine
-5B, Alicia
 5B, Nicolas R
 5B, Julien
 5B, Manon S
 5B, Arthur
-5F, Manola
 5F, Chloé B
 5F, Camile
 5F, Maëva
