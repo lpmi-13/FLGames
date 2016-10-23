@@ -1,3 +1,37 @@
+:All about me 01
+J'adore aller à la piscine. :: I love/I'm crazy about going to the swimming-pool.::60
+Elle adore aller au cinéma. :: She loves/She's crazy about going to the cinema.::60
+Il adore manger des frites. :: He loves/He's crazy about eating chips.::60
+Ils adorent parler anglais! :: They love/'re crazy about speaking English!::50
+J'aime aider les gens. :: I like/enjoy helping people.::45
+Il aime jouer aux jeux vidéos. :: He likes/enjoys playing video games.::60
+Elle aime lire des livres. :: She likes/enjoys reading books.::35
+J'aime rendre visite à mes grands-parents. :: I like/enjoy visiting my grand parents.::60
+Je n'aime pas parler anglais. :: I don't like speaking English.::60
+Il n'aime pas faire du shopping. :: He doesn't like doing shopping.::60
+Elle n'aime pas travailler. :: She doesn't like working.::35
+Je déteste aller à la pêche. :: I hate/I can't stand going fishing.::60
+Il déteste faire du sport. :: He hates/He can't stand doing sport.::50
+Elle déteste les fantomes. :: She hates/She can't stand ghosts.::60
+Mes amis me font rire! :: My friends make me laugh!::40
+Ma soeur me met souvent en colère. :: My sister often makes me angry.::60
+L'école me rend triste. :: School makes me sad.::50
+J'ai peur des araignées. :: I'm afraid of spiders.::50
+Il a peur des serpents. :: He's afraid of snakes.::50
+Elle a peur de ses parents. :: She's afraid of her parents.::60
+Ils ont peur de parler. :: They're afraid of speaking.::60
+Je rêve d'aller aux Etats-Unis. :: I dream about going to the USA.::60
+Il rêve d'avoir sa nouvelle voiture. :: He dreams about having his new car.::60
+Elle rêve de prendre l'avion. :: She dreams about taking the plane.::50
+Je rêve de visiter Londres. :: I dream about visiting London.::40
+Recopie et corrige (si besoin) :<br /> I'm french and I live in Raon. :: I'm <u>F</u>rench and I live in Raon.
+Recopie et corrige (si besoin) :<br /> Do you have got a swimming-pool? :: Do you have a swimming-pool? / Have you got a swimming-pool?
+Recopie et corrige (si besoin) :<br /> I not like coffee but I like tea. :: I <u>don't</u> like coffee but I like tea.
+Recopie et corrige (si besoin) :<br /> I haven't a cat. :: I haven't got a cat. / I don't have a cat. :: 30
+Recopie et corrige (si besoin) : He love dancing! :: He love<u>s</u> dancing! :: 30
+Recopie et corrige (si besoin) :<br /> I can't stand to listen to rap music! :: I can't stand listen<u>ing</u> to rap music!::50
+Recopie et corrige (si besoin) :<br /> I am not at all patient! :: I'm not patient at all! :: 40
+
 :All about me
 J'adore aller à la piscine. :: I love/I'm crazy about going to the swimming-pool.::60
 Elle adore aller au cinéma. :: She loves/She's crazy about going to the cinema.::60
@@ -39,57 +73,50 @@ Recopie et corrige (si besoin) : He love dancing! :: He love<u>s</u> dancing! ::
 Recopie et corrige (si besoin) :<br /> I can't stand to listen to rap music! :: I can't stand listen<u>ing</u> to rap music!::50
 Recopie et corrige (si besoin) :<br /> I am not at all patient! :: I'm not patient at all! :: 40
 
-:CM2
-What's JAUNE in English?::60
-What's NOIR in English?::60
-What's ROSE in English?::60
-What's BLANC in English?::60
-What's BLEU in English?::60
-What's LUNDI in English?::60
-What's VENDREDI in English?::60
-What's THURSDAY in English?::60
-What's JANVIER in English?::60
-What's SEPTEMBER in English?::60
-What's DECEMBER in English?::60
-What's UN CHIEN in English?::60
-What's UN CHAT in English?::60
-What's '4' in English?::60
-What's '9' in English?::60
-What's '12' in English?::60
-What's '20' in English?::60
-What's '16' in English?::60
-What's '1' in English?::60
-What's '11' in English?::60
-What's '10' in English?::60
-What's PAPA in English?::60
-What's BEBE in English?::60
-What's GREEN in French?::60
-What's RED in French?::60
-What's PURPLE in French?::60
-What's ORANGE in French?::60
-What's WEDNESDAY in French?::60
-What's TUESDAY in French?::60
-What's SUNDAY in French?::60
-What's FEBRUARY in French?::60
-What's MAY in French?::60
-What's OCTOBER in French?::60
-What's AUGUST in French?::60
-What's A HORSE in French?::60
-What's A MOUSE in French?::60
-What's A PANTHER in French?::60
-What's A KANGAROO in French?::60
-What's TWO in French?::60
-What's FIVE in French?::60
-What's SEVEN in French?::60
-What's THIRTEEN in French?::60
-What's FIFTEEN in French?::60
-What's NINETEEN in French?::60
-What's EIGHT in French?::60
-What's A BANK in French?::60
-What's A BANANA in French?::60
-What's A TRACTOR in French?::60
-What's A DOCTOR in French?::60
-What's A MOTHER in French?::60
+:Comparing (>)
+Compare en utilisant l'adjectif indiqué : Mike - Thomas (strong) :: Mike is stronger than Thomas::40
+Compare en utilisant l'adjectif indiqué : A giraffe - a mouse (small) :: A mouse is smaller than a giraffe.::40
+Compare en utilisant l'adjectif indiqué : A giraffe - a mouse (tall) :: A giraffe is taller than a mouse.::40
+Compare en utilisant l'adjectif indiqué : The Eiffel Tower - the Statue of Liberty (high) :: The Eiffel Tower is higher than the Statue of Liberty.::50
+Compare en utilisant l'adjectif indiqué : A Twingo - a Ferrari (expensive) :: A Ferrari is more expensive than a Twingo.::40
+Compare en utilisant l'adjectif indiqué : A sofa - a chair (comfortable) :: A sofa is more comfortable than a chair.::40
+Quel est le comparatif de : good + Donne la traduction :: better than (meilleur que)::40
+Quel est le comparatif de : bad + Donne la traduction :: worse than (pire que)::40
+Quel est le comparatif de : expensive + Donne la traduction :: more expensive than (plus cher que)::40
+Quel est le comparatif de : silent + Donne la traduction :: more silent than (plus silencieux que)::40
+Traduis : Elle est meilleure que lui. :: She is better than him.::60
+Traduis : Le Shard est à Londres et la Statue de la Liberté est à New York. :: The Shard is in London and the Statue of Liberty is in New York City.::60
+Écris les pronoms suivants en anglais (dans l'ordre): ils, il, elle, tu, vous, je, elles :: they, he, she, you, you, I, they::60
+Que signifient les adjectifs suivants : expensive, boring, difficult, easy, nice ? :: cher, ennuyeux, difficile, facile, sympa::60
+Retrouve les 2 adjectifs cachés : AMLTSLALL :: SMALL / TALL ::40
+Retrouve les 3 adjectifs cachés : IBRONENICEAGYS :: BORING / NICE / EASY::50
+Retrouve les 4 adjectifs cachés : FATASSTNIBINTRCEINGGETODAOD :: FANTASTIC / INTERESTING / GOOD / BAD::60
+Complète la phrase : Quand on compare 2 choses entre elles, on utilise... :: le comparatif!::25
+Complète la phrase : Quand on compare 1 chose par rapport à 1 autre, on utilise... :: le comparatif!::25
+FUNNY est un adjectif court ou long? Pourquoi? :: Court : 2 syllabes en Y.::30
+COURAGEOUS est un adjectif court ou long? Pourquoi? :: Long : 3 syllabes.::30
+BRAVE est un adjectif court ou long? Pourquoi? :: Court : 1 syllabe.::30
+TIRING (fatigant) est un adjectif court ou long? Pourquoi? :: Long : 2 syllabes pas en Y.::30
+
+:Describing a picture
+Traduis : En haut, il y a le soleil. :: At the top, there is the sun. :: 48
+Traduis : À gauche, on peut voir une femme. Elle nage. :: On the left, we/I can see a woman. She is swimming. :: 53
+What's "DESSOUS / DESSUS / DERRIÈRE / DEVANT / À COTÉ DE" in English? :: under / on / behind / in front of / next to :: 37
+What's "DANS / DESSUS / DESSOUS / À COTÉ DE / DEVANT" in English? :: in / on / under / next to / in front of :: 31
+Pour décrire ce qui se passe sous mes yeux, j'utilise le... :: Présent BE+ING. :: 25
+Traduis : "Il y a des animaux sous les arbres." :: There are animals under the trees. :: 52
+Traduis : "Il n'y a pas de neige." :: There is no snow. / There isn't any snow. :: 39
+Put the words in the correct order : SEE / MAN / DANCING / WHO / I / CAN / . / IS / A :: I can see a man who is dancing. :: 50
+Put the words in the correct order : IS / WOMAN / DRIVING / WHO / I / THERE / . / IS / A / A / CAR :: There is a woman who is driving a car. :: 55
+What's "en bas à droite" in English? :: At the bottom, on the right :: 25
+What's "en bas à gauche" in English? :: At the bottom, on the left :: 25
+What's "en haut à gauche" in English? :: At the top, on the left :: 25
+What's "au milieu" in English? :: in the middle :: 15
+Can you write an equivalent of 'There is' (or 'There are') when describing a picture? :: I can see :: 35
+What's the mistake in "I see a dog at the bottom on the right."? :: I CAN see a dog at the bottom on the right. :: 34
+What's the mistake in "I can see a dog in the bottom on the right."? :: I can see a dog AT the bottom on the right. :: 37
+What's the mistake in "There are a dog at the bottom on the right."? :: There IS a dog at the bottom on the right. :: 35
+What's the mistake in "There are dogs at the bottom in the right."? :: There are dogs at the bottom ON the right. :: 36
 
 :Comparing
 Compare en utilisant l'adjectif indiqué : Mike - Thomas (strong) :: Mike is stronger than Thomas::40
@@ -99,9 +126,9 @@ Compare en utilisant l'adjectif indiqué : The Eiffel Tower - the Statue of Libe
 Compare en utilisant l'adjectif indiqué : A Twingo - a Ferrari (expensive) :: A Ferrari is more expensive than a Twingo.::40
 Compare en utilisant l'adjectif indiqué : A sofa - a chair (comfortable) :: A sofa is more comfortable than a chair.::40
 Quel est le superlatif de : good + Donne la traduction :: the best (le meilleur)::40
-Quel est le superlatif de : beautiful + Donne la traduction :: the most beautiful (la plus belle/jolie)::40
+Quel est le superlatif de : beautiful + Donne la traduction :: the most beautiful (la plus belle/jolie)::30
 Quel est le superlatif de : easy + Donne la traduction :: the easiest (le plus facile)::40
-Quel est le superlatif de : boring + Donne la traduction :: the most boring (le plus ennuyeux)::40
+Quel est le superlatif de : boring + Donne la traduction :: the most boring (le plus ennuyeux)::30
 Quel est le comparatif de : good + Donne la traduction :: better than (meilleur que)::40
 Quel est le comparatif de : bad + Donne la traduction :: worse than (pire que)::40
 Quel est le comparatif de : expensive + Donne la traduction :: more expensive than (plus cher que)::40
@@ -174,27 +201,33 @@ Recopie en corrigeant l'erreur : They doesn't like swimming.::They don't like sw
 Recopie en corrigeant l'erreur : He prefer English.::He prefers English.::60
 
 : Reported speech
-"Can you help me?", she asked::She asked if he could help her.::60
+"Can you help me?", she asked Tom.::She asked Tom if he could help her.::60
+"Can you repeat?", she asked him.::She asked him if he could repeat.::60
 "My father is tall", Jim said.::Jim said his father was tall.::60
 "I don't believe you", she said.::She said she didn't believe him/her.::60
 "My name is Jack", he said.::He said his name was Jack.::60
 "My name is Cindy", she said.::She said her name was Cindy.::60
 "I am very tired", he said.::He said he was very tired.::60
-"I am not tired!", he said.::He said he was not very tired.::60
-"I don't like coffee.", Peter said::Peter said that he didn't like coffee.::60
-"I'm going to the cinema with my sister", Sarah told me.::Sarah told me (that) she was going to the cinema with her sister.::60
+"He has never been to the USA.", he said. :: He said he had never been to the USA. :: 60
+"I am not tired!", he said. :: He said he wasn't tired.::60
+"I don't like coffee.", Peter said. :: Peter said (that) he didn't like coffee.::60
+"I'm going to the cinema with my sister", Sarah told me. :: Sarah told me (that) she was going to the cinema with her sister.::60
 "Mary is happy.", he explained.::He explained (that) Mary was happy.::60
 "I'm the best!", she said.::She said (that) she was the best.::60
-Peter asked kelly: "Do you want to go to the library?"::Peter asked Kelly if she wanted to go to the library.::60
+Peter asked Kelly: "Do you want to go to the library?"::Peter asked Kelly if she wanted to go to the library.::60
+John asked Mary: "Do you love me?":: John asked Mary if she loved him.::60
+"Yes, I do.", she answered. :: She answered (yes) she did. :: 60
 "I have a new car", she said.::She said (that) she had a new car.::60
 "Where is my hat?", he wondered.::He wondered where his hat was.::60
 "Do you love me?", Susan asked David.::Susan asked David if he loved her.::60
 "I don't know.", he said.::He said (that) he didn't know.::60
 "Don't look!", the teacher said.::The teacher said not to look.::60
+"Don't do it!", she ordered.::She ordered not to do it.::60
 "Don't peep!", Jack said.::Jack said not to peep.::60
+"Be quiet, please.", the teacher asked the pupils.::The teacher asked the pupils to be quiet.::60
 "Don't cry!", her mother said.::Her mother said not to cry.::60
 "Do it now!", her father said.::Her father said to do it now.::60
-"Take an umbrella!", he said.::He said to take an umbrella.::60
+"Take an umbrella!", he suggested.::He suggested to take an umbrella.::60
 
 :Révisions 5 01
 Remplace les mots soulignés par le pronom qui convient : <u>Sam</u> is English.::<u>He</u>is English.::50
@@ -412,17 +445,21 @@ Remplace les mots soulignés par le pronom qui convient : <u>Tom</u> is English.
 Remplace les mots soulignés par le pronom qui convient : <u>Sarah</u> is American.::<u>She</u>is American.::40
 Remplace les mots soulignés par le pronom qui convient : <u>Kelly</u> has a dog.::<u>She</u> has a dog.::45
 Remplace les mots soulignés par le pronom qui convient : <u>Kevin</u> has 2 cats.::<u>He</u> has 2 cats.::45
-Remplace les mots soulignés par le pronom qui convient : <u>Sam and Tom</u> like school.::<u>They</u> like school.::60
 Traduis les pronoms suivants : Je, tu, elle::I, you, she::30
-Traduis les pronoms suivants : Ils, il, elles::They, he, they::30
-Traduis les pronoms suivants : Vous, il, tu::You, he, you::30
-Traduis les pronoms suivants : Elles, ils, il, elle::They, they, he, she::30
+Traduis les pronoms suivants : tu, elle, il, je::you, she, he, I::30
+Traduis les pronoms suivants : tu, il, je, elle::you, he, I, she::30
 Traduis : Je suis français.::I am/'m <u>F</u>rench.::40
 Traduis : Je suis française.::I am/'m <u>F</u>rench.::35
 Traduis : Elle est anglaise.::She is/'s <u>E</u>nglish.::40
 Traduis : Il est anglais.::He is/'s <u>E</u>nglish.::40
+Traduis : Il est gallois.::He is/'s <u>W</u>elsh.::40
 Traduis : J'ai treize ans.:: I'm thirteen (years old).::40
 Traduis : Je m'apelle Tom et je suis écossais.::I'm Tom / My name is Tom and I'm <u>S</u>cottish.::60
+Traduis : Comment t'appelles-tu ?::What's your name ?::60
+Traduis : Quel âge as-tu ?::How old are you ?::60
+Traduis : Où habites-tu ?::Where do you live ?::60
+Traduis : D'où viens-tu ?::Where are you from?::60
+Traduis : Quelle est ta nationalité ?::What's your nationality ?::60
 Traduis : Pays de Galle / Irlandais :: Wales / Irish ::40
 Traduis : Royaume Uni / Britannique :: United Kingdom / British ::40
 Traduis : Gallois / Irlande du Nord :: Welsh / Northern Ireland ::40
@@ -439,7 +476,9 @@ Comment prononces-tu la lettre soulignée dans : Br<u>i</u>tish?::i::30
 Comment prononces-tu la lettre : <u>A</u>?::ei::30
 Remets les mots dans l'ordre : I / speak / French / please / ? / Can :: Can I speak French, please? :: 50
 Tu veux savoir comment dire 'tortue' en anglais, tu dis... :: What's 'tortue' in English, please? :: 50
+What's "À tes souhaits!" in English? :: Bless you! :: 42
 Indique la syllabe accentuée dans : American / Elizabeth / Obama :: A'merican / E'lizabeth / O'bama::40
+Indique la syllabe accentuée dans : nationality :: nation'nality::30
 Indique la syllabe accentuée dans : seventeen / forty / thirty / thirteen :: seven'teen / 'forty / 'thirty / thir'teen
 
 :Révisions 6 02
@@ -534,7 +573,7 @@ Traduis : Quel âge as-tu?::How old are you?::60
 Traduis : J'aime les chiens mais je préfère les chats.::I like dogs but I prefer cats.::60
 Traduis : Il aime les frites.::He likes chips.::60
 Traduis : Il prend souvent le bus.::He often takes the bus.::60
-Traduis : Il adores dormir.::He loves sleeping.::60
+Traduis : Il adore dormir.::He loves sleeping.::60
 Traduis : Elle déteste le poisson. :: She hates fish.::60
 Traduis : Elle est toujours en retard. :: She is always late.::60
 Traduis : Ma soeur est grande. :: My sister is tall.::60
@@ -785,14 +824,31 @@ Quels sont les 2 verbes au prétérit qui se cachent dans UEHRNSTODHDOUOGTT ? In
 Ecris la phrase complète : cinema. / I / to / went / the / yesterday, :: Yesterday, I went to the cinema. 
 Ecris la phrase complète : Sunday, / we / horse-riding. / last / went :: Last Sunday, we went horse-riding.
 Ecris la phrase complète :  met / teacher / supermarket. / I / at / my / the :: I met my teacher at the supermarket.
-Traduis la phrase suivante en anglais : Elle a cassé sa TV. :: She broke her TV.
-Traduis la phrase suivante en anglais : Ils ont bu un soda. :: They drank a soda.
-Traduis la phrase suivante en anglais : Il a mangé des frites. :: He ate chips.
-Traduis la phrase suivante en anglais : Je suis venu. :: I came.
-Traduis la phrase suivante en anglais : Ils ont été contents. :: They were happy.
-Recopie en traduisant le verbe : He didn't (comprendre), but he (faire) it! :: He didn't UNDERSTAND, but he DID it!
-Recopie en traduisant le verbe : She didn't ('FAIRE') her bike, she ('FAIRE') her horse! :: She didn't RIDE her bike, she RODE her horse!
-Recopie en traduisant le verbe : I didn't (lire) a book, I (ÉCRIRE) one! :: I didn't READ a book, I WROTE one!
+Traduis la phrase suivante en anglais : Elle a cassé sa TV. :: She broke her TV. :: 35
+Traduis la phrase suivante en anglais : Ils ont bu un soda. :: They drank a soda. :: 30
+Traduis la phrase suivante en anglais : Il a mangé des frites. :: He ate chips. :: 35
+Traduis la phrase suivante en anglais : Je suis venu. :: I came. :: 30
+Traduis la phrase suivante en anglais : Ils ont été contents. :: They were happy. :: 32
+Recopie en traduisant le verbe : He didn't (comprendre), but he (faire) it! :: He didn't UNDERSTAND, but he DID it! :: 41
+Recopie en traduisant le verbe : She didn't ('FAIRE') her bike, she ('FAIRE') her horse! :: She didn't RIDE her bike, she RODE her horse! :: 51
+Recopie en traduisant le verbe : I didn't (lire) a book, I (ÉCRIRE) one! :: I didn't READ a book, I WROTE one! :: 49
+
+: Prétérit : 50 irregular verbs
+Traduis en anglais : Il a acheté un ordinateur et des jeux. :: He bought a computer and (video) games. :: 60
+Traduis en anglais : Ils n'ont pas oublié leur cahier! :: They didn't forget their notebook/copybook! :: 60
+Traduis en anglais : Il a chanté et il a gagné. Il est très fort! :: He sang and he won. He's very good! :: 60
+Traduis en anglais : J'ai fait un gâteau au chocolat avec ma soeur. :: I made a chocolate cake with my sister. :: 60
+Traduis en anglais : Tu n'étais pas malade, tu étais en retard. :: You weren't sick, you were late. :: 60
+Traduis en anglais :  Ce n'était pas drôle! :: It wasn't funny! :: 60
+Traduis en anglais :  Il a gardé le secret. :: He kept the secret. :: 50
+Traduis en français : They didn't go to the cinema. :: Ils ne sont pas allés au cinéma. :: 45
+Traduis en français : He left the city yesterday. :: Il a quitté la ville hier. :: 55
+Traduis en français : She said she wanted to buy a new dress. :: Elle a dit qu'elle voulait acheter une nouvelle robe. :: 55
+Traduis en français : They stole my car so I called the police. :: Ils ont volé ma voiture donc j'ai appelé la police. :: 55
+Traduis en français : Last week, we went to London and we saw The Shard. :: La semaine dernière, nous sommes allés à Londres et nous avons vu le Shard. :: 55
+Quels sont les 2 verbes au prétérit qui se cachent dans ALSIODTD ? Indique aussi leur base verbale. :: SAID (SAY) / TOLD (TELL) 
+Quels sont les 2 verbes au prétérit qui se cachent dans TAGTEUSTOHL ? Indique aussi leur base verbale. :: TAUGHT (TEACH) / STOLE (STEAL) 
+
 
 : Pronouns
 Remplace les mots soulignés par le pronom qui convient : <u>Sam</u> is English.::<u>He</u>is English.::60
@@ -824,6 +880,65 @@ Traduis : Elle a un lapin.::She's got a rabbit. / She has a rabbit.::50
 Traduis : Ils ont une souris.::They've got a mouse. / They have a mouse.::50
 Traduis : Nous avons un poisson::We've got a fish. / We have a fish.::50
 Traduis : Je n'aime pas la viande:: I don't like meat.::50
+
+: Articles (Airport)
+Traduis en anglais : J'adore les aéroports! :: I love airports! :: 30
+Traduis en anglais : Je n'aime pas les avions! :: I don't like planes! :: 30
+Traduis en anglais : Je suis dingue des avions! :: I'm crazy about planes! :: 40
+Traduis en anglais : Il aime bien Washington DC. :: He likes Washington DC. :: 35
+Traduis en anglais : Ma carte d'identité est dans mon sac. :: My ID card is in my bag. :: 40
+Traduis en anglais : Ton passeport n'est pas dans ton sac! :: Your passport isn't in your bag! :: 40
+Traduis en anglais : Les passagers doivent être dans l'avion quand l'avion décolle. :: The passengers have to be in the plane when the plane takes off. :: 60
+Traduis en anglais : Regarde ! Un avion est en train d'atterir! :: Look! A plane is landing! :: 40
+Traduis en anglais : Y-a-t-il un aéroport dans cette ville? :: Is there an airport in this city? :: 40
+Traduis en anglais : Y-a-t-il une hotesse dans cet avion? :: Is there a hostess/an air hostess in this plane? :: 40
+Traduis en anglais : Regarde ! Un avion est en train de décoller! :: Look! A plane is taking off! :: 40
+Traduis en anglais : Un aéroport est un lieu où nous pouvons voir des avions. :: An airport is a place where we can see planes.
+Traduis en français : The baggage check-in starts 2 hours before leaving. :: L'enregistrement des baggages commence 2 heures avant de partir. :: 50
+Traduis en anglais : Où est la porte d'embarquement A12, s'il-vous-plaît? :: Where is gate A12, please? :: 50
+Traduis en anglais : Où sont les valises? :: Where are the suitcases? :: 45
+Traduis en français : I have seen strange suitcases behind the seats. :: J'ai vu des valises étarnges derrière les sièges. :: 55
+Traduis en français : What time does my plane take off? :: À quelle heure mon avion décolle t-il? :: 40
+Traduis en français : What time does your plane land? :: À quelle heure ton avion atterit-il? :: 40
+Find the vocabulary and translate in French: TESUHTCAIESS :: THE SUITCASES = les valises :: 45
+Find the vocabulary and translate in French: ATAG :: A TAG = une étiquette :: 25
+Find the vocabulary and translate in French: YMOPABDIRNSASG :: MY BOARDING PASS = ma carte d'embarquement :: 45
+Traduis en anglais : mon, ton, ma, mes, le, un, tes :: my, your, my, my, the, a, your :: 25
+
+:Révisions 4emes
+Pour exprimer l'obligation, je peux utiliser ... ou ...:: MUST ou HAVE TO :: 30
+Copie et corrige : She'll must be at the airport at 2 o'clock. :: She'll <u>have to</u> be at the airport at 2 o'clock. :: 60
+Copie et corrige : She'll has to have her passport. :: She'll <u>have to</u> have her passport. :: 60
+Retrouve 2 mots sur le thème 'Airport' : TACHKEEOCKFIFN :: Take off (décoller), check-in (l'enregistrement) :: 45
+Retrouve 2 mots sur le thème 'Airport' : LABNOIRDNGDA :: land (atterrir), boarding (embarquement) :: 45
+Quand je serai aux USA... :: When I am in the USA... :: 35
+Quand vous serez aux USA... :: When you are in the USA... :: 35
+Quand nous serons aux USA... :: When we are in the USA... :: 35
+Quand il sera aux USA... :: When he is in the USA... :: 35
+Quand elle sera aux USA... :: When she is in the USA... :: 35
+Elle aimerait aller à Chicago. :: She would like to go to Chicago. :: 40
+Nous aimerions visiter... :: We would like to visit... :: 30
+Ils devront partir. :: They'll have to leave/go. :: 43
+Je dois y aller ! :: I must go! // I have to go! :: 30
+Il faut que j'y aille ! :: I have to go ! :: 30
+Elle doit prendre l'avion.::She has to take the plane. :: 50
+Il doit atterrir à 2h00. :: He has to land at 2 o'clock. :: 50
+Je dois prendre ma valise. :: I have to take my suitcase. :: 45
+Tu dois te taire! :: You must be quiet! :: 45
+Elle n'a pas de voiture. :: She doesn't have a car. / She hasn't got a car. :: 40
+Il n'est pas grand. :: He isn't tall. :: 30
+Je ne suis pas anglais. :: I am not English. :: 35
+Vous n'avez pas de vélo. :: You haven't got a bike. / You don't have a bike. :: 40
+Il n'est pas en 4eme! :: He is not in Year 10/Grade 8! :: 45
+Je ne suis pas en 5eme! :: I am not in Year 9/Grade 7! :: 45
+Elle n'est pas en 6eme! :: She is not in Year 8/Grade 6! :: 45
+Il n'ira pas! :: He won't go! :: 45
+Souhaiteriez-vous y aller? :: Would you like to go there? :: 50
+Aimeriez-vous prendre une photo? :: Would you like to take a photo? :: 50
+Aimerais-tu dormir? :: Would you like to sleep? :: 40
+Find 2 American cities : NEYRSKIWAHWOTGNNO :: New-York / Washington :: 30
+In what state is New Orleans? :: Louisiana :: 25
+How many stars are there on the US flag? :: 50 stars (=50 states):: 25
 
 :Clubs revising
 Pour exprimer l'obligation, je peux utiliser ... ou ...:: MUST ou HAVE TO
@@ -962,8 +1077,31 @@ Recopie et conjugue au présent BE+ING : She (listen) to music. :: She is listen
 Recopie et conjugue au présent BE+ING : She (listen) to music? :: Is she listening to music? :: 45
 Recopie et conjugue au présent BE+ING : She (not listen) to music. ::  She is not (isn't) listening to music. :: 45
 Recopie et conjugue au présent BE+ING : We (not play) football. :: We are not (aren't) playing football. :: 30 
+Pose une question avec les mots suivants :   you / do / homework :: Are you doing your homework? :: 50
+Pose une question avec les mots suivants :   she / do / homework :: Is she doing her homework? :: 50
+Pose une question avec les mots suivants :   he / do / homework :: Is he doing his homework? :: 50
+Pose une question avec les mots suivants :   they / go / cinema :: Are they going to the cinema? :: 50
+Pose une question avec les mots suivants :   you / cook / chocolate cake  :: Are you cooking a chocolate cake? :: 50
+Pose une question avec les mots suivants :   you / cook / chips  :: Are you cooking chips? :: 50
+Traduis en anglais : "Que'est-ce que tu fais?" :: What are you doing? :: 45
+Traduis en anglais : "Va-t-il à la piscine?" :: Is he going to the swimming-pool? :: 60
 
-: Present perfect
+
+: Traduction Phone/BE+ING
+Traduis en anglais : "Quoi de neuf?" :: What's up? :: 40
+Traduis en anglais : "Que'est-ce que tu fais?" :: What are you doing? :: 45
+Traduis en anglais : "Va-t-il à la piscine?" :: Is he going to the swimming-pool? :: 60
+Traduis en anglais : "Tant pis..." :: Nevermind... :: 30
+Traduis en anglais : "À demain!" :: See you tomorrow! :: 30
+Traduis en anglais : "Je suis en train de faire mon lit." :: I am making my bed. :: 50
+Traduis en anglais : "Elle est en train de regarder la TV." :: She is watching TV. :: 45
+Traduis en anglais : "Nous allons en Angleterre jeudi." :: We are going to England on Thursday. :: 60
+Traduis en anglais : "Écoute! Ils parlent Anglais!" :: Listen! They are speaking English! :: 50
+Traduis en anglais : "Peux-tu venir avec nous?" :: Can you come with us? :: 40
+Traduis en anglais : "Pouvez-vous venir avec moi?" :: Can you come with me? :: 40
+Traduis en anglais : "Je viens!" :: I'm coming! :: 30
+
+: Present perfect / Preterit
 Recopie et conjugue le verbe au present perfect : Where you (go)? :: Where have you gone/been? :: 45
 Recopie et conjugue le verbe au present perfect : I (never eat) snails. :: I have never eaten snails. :: 45
 Recopie et conjugue le verbe au present perfect : She (already take) the plane. :: She has already taken the plane :: 45
@@ -979,16 +1117,31 @@ Indique les participes passés des verbes suivants : be / go / ring / eat / slee
 Indique les participes passés des verbes suivants : have / read / take / come / ride :: had / read / taken / come / ridden :: 35
 Comment construis-tu le 'present perfect'? :: HAVE au présent + verbe au participe passé :: 30
 Pourquoi utiliser le 'present perfect'? :: Pour parler de ses expériences / Pour faire un lien entre le passé et le présent. :: 35
-Recopie la phrase et conjugue le verbe : I (go) to London last summer0 :: I went to London last summer. :: 45
+Recopie la phrase et conjugue le verbe : I (go) to London last summer :: I went to London last summer. :: 45
 Recopie la phrase et conjugue le verbe : I (watch) TV last night. :: I watched TV last night. :: 45
 Recopie la phrase et conjugue le verbe : She (finally / understand) the Math lesson!  :: She has finally understood the Maths lesson! :: 50
 Recopie la phrase et conjugue le verbe : They (move) to New-York 2 months ago. :: They moved to New-York 2 months ago. :: 45
 Recopie la phrase et conjugue les verbes : We (be) sad when we (hear) she (be) sick. :: We were sad when we heard she was sick. :: 60
+Traduis en anglais : As-tu déjà mangé des escargots? :: Have you ever eaten snails? :: 50
+Traduis en anglais : Avez-vous déjà pris l'avion? :: Have you ever taken the plane? :: 45
+Traduis en anglais : A-t-il déjà été en Écosse? :: Has he ever been/gone to Scotland? :: 50
+Traduis en anglais : A-t-elle déjà vu la Statue de la Liberté? ::  Has she ever seen the Statue of Liberty? :: 50
+Traduis en anglais : Elle a déjà vu la Statue de la Liberté. :: She has already seen the Statue of Liberty. :: 50
+Traduis en anglais : Il n'a jamais été aux États-Unis. :: He has never been/gone to the USA. :: 50
+Traduis en anglais : Je ne suis jamais allé à Paris! :: I have never been/gone to Paris! :: 50
+Traduis en anglais : Je n'ai jamais vu l'océan. :: I have never seen the ocean. :: 50
+Traduis en anglais : J'ai pris l'avion en 2010. :: I took the plane in 2010. :: 50
+Traduis en anglais : Il a pris l'avion la semaine dernière. :: He took the plane last week. :: 50
+Traduis en anglais : Il n'a pas encore pris l'avion. :: He hasn't taken the plane yet. :: 55
+Traduis en anglais : Je n'ai jamais fait de cheval. :: I have never ridden a horse. :: 50
+Traduis en anglais : Je n'ai pas encore fait mes devoirs. :: I haven't done my homework yet. :: 50
+Traduis en anglais : Il n'a pas parlé anglais depuis 2005. :: He hasn't spoken English since 2005. :: 60
+Traduis en anglais : Il a parlé anglais hier. :: He spoke English yesterday. :: 45
 
 
 : Negative form (BE/HAVE)
 Mets à la forme négative : I am tall.::I am not tall.::35
-Mets à la forme négative : He is sypid.::I isn't (is not) stupid.::35
+Mets à la forme négative : He is stupid.::He isn't (is not) stupid.::35
 Mets à la forme négative : You are the best at English.::You aren't (are not) the best at English.::50
 Mets à la forme négative : They have a dog.:: They haven't got / don't have a dog.::45
 Mets à la forme négative : I have a turtle.:: I haven't got / don't have a turtle.::40
@@ -1069,7 +1222,7 @@ Réponds par une réponse courte : Have you got a mobile phone?::Yes, I have. / 
 : Question words
 Traduis en anglais : Qui? Quand? Où? Quoi? :: Who? When? Where? What? :: 40
 Traduis en anglais : Quand? Où? Qui? Quoi? :: When? Where? Who? What? :: 40
-Traduis en anglais : Qui? Comment? Quelle heure? Pourquoi? :: Who? How? Wha time? Why? :: 40
+Traduis en anglais : Qui? Comment? Quelle heure? Pourquoi? :: Who? How? What time? Why? :: 40
 Traduis en anglais : Pourquoi? Quand? Qui? :: Why? When? Who? What? :: 30
 Recopie et complète : ... your name? I'm Mike! :: What's your name? I'm Mike! :: 45
 Recopie et complète : ... old are you? :: How old are you? :: 35

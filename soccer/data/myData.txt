@@ -9,6 +9,35 @@ Gris :: Grey/gray
 Violet :: Purple
 Rose :: Pink
 
+: SOME...
+Find the question : I went somewhere.
+Find the question : I said something.
+Find the question : He said something.
+Find the question : She saw someone.
+J'ai vu quelque chose!
+Il a vu quelqu'un!
+Je suis allé quelque part.
+J'ai fait quelque chose.
+Qu'as-tu fais?
+Où es-tu allé?
+Qu'est-ce que tu as dit?
+Qu'est-ce qu'il a dit?
+Qu'avez-vous dit?
+Nous avons acheté quelque chose.
+J'ai acheté un truc.
+Ils ont pris quelque chose.
+Elles ont bu quelque chose.
+Ils sont allés quelque part.
+J'étais quelque part.
+Translate in French : What did you do?
+Translate in French : Where did they go?
+Translate in French : Who did she see?
+Translate in French : What did she say?
+Find the word : OSHWEEERM
+Find the word : OESEONM
+
+
+
 : Countries & Nationalities
 Country? [countries/world_south_africa_flag.png]
 Nationality? [countries/world_south_africa_flag.png]
@@ -74,38 +103,40 @@ birth date?
 
 :Personality adjectives
 Je suis patient(e).
-Je suis responsable.
-soucieux (se)
-sociable
 Je suis honnête.
-Je suis 'souple'.
 facile à vivre, décontracté(e)
 travailleur (se)
 Elle est travailleuse.
-Je suis poli(e).
-audacieux(se) / courageux(se)
 Je suis impatient(e).
-irresponsable
 égoïste
-malhonnête
 têtu(e)
 susceptible
 paresseux (se)
-Je suis impoli(e).
+Je suis malpoli(e).
 Il n'est pas poli.
 Elle est malpolie.
-facilement effrayé(e)
 Someone who isn't polite is ...
 Opposite of RUDE
 Someone who doesn't like working is ...
 Opposite of LAZY
-Someone who likes danger is ...
 Someone who gets angry easily is ...
-Someone who doesn't mind waiting is ... 
+Someone who 'likes' waiting is ... 
 Opposite of PATIENT
-Someone who is afraid of speaking is ...
 Opposite of SHY
 Someone who isn't caring is ...
+Someone who isn't shy is ...
+Someone who isn't touchy is ...
+Someone who never changes his opinion is...
+Someone who never says thank you or hello...
+Someone who always tells the truth is ...
+Someone who doesn't help other people is ...
+Opposite of EASY-GOING
+Opposite of SELFISH
+Trouve l'adjectif et traduis : ILESHSF
+Trouve l'adjectif et traduis : ARRHG-WOKDIN
+Trouve l'adjectif et traduis : UCTOYH
+Trouve l'adjectif et traduis : YSH
+Trouve l'adjectif et traduis : IPNMATITE
 
 :Places
 [places/library_yes.png]
@@ -196,7 +227,10 @@ Il n'a pas de lapin.
 J'ai une souris.
 Elle n'a pas de vélo.
 Il n'a pas de téléphone portable.
-J'ai un ordinateur.
+Nous avons un serpent.
+Ils ont une poule.
+Elles n'ont pas de soeur.
+Tu n'as pas de frère.
 Il n'a pas de poisson.
 Je n'ai pas de voiture.
 Elle a un serpent.
@@ -207,7 +241,7 @@ Il n'a pas de cheval.
 Elle a un téléphone portable.
 J'ai un vélo.
 Elle a une voiture.
-Il n'a pas d'ordinateur.
+Il n'a pas de cousin.
 Il a un cochon d'Inde.
 
 :Possessives
@@ -258,7 +292,9 @@ ses lunettes (à un garçon)
 ses parents (à une fille)
 ses amis (à un garçon)
 vos amis
+vos yeux
 votre ordinateur
+votre visage
 votre chat
 votre chien
 vos, votre
@@ -291,13 +327,60 @@ Nationality? [flags/scotland.png]
 Country? [countries/world_united_kingdom_flag.png]
 Nationality? [countries/world_united_kingdom_flag.png]
 Country? [flags/wales.png]
+Country? GNALEND
+Country? RLANDIE
+Country? ESLWA
+What's WALES in French?
+What's SCOTLAND in French?
+What's ENGLAND in French?
+What's UNITED KINGDOM in French?
 Nationality? GNLEHIS
 Nationality? SIHIR
 Nationality? TSOTSHIC
+Nationality? LESWH
 A person from England is ... or ...
 A person from Scotland is ... or ...
 A person from Wales is ... or ...
 A person from Ireland is ...
+
+: Weekend (+ negative form)
+J'ai joué aux jeux-vidéos.
+Je suis allé au cinéma.
+J'ai rendu visite à mes grands-parents.
+Je n'ai pas fait mes devoirs.
+Je n'ai pas passé un bon week-end.
+Je n'ai pas beaucoup dormi.
+J'étais malade.
+J'ai fait du cheval.
+Je n'ai pas joué au foot.
+Tu as fait tes devoirs.
+Tu étais malade.
+Tu as joué aux jeux vidéos.
+Tu es allé à Nancy.
+Tu n'es pas resté à la maison.
+Tu n'es pas allé au restaurant.
+Il a regardé la télé.
+Il n'a pas joué aux jeux-vidéos.
+Il a fait du vélo.
+Il a fait ses devoirs.
+Il n'a pas fait du cheval.
+Il est allé à Saint-Dié.
+Elle a rendu visite à sa soeur.
+Elle est restée à la maison.
+Elle n'a pas joué au tennis.
+Elle a fait du cheval.
+Nous ne sommes pas allés au cinéma.
+Nous avons passé un bon week-end.
+Nous avons beaucoup dormi.
+Nous sommes allés à la piscine.
+Nous sommes allés à New York.
+Ils ont fait du shopping.
+Ils ont regardé la télé.
+Ils n'ont pas regardé la télé.
+Elles ont passé un bon week-end.
+Elles sont allées au cinéma.
+Elles ne sont pas allées au cinéma.
+
 
 : Weekend
 J'ai joué aux jeux-vidéos.
@@ -347,6 +430,38 @@ Vous avez fait du vélo.
 Vous êtes allés à Strasbourg.
 Vous êtes allés au cinéma.
 
+:Physical description (avatar+me)
+Il a un visage rond.
+Il a des lunettes.
+Il a les cheveux noirs.
+Elle a les yeux bleus.
+Elle a les yeux verts.
+Elle est mignonne.
+Il est mignon.
+Il a les yeux bruns.
+Il a les yeux bleus.
+Il a un gros nez.
+Il est petit.
+Il est fort.
+Elle est grande.
+Elle a des cheveux longs.
+Elle a des cheveux raides.
+Il a des cheveux courts.
+Je n'ai pas de chat.
+Je n'ai pas de chien.
+Je n'ai pas lunettes.
+J'habite à Raon.
+J'habite à Étival.
+J'ai une soeur et un frère.
+J'ai deux soeurs.
+Je n'ai pas de frère.
+Je n'ai pas de soeur.
+Je suis né le 3 avril.
+J'ai 12 ans.
+J'ai 11 ans.
+Je suis français.
+Je suis française.
+
 :Physical description (affirmative)
 J'ai les cheveux blonds.
 J'ai les cheveux frisés.
@@ -391,6 +506,53 @@ Ils sont vieux.
 Elles sont grandes.
 Ils sont petits.
 Nous sommes forts.
+Ses yeux sont verts. (à Suzy)
+Ses yeux sont verts. (à Tom)
+
+:Physical description (negative)
+Je n'ai pas les cheveux blonds.
+Je n'ai pas les cheveux frisés.
+Je n'ai pas les cheveux longs.
+Je n'ai pas les yeux bleus.
+Je n'ai pas des lunettes.
+Je n'ai pas un petit nez.
+Je ne suis pas grande.
+Je ne suis pas petite.
+Je ne suis pas jeune.
+Il n'a pas les cheveux noirs.
+Il n'a pas les cheveux courts.
+Il n'a pas les cheveux frisés.
+Il n'a pas les yeux bruns.
+Il n'a pas les yeux bleus.
+Il n'a pas un gros nez.
+Il n'a pas une tête ronde.
+Il n'est pas petit.
+Il n'est pas vieux.
+Il n'est pas fort.
+Il n'est pas gros.
+Elle n'a pas les cheveux chatains.
+Elle n'a pas les cheveux roux.
+Elle n'a pas les cheveux longs.
+Elle n'a pas les cheveux raides.
+Elle n'a pas les yeux bruns.
+Elle n'a pas les yeux verts.
+Elle n'a pas des lunettes.
+Elle n'a pas une tête ronde.
+Elle n'est pas jeune.
+Tu n'as pas les yeux bruns.
+Tu n'as pas des lunettes.
+Tu n'as pas une tête ronde.
+Tu n'es pas jeune.
+Tu n'es pas grande.
+Ils ne sont pas vieux.
+Ils n'ont pas les yeux verts.
+Elles ne sont pas grandes.
+Elles n'ont pas un petit nez.
+Ils ne sont pas petits.
+Elles ne sont pas petites.
+Nous ne sommes pas forts.
+Nous n'avons pas les yeux verts.
+Vous n'avez pas un petit nez.
 
 : Classroom English
 Pouvez-vous répéter, s'il-vous-plaît?
@@ -511,10 +673,13 @@ Aimez-vous parler anglais?
 20
 24
 30
+32
+36
 37
 40
 42
 50
+55
 58
 60
 61
@@ -522,9 +687,33 @@ Aimez-vous parler anglais?
 77
 80
 83
+89
 90
 94
 99
+
+: Big numbers
+123
+743
+389
+999
+108
+462
+612
+711
+400
+333
+444
+888
+845
+1,200
+2,463
+3,000
+6,340
+18,000
+9,987
+4,030
+120,000
 
 :Prepositions
 [images/prepositions/on.png]
@@ -781,6 +970,78 @@ It's the color of the sun. __________
 __________ Max like drawing?
 8 in English.  __________
 
+:25 irregular verbs
+be
+être
+j'étais
+Nous étions
+Nous avons été
+break
+casser
+Il a cassé
+come
+venir
+Je suis venu
+Ils sont venus
+do
+faire
+J'ai fait
+drink
+boire
+j'ai bu
+eat
+manger
+Nous avons mangé
+find
+trouver
+Il a trouvé
+get
+obtenir/devenir
+go
+aller
+Je suis allé
+Nous sommes allés
+have
+avoir
+meet
+rencontrer
+Je n'ai pas rencontré
+put
+poser/mettre
+read
+lire
+Je n'ai pas lu
+ride
+faire du vélo/du cheval
+run
+courir
+see
+voir
+J'ai vu
+sit
+s'asseoir
+sleep
+dormir
+Elle a dormi
+speak
+parler
+Il n'a pas parlé
+swim
+nager
+take
+prendre
+J'ai pris
+tell
+dire
+think
+pensé
+J'ai pensé
+understand
+comprendre
+write
+écrire
+Il a écrit
+
 :50 irregular verbs
 be
 être
@@ -789,7 +1050,7 @@ commencer
 break
 casser
 build
-construite
+construire
 buy
 acheter
 catch
@@ -835,8 +1096,6 @@ read
 lire
 ride
 monter à cheval
-ring
-sonner
 run
 courir
 say
@@ -848,7 +1107,7 @@ montrer
 sing
 chanter
 sit
-s'asseoire
+s'asseoir
 sleep
 dormir
 speak
@@ -1058,3 +1317,266 @@ Quand?
 When?
 Pourquoi?
 Why?
+
+: BE+ING Questions
+Est-ce que tu fais tes devoirs?
+Est-ce qu'elle danse?
+Danse-t-elle?
+Joue-t-il au football?
+Regardes-tu la TV?
+Regarde-t-elle la TV?
+Est-ce qu'il dort?
+Est-ce qu'elle fait son lit?
+Est-ce qu'il fait du vélo?
+Est-ce que tu fais du vélo?
+Est-ce qu'ils font du vélo?
+Où vont-ils?
+Où vas-tu?
+Qu'est-ce qu'il fait?
+Qu'est-ce qu'elle fait?
+Que font-ils?
+
+: Present perfect / Preterit
+As-tu déjà mangé des escargots?
+As-tu déjà touché un serpent?
+As-tu déjà pris l'avion?
+Avez-vous déjà pris l'avion?
+A-t-il déjà été en Angleterre?
+A-t-il déjà été en Écosse?
+A-t-elle déjà vu la Statue de la Liberté?
+Elle n'a jamais vu la Statue de la Liberté.
+Il n'a jamais été aux États-Unis.
+Je ne suis jamais allé à Paris.
+Je n'ai jamais vu l'océan.
+Je n'ai jamais pris l'avion.
+J'ai pris l'avion en 2010.
+J'ai pris l'avion l'été dernier.
+Il a pris l'avion la semaine dernière.
+Je n'ai pas encore pris l'avion.
+J'ai conduit un tracteur hier.
+Je n'ai jamais fait de cheval.
+Je n'ai pas encore fait mes devoirs.
+Il n'a pas parlé anglais depuis 2005.
+Il a parlé anglais dimanche dernier.
+
+:Clothes (level 2)
+Elle porte une jupe courte.
+Il a des lunettes de soleil.
+Une robe rouge.
+un pull à capuche bleu.
+Un costume noir.
+Une veste en cuir rouge.
+Des tongues.
+Une cravate.
+Un bonnet jaune.
+Des gants.
+Il a un grand manteau de pluie.
+Un gilet.
+Un petit veston.
+Un haut court.
+Des belles bottes.
+Des hauts talons.
+Il porte un maillot de bain.
+Elle porte un maillot de bain.
+Une bague en or.
+Vous avez une belle écharpe.
+Elle a des boucles d'oreilles bleues.
+Un short long.
+Un sac à main marron et orange.
+Un pantalon.
+Un survêtement.
+Un beau collier.
+Il porte un pantalon avec des bretelles.
+Des baskets vertes.
+Une culotte.
+
+:Clothes (level 3)
+Elle porte une jupe courte rayée.
+Il a des lunettes de soleil.
+Une robe rouge.
+un pull à capuche bleu.
+Un costume noir.
+Une veste en cuir rouge.
+Des tongues.
+Un pull à carreaux.
+Une cravate rayée.
+Un bonnet jaune.
+Des grands gants.
+Il a un grand manteau de pluie.
+Un gilet rayé.
+Un petit veston.
+Un haut court.
+Des chaussures plates.
+Des hauts talons.
+Il porte un maillot de bain.
+Elle porte un maillot de bain.
+Une bague en or.
+Vous avez une belle écharpe.
+Elle a des boucles d'oreilles bleues.
+Un short long.
+Un sac à main à carreaux marrons et oranges.
+Un pantalon serré.
+Un survêtement.
+Un beau collier.
+Il porte un pantalon avec des bretelles.
+Des baskets vertes.
+Une culotte avec des fleurs.
+Des bottes en cuir.
+
+:Daily routine (me)
+Je me lève toujours à 7h00.
+Je prends toujours une douche.
+Je prends toujours le bus.
+Je fais toujours mes devoirs!
+Je fais toujours mon lit.
+Je prends souvent un petit-déjeuner.
+Je mets souvent la table.
+Je fais souvent mon lit.
+Je débarrasse souvent la table.
+Je regarde souvent la télévision.
+Je me couche souvent avant 21h00.
+Je suis parfois en retard.
+Je me couche parfois après 23h00.
+Je ne suis jamais en retard.
+Je ne prends jamais le bus.
+Je ne fais jamais la vaisselle.
+Je ne débarrasse jamais la table.
+Je ne fais jamais mon lit.
+Je ne fais jamais mes devoirs!
+
+:Daily routine (all pronouns)
+Je me lève toujours à 7h00.
+Je me couche parfois après 23h00.
+Je débarrasse souvent la table.
+Tu prends toujours ta douche.
+Tu prends souvent ton petit-déjeuner.
+Il fait souvent son lit.
+Il se couche souvent avant 21h00.
+Il ne fait jamais mon lit.
+Elle est parfois en retard.
+Elle ne prend jamais le bus.
+Nous prenons toujours le bus.
+Nous ne faisons jamais la vaisselle.
+Nous ne faisons jamais nos devoirs!
+Vous faites toujours votre lit.
+Vous regardez souvent la télévision.
+Vous ne débarassez jamais la table.
+Ils ne sont jamais en retard.
+Ils font toujours leurs devoirs!
+Elles mettent souvent la table.
+
+: Geography game 01
+It is the Millenium Wheel.
+It has 32 capsules.
+25 people can get in the capsule to have a great view of the city.
+It was built for the year 2,000.
+Its rotation lasts 30 minutes.
+It is a sculpture of 4 presidents.
+It is situated in South Dakota, in the USA.
+It is located near Rapid City.
+The 4 heads are 18 meters high.
+This monument was sculpted by Gutzon Borglum.
+It was made in a granite mountain.
+This was a temple devoted to Athena.
+What is the most famous building remonding of Classical Greece?
+It was built between 447BC and 438BC.
+In which country is Athens?
+It was the longest suspension bridge until 1964.
+It is a bridge of about 1.3 kilometers long.
+Its color is 'international orange'.
+It is a symbol of San Francisco.
+Leonardo Da Vinci may have worked in this place.
+It is the largest castle in the Loire valley.
+It was built in 1976 in Toronto.
+The skypod and the edgewalk are at the top of this monument.
+In which country is Toronto?
+It is the highest building in Toronto.
+It used to be a radio and television antenna.
+
+:London Game
+It's the most famous religious building in United Kingdom.
+British queens and kings are buried there.
+Royal weddings are celebrated in this building.
+It's a Gothic religious building.
+It's a giant Ferris wheel.
+It was set up for year 2000.
+It rotates in 30 minutes.
+25 passengers can walk in its capsules.
+It's the highest viewpoint in London.
+It's the tallest building in Western Europe.
+It's a 95-storey building.
+It's about 310 meters high.
+This is the house of the Queen in London.
+The Changing of the Guard takes place in front of it.
+The Royal Standard flies on top of this building if the Queen is in residence.
+It's a bell.
+It's inside the Elizabeth Tower.
+It's chiles is heard by millions of people on December 31st.
+It's a bascule and suspension bridge.
+It is raised about 1,000 times a year so boats can go through.
+It is a museum but it was a prison.
+You can see the Crown Jewels there.
+There are ravens there.
+The Yeomen Warders (or Beefeaters) guard this place.
+What's the name of the river running through London ?
+What is the capital of England ?
+What is the hidden word : NOLDNO ?
+What are the hidden words : NEOLYDNEO ?
+What are the hidden words : BBNGIE ?
+
+: Questions 4CE
+What's the official color of the Golden Gate Bridge?
+What's the symbol of San Francisco?
+What's the goddess of the Parthenon?
+What's the monument devoted to the Goddess Athena?
+What monument is located on the Acropolis?
+Where's the Parthenon (city and country)?
+What are the names of the 4 presidents on Mount Rushmore?
+What stone makes Mount Rushmore?
+When was constructed London Eye?
+What monument is called The Millenium Wheel?
+How long is a rotation of London Eye?
+What are the city and the country of the CN Tower?
+What size is the CN Tower?
+What monument is about 533 meters high in Toronto?
+Who built the double spiral central staircase of the Château de Chambord?
+Where is the Château de Chambord (valley and city)?
+For whom was built the Château de Chambord?
+What's the new attraction (in 2016) of the CN Tower?
+How many capsules has London Eye?
+
+: Questions 4F
+What size is the CN Tower?
+What's the color of the Golden Gate Bridge?
+What is the largest castle of the Loire valley?
+In which city can you see the CN Tower?
+Who are the presidents of Mount Rushmore?
+How many presidents are there on Mount Rushmore?
+What is devoted to the Goddess Athena?
+How long is a rotation of London Eye?
+What's the specificity of the staircase in the Chateau de Chambord?
+How many capsules are in London Eye?
+Who decided on the construction of the Chateau de Chambord?
+To whom is devoted the Parthenon?
+What's the most visited tourist attraction in London?
+How many passengers can enter 1 capsule of London Eye?
+When was London Eye built?
+In which country is the CN Tower?
+In which country is the Parthenon?
+
+: Questions 4D
+when was the CN Tower built?
+How many capsules are there in London Eye?
+Where is the Parthenon?
+What are the 4 American presidents carved in Mount Rushmore?
+For which goddess is the Parthenon?
+What color is Golden Gate Bridge?
+Who ordered the construction of Château de Chambord?
+How long is 1 rotation of London Eye?
+Why is the staircase original in Château de Chambord?
+What's the symbol of San Francisco?
+What is the CN Tower, originally?
+What is the largest catsle in the Loire Valley?
+How many passengers can walk inside a capsule in London Eye?
+How many faces are there on Mount Rushmore?
+What is the most famous building reminding of Classical Greece?

@@ -1,4 +1,26 @@
-﻿:Adjectives (easy)
+﻿:Superlatives
+the greatest singer
+the best film
+the most interesting school subject
+the funniest pupil in the class
+the best teacher
+the most boring school subject
+the tallest pupil in the class
+the funniest teacher
+the most difficult school subject
+
+:Spelling
+YELLOW
+RED
+BLACK
+WHITE
+GREY
+ORANGE
+GREEN
+BLUE
+PURPLE
+
+:Adjectives (easy)
 angry
 big
 boring
@@ -133,19 +155,29 @@ I -- a good football player.
 
 :BE+ING
 What (he / do) ?
-(I / go) to the cinema.
 Where (she / go) ?
+What (you / do) ?
+What (they / do) ?
+What (she / do) ?
+(you / sleep) ?
+(she / work) ?
+(he / watch) TV ?
+(you / ride) your bike ?
+(she / dance) ?
+(he / do) his homework ?
+(I / go) to the cinema.
 (John / sleep) in his bed.
 (Mike / play) football with Sam.
 (He / talk) to Mr Davis.
-What (you / do) ?
-What (they / do) ?
 (It / not work) !
-(Max / draw).
-(Susan / phone) Sam.
+(Max / draw) for the competition.
+(Susan / phone) John.
 (They / dance).
 (I / go) to the swimming-pool.
-(We / go) to the ice-rink on Friday.
+(We / go) to the cinema on Friday.
+(I / watch) TV.
+(I / play) video-games.
+(They / play) video-games.
 
 :BE
 I... tall.
@@ -288,6 +320,23 @@ liked
 loved
 hated
 
+:Talking about experiences
+taken the plane
+eaten insects
+touched a snake
+done bungee-jumping
+done snowboarding
+done sandboarding
+done kite-surfing
+driven a tractor
+ridden a motorbike
+played Call of Duty
+called the police
+been to London
+swum in the Atlantic ocean.
+surfed
+
+
 :Experiences
 prendre
 manger
@@ -337,46 +386,71 @@ J'ai un chat.
 J'ai un cheval.
 J'ai une souris.
 J'ai un vélo.
-J'ai 4 serpents.
+J'ai 3 serpents.
 J'ai 8 poissons.
+J'ai des poules.
+J'ai 3 chiots.
+J'ai un chaton.
 Je n'ai pas de chien.
 Je n'ai pas de chat.
 Je n'ai pas de tortue.
 Je n'ai pas de soeur.
 Je n'ai pas de frère.
 Je n'ai pas de cochon d'Inde.
-Je n'ai pas de télévision dans ma chambre.
-Je n'ai pas de téléhpone portable.
 Je n'ai pas de lapin.
+Je n'ai pas d'âne.
 
 : HAVE (All pronouns)
 J'ai un chat.
-Elle n'a pas de chien.
-Il a un poisson rouge.
-J'ai un cheval.
-Elle n'a pas de cochon d'Inde.
-Il n'a pas de lapin.
-J'ai une souris.
-Elle n'a pas de vélo.
-Il n'a pas de téléphone portable.
-J'ai un ordinateur.
-Il n'a pas de poisson.
-Je n'ai pas de voiture.
-Elle a un serpent.
-Il a une télévision.
-Je n'ai pas de chat.
-Elle a un chien.
-Il n'a pas de cheval.
-Elle a un téléphone portable.
 J'ai un vélo.
-Elle a une voiture.
-Il n'a pas d'ordinateur.
+J'ai un cheval.
+J'ai une souris.
+J'ai un frère.
+Je n'ai pas de chat.
+Je n'ai pas de voiture.
+Tu as un poisson rouge.
+Tu as une soeur.
+Vous avez un chat.
+Vous avez une un lapin.
+Il a un poisson rouge.
+Il a une télévision.
 Il a un cochon d'Inde.
+Il n'a pas de frère.
+Il n'a pas de cousin.
+Il n'a pas de téléphone portable.
+Il n'a pas de poisson.
+Nous avons un chien.
+Nous avons 42 poules.
+Nous avons 60 chats.
+Nous avons 12 chiens.
+Nous n'avons pas de frère.
+Elle a un serpent.
+Elle a un chien.
+Elle a un téléphone portable.
+Elle a une soeur.
+Elle n'a pas de chien.
+Elle n'a pas de vélo.
+Elles ont un cheval.
+Elles ont un frère.
+Ils ont un frère.
+Ils ont un oncle.
+
+: Id Questions 01
+Name?
+Nationality?
+City?
+Country?
+Age?
+Name
+Age
+Nationality
+City
 
 : Id Questions
 Name
 Nationality
 City
+Country
 Age
 Telephone
 Hobby
@@ -385,20 +459,31 @@ Pets
 Date of birth
 
 :Irregular verbs 01
-win
-go
 be
-have
-say
-see
-swim
+break
 come
-buy
-spend
-read
 do
+drink
+eat
+find
+get
+go
+have
+meet
+put
+read
+ride
+run
+see
+sit
 sleep
-get up
+speak
+swim
+take
+tell
+think
+understand
+write
 
 :Can - Can't - Likes
 [can_cant_likes/he_can_draw.png]
@@ -424,6 +509,25 @@ get up
 [can_cant_likes/i_hate_rugby.png]
 [can_cant_likes/they_like_play_tennis.png]
 [can_cant_likes/i_like_swim.png]
+
+: Likes (activities)
+J'aime jouer au foot.
+J'aime jouer au rugby.
+Je n'aime pas faire du vélo.
+J'adore faire du cheval.
+Je déteste chanter!
+J'adore chanter!
+Je déteste danser!
+J'aime bien faire du surf!
+Ils adorent nager.
+Elles aiment bien danser.
+Je n'aime pas parler anglais.
+J'adore parler anglais.
+Tu détestes chanter.
+Nous aimons bien faire du vélo.
+Ils n'aiment pas regarder la TV.
+J'adore regarder la TV.
+J'aime bien écouter de la musique.
 
 : Likes & Disliskes
 [likes_dislikes/like_rabbit.png]
@@ -455,23 +559,24 @@ get up
 [likes_dislikes/love_tea.png]
 
 : MUST / MUSTN'T / CAN / CAN'T
-[must.png] do my homework.
-[must.png] do his homework.
-[must.png] do her homework.
-[must.png] drive over 30.
-[must.png] listen to the teacher.
-[must.png] turn left.
-[mustnt.png] write on the table!
-[mustnt.png] forget your seatbelt!
-[mustnt.png] forget my seatbelt!
-[mustnt.png] eat chewing-gum in class.
-[mustnt.png] drive over 50.
-[can.png] speak English.
-[can.png] drive over 30.
-[cant.png] sing in class!
-[cant.png] sleep in class!
-[cant.png] be late for school!
-[cant.png] turn right!
+I [must.png] do my homework.
+He [must.png] do his homework.
+She [must.png] do her homework.
+You [must.png] listen to the teacher.
+You [must.png] turn left.
+You [must.png] stop!
+They [must.png] speak English.
+You [mustnt.png] write on the table!
+You [mustnt.png] forget your seatbelt!
+We [mustnt.png] eat chewing-gum in class.
+We [mustnt.png] sleep in class!
+You [mustnt.png] drive over 50.
+I [can.png] speak English.
+I [can.png] speak French.
+I [can.png] drive over 30.
+We [cant.png] sing in class!
+I [cant.png] be late for school!
+You [cant.png] turn right!
 
 :Numbers (big)
 1,200
@@ -599,6 +704,78 @@ get up
 97
 99
 
+: The Face (Voc. 01)
+des cheveux raides
+des cheveux ondulés
+des cheveux frisés
+des mèches blondes
+une queue de cheval
+chauve
+les lèvres
+les cils
+les sourcils
+du maquillage
+le front
+les joues
+le nez
+les yeux
+la bouche
+une barbe
+des boucles d'oreilles
+des lunettes
+le menton
+
+: The Face (Voc. 02)
+des cheveux raides
+des cheveux ondulés
+des cheveux frisés
+des mèches blondes
+une queue de cheval
+une tresse
+des couettes
+une barette
+un chouchou
+un grain de beauté
+des lentilles de contact
+des tâches de rousseur
+du rouge à lèvres
+chauve
+les lèvres
+les cils
+les sourcils
+du maquillage
+le front
+les joues
+le nez
+les yeux
+la bouche
+une barbe
+des boucles d'oreilles
+des lunettes
+le menton
+
+: Physical description (phrases, BE/HAVE)
+J'ai des cheveux longs.
+Elle a des cheveux courts.
+Il a un visage rond.
+Ils ont un visage carré.
+J'ai des yeux bleus.
+Elle a des yeux verts.
+Nous avons des yeux bruns.
+J'ai des cheveux raides.
+J'ai des cheveux bouclés.
+Vous avez un gros nez.
+Tu as un petit nez.
+Ils ont des lunettes.
+Je suis grand.
+Il est petit.
+Ils sont forts.
+Elle est belle.
+Tu es laid !
+Elles sont minces.
+Je suis jeune.
+Il est vieux.
+
 : Physical description (text)
 nez
 des cheveux longs
@@ -618,7 +795,28 @@ des lunettes
 des oreilles
 le visage
 
-: Physical descriotion
+: Physical description (BE with adverbs)
+Je suis plutôt fort.
+Je ne suis pas très grand.
+Je suis grand.
+Je suis plutôt petit.
+Il est très grand.
+Elle est très belle.
+Je suis un peu enveloppé.
+Nous sommes plutôt maigres.
+Elle est un peu maigre.
+Elle est un peu ronde.
+Il est très vieux.
+Il sont plutôt vieux.
+Elles sont plutôt grandes.
+Nous ne sommes pas très petits.
+Nous ne sommes pas très jeunes.
+Je ne suis pas très costaud.
+Il est très laid!
+Il est plutôt laid.
+Ils sont très laids!
+
+: Physical description
 [physical_description/nose.png]
 [physical_description/long_hair.png]
 [physical_description/short_hair.png]
@@ -1190,4 +1388,3 @@ hungry
 surprised
 scared
 disappointed
-
