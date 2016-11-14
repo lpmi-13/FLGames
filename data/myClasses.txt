@@ -105,7 +105,6 @@ class, name
 4E, Matéo
 4E, Julien
 4E, Nahel
-4E, Nathanaël
 4E, Valentin
 4E, Baptiste
 4E, Ambre

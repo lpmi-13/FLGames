@@ -27,6 +27,8 @@ angular.module('tictactoe').controller('tictactoeGameboardCtrl',function($scope,
         }
       }
     }
+		$scope.allTopics.sort();
+		console.log($scope.allTopics.length);
   });
 
   // Prepare board game
