@@ -3,7 +3,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#: grammarGamble/partial/gameboard/gameboard.html
+msgid "<u>R</u>ight or <u>W</u>rong ? ⇒ Place your bet !"
+msgstr ""
+
 #: carrace/partial/gameboard/gameboard.html
+#: grammarGamble/partial/gameboard/gameboard.html
 msgid "Answer"
 msgstr ""
 
@@ -11,18 +16,21 @@ msgstr ""
 msgid "Are you sure you want to change all vehicles?"
 msgstr ""
 
+#: grammarGamble/partial/gameboard/gameboard.js
 #: soccer/partial/gameboard/gameboard.js
 #: tictactoe/partial/gameboard/gameboard.js
 msgid "Are you sure you want to end the game?"
 msgstr ""
 
 #: carrace/partial/gameboard/gameboard.js
+#: grammarGamble/partial/gameboard/gameboard.js
 #: soccer/partial/gameboard/gameboard.js
 #: tictactoe/partial/gameboard/gameboard.js
 msgid "Are you sure you want to go back home?"
 msgstr ""
 
 #: carrace/partial/gameboard/gameboard.js
+#: grammarGamble/partial/gameboard/gameboard.js
 #: soccer/partial/gameboard/gameboard.js
 #: tictactoe/partial/gameboard/gameboard.js
 msgid "Are you sure?"
@@ -36,11 +44,13 @@ msgstr ""
 msgid "Bonus"
 msgstr ""
 
+#: grammarGamble/partial/gameboard/gameboard.html
 #: soccer/partial/gameboard/gameboard.html
 msgid "Change players"
 msgstr ""
 
 #: carrace/partial/gameboard/gameboard.html
+#: grammarGamble/partial/gameboard/gameboard.html
 #: soccer/partial/gameboard/gameboard.html
 #: tictactoe/partial/gameboard/gameboard.html
 msgid "Choose topic"
@@ -53,16 +63,19 @@ msgid "Class"
 msgstr ""
 
 #: carrace/partial/gameboard/gameboard.html
+#: grammarGamble/partial/gameboard/gameboard.html
 msgid "Close"
 msgstr ""
 
 #: carrace/partial/gameboard/gameboard.js
+#: grammarGamble/partial/gameboard/gameboard.js
 #: soccer/partial/gameboard/gameboard.js
 #: tictactoe/partial/gameboard/gameboard.js
 msgid "Do you really want to quit the game and go back to configuration page?"
 msgstr ""
 
 #: carrace/partial/gameboard/gameboard.html
+#: grammarGamble/partial/gameboard/gameboard.html
 #: soccer/partial/gameboard/gameboard.html
 msgid "Draw a question"
 msgstr ""
@@ -73,11 +86,13 @@ msgstr ""
 msgid "Draw new teams"
 msgstr ""
 
+#: grammarGamble/partial/gameboard/gameboard.html
 #: soccer/partial/gameboard/gameboard.html
 #: tictactoe/partial/gameboard/gameboard.html
 msgid "End game"
 msgstr ""
 
+#: grammarGamble/partial/gameboard/gameboard.js
 #: soccer/partial/gameboard/gameboard.js
 #: tictactoe/partial/gameboard/gameboard.js
 msgid "End game?"
@@ -87,10 +102,27 @@ msgstr ""
 msgid "Free kick for the opposite team."
 msgstr ""
 
+#: grammarGamble/partial/main/main.html
+msgid "Game rules"
+msgstr ""
+
 #: carrace/partial/gameboard/gameboard.js
+#: grammarGamble/partial/gameboard/gameboard.js
 #: soccer/partial/gameboard/gameboard.js
 #: tictactoe/partial/gameboard/gameboard.js
 msgid "Go home?"
+msgstr ""
+
+#: grammarGamble/partial/main/main.html
+msgid "If your answer AND your correction are correct : add your bet!"
+msgstr ""
+
+#: grammarGamble/partial/main/main.html
+msgid "If your answer is correct, but NOT your correction : add 5."
+msgstr ""
+
+#: grammarGamble/partial/main/main.html
+msgid "If your answer is wrong : substract your bet :("
 msgstr ""
 
 #: carrace/partial/gameboard/gameboard.html
@@ -145,12 +177,28 @@ msgstr ""
 msgid "Perform this action?"
 msgstr ""
 
+#: grammarGamble/partial/main/main.html
+msgid "Place your bet : 5, 10, 15... and wait for the answer... Then, count your points !"
+msgstr ""
+
 #: soccer/partial/gameboard/gameboard.js
 msgid "Play the free kick"
 msgstr ""
 
+#: carrace/partial/main/main.html
+#: soccer/partial/main/main.html
+#: tictactoe/partial/main/main.html
+msgid "players"
+msgstr ""
+
 #: service/DialogService.js
 msgid "Proceed?"
+msgstr ""
+
+#: carrace/partial/main/main.html
+#: soccer/partial/main/main.html
+#: tictactoe/partial/main/main.html
+msgid "pupils"
 msgstr ""
 
 #: carrace/partial/gameboard/gameboard.html
@@ -159,6 +207,10 @@ msgstr ""
 
 #: soccer/partial/gameboard/gameboard.js
 msgid "Red card!"
+msgstr ""
+
+#: grammarGamble/partial/gameboard/gameboard.html
+msgid "Save"
 msgstr ""
 
 #: tictactoe/partial/gameboard/gameboard.js
@@ -170,6 +222,7 @@ msgid "Start game"
 msgstr ""
 
 #: carrace/partial/main/main.html
+#: grammarGamble/partial/main/main.html
 #: soccer/partial/main/main.html
 #: tictactoe/partial/main/main.html
 msgid "Start the game!"
@@ -203,6 +256,10 @@ msgstr ""
 msgid "Vehicles"
 msgstr ""
 
+#: grammarGamble/partial/gameboard/gameboard.html
+msgid "Welcome to Grammar Gamble !"
+msgstr ""
+
 #: soccer/partial/gameboard/gameboard.js
 msgid "Yellow card!"
 msgstr ""
@@ -216,14 +273,6 @@ msgstr ""
 msgid "You need to select a topic before starting the game."
 msgstr ""
 
-#: carrace/partial/main/main.html
-#: soccer/partial/main/main.html
-#: tictactoe/partial/main/main.html
-msgid "players"
-msgstr ""
-
-#: carrace/partial/main/main.html
-#: soccer/partial/main/main.html
-#: tictactoe/partial/main/main.html
-msgid "pupils"
+#: grammarGamble/partial/main/main.html
+msgid "You start with 100 dollars. For each sentence, decide if it's <u>R</u>ight or <u>W</u>rong. If '<u>W</u>rong', write a correction for the wrong part."
 msgstr ""

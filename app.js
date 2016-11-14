@@ -1,4 +1,4 @@
-angular.module('FLGames', ['ui.bootstrap', 'ui.utils', 'ui.router', 'ngAnimate', 'tictactoe', 'home', 'gettext', 'soccer', 'carrace']);
+angular.module('FLGames', ['ui.bootstrap', 'ui.utils', 'ui.router', 'ngAnimate', 'tictactoe', 'home', 'gettext', 'soccer', 'carrace', 'grammarGamble']);
 
 angular.module('FLGames').config(function($stateProvider, $urlRouterProvider) {
 
@@ -21,6 +21,11 @@ angular.module('FLGames').config(function($stateProvider, $urlRouterProvider) {
     .state('tictactoe', {
       url: "/tictactoe/:classId",
       templateUrl: "tictactoe/partial/main/main.html"
+    })
+
+    .state('grammarGamble', {
+      url: "/grammarGamble/:classId",
+      templateUrl: "grammarGamble/partial/main/main.html"
     })
 
     .state('gameboard', {

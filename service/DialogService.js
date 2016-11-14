@@ -1,4 +1,4 @@
-angular.module('FLGames').factory('DialogService',function($modal, gettext) {
+angular.module('FLGames').factory('DialogService',function(gettext, $modal) {
 
 	var DialogService = {
 

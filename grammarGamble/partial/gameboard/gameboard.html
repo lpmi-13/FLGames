@@ -1,0 +1,52 @@
+<div class="col-md-12" ng-controller="GameboardCtrl" ng-init="init()">
+
+  <header class="casino row">
+		<img src="grammarGamble/media/img/money.png" alt="$" width="150" />
+		<h1 translate>Welcome to Grammar Gamble !</h1>
+	</header>
+
+  <div class="row gambleFeedback">
+    <ol id="" class="savedList">
+			<li ng-repeat="l in saved track by $index">
+				<h3 ng-bind-html="l"></h3>
+				<a class="btn btn-primary btn-xs" ng-click="deleteSaved($index)">X</a>
+			</li>
+		</ol>
+	</div>
+
+  <nav class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a ng-click="goHome();" class="navbar-brand"><i class="fa fa-home fa-fw"></i></a>
+        <a class="navbar-brand" ng-click="myAlert();"><i class="fa fa-cogs fa-fw"></i></a>
+      </div>
+
+      <ul class="nav navbar-nav">
+        <li ng-show="selectedTopic"><a ng-click="drawQuestion()"><i class="fa fa-question-circle fa-fw"></i> <span translate>Draw a question</draw></a></li>  
+        <li ng-show="selectedTopic && questionStart"><a ng-click="selectPlayer();"><i class="fa fa-arrows-v fa-fw"></i> <span translate>Change players</span></a></li>
+        <li ng-show="selectedTopic"><a ng-click="endGame();"><i class="fa fa-times fa-fw"></i> <span translate>End game</span></a></li>
+        <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-file fa-fw"></i> <span translate>Choose topic</span></a>
+            <ul class="dropdown-menu topics" role="menu">
+              <li ng-repeat="topic in allTopics | orderBy:'title'">
+              <a ng-class="{selected : topic == selectedTopic.title }" ng-click="selectTopic(topic)">{{topic}}</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <div>
+          <p class="navbar-text">{{selectedTopic[0].topic}}</p>
+        </div>
+    </div><!-- /.container-fluid -->
+  </nav>
+
+  <div id="carrace_questionDiv" class="" ng-show="questionStart">
+		<p class="" ng-show="questionStart" ng-bind-html="question"></p>
+		<p><span class=" label label-primary text-center" translate><u>R</u>ight or <u>W</u>rong ? ⇒ Place your bet !</span></p>
+		<p class="answer" ng-show="showAnswer" ng-bind-html="questionAnswer"></p>
+    <button class="btn btn-info" ng-show="questionStart" id="answerButton" ng-click="showAnswer=!showAnswer" translate>Answer</button>
+    <button class="btn btn-info" ng-show="showAnswer" id="saveButton" ng-click="saveAnswer()" translate>Save</button>
+    <button class="btn btn-inverse" id="closeButton" ng-click="close()" translate>Close</button>
+	</div>
+
+</div>

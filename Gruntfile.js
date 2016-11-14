@@ -94,6 +94,16 @@ module.exports = function (grunt) {
       main: {
         files: [
           {src: ['img/**'], dest: 'dist/'},
+          {src: ['data/**'], dest: 'dist/'},
+          {src: ['partial/**'], dest: 'dist/'},
+          {src: ['tictactoe/data/**'], dest: 'dist/'},
+          {src: ['soccer/data/**'], dest: 'dist/'},
+          {src: ['carrace/data/**'], dest: 'dist/'},
+          {src: ['grammarGamble/data/**'], dest: 'dist/'},
+          {src: ['tictactoe/media/**'], dest: 'dist/'},
+          {src: ['soccer/media/**'], dest: 'dist/'},
+          {src: ['carrace/media/**'], dest: 'dist/'},
+          {src: ['grammarGamble/media/**'], dest: 'dist/'},
           {src: ['bower_components/font-awesome/fonts/**'], dest: 'dist/',filter:'isFile',expand:true}
           //{src: ['bower_components/angular-ui-utils/ui-utils-ieshiv.min.js'], dest: 'dist/'},
           //{src: ['bower_components/select2/*.png','bower_components/select2/*.gif'], dest:'dist/css/',flatten:true,expand:true},
@@ -142,6 +152,9 @@ module.exports = function (grunt) {
       }
     },
     uglify: {
+			options: {
+				mangle: false
+			},
       main: {
         src: 'temp/app.full.js',
         dest:'dist/app.full.min.js'
@@ -211,8 +224,9 @@ module.exports = function (grunt) {
     }
   });
 
-  grunt.registerTask('build',['jshint','clean:before','less','dom_munger','ngtemplates','cssmin','concat','ngmin','uglify','copy','htmlmin','imagemin','clean:after']);
-  grunt.registerTask('serve', ['dom_munger:read','jshint','connect', 'watch']);
+  // grunt.registerTask('build',['jshint','clean:before', 'less','dom_munger','ngtemplates','cssmin','concat', 'ngmin','uglify','copy','htmlmin','imagemin','clean:after']);
+  grunt.registerTask('build',['clean:before', 'less','dom_munger','ngtemplates','cssmin','concat', 'ngmin','uglify','copy','htmlmin','imagemin','clean:after']);
+  grunt.registerTask('serve', ['dom_munger:read','jshint', 'connect', 'watch']);
   grunt.registerTask('test',['dom_munger:read','karma:all_tests']);
   grunt.registerTask('translate',['nggettext_extract']);
   grunt.registerTask('inject',['nggettext_compile']);
