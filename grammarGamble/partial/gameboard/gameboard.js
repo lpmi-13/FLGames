@@ -34,6 +34,7 @@ angular.module('grammarGamble').controller('GameboardCtrl',function($scope, $sta
         }
       }
     }
+		$scope.allTopics.sort();
   });
 
   $scope.goHome = function() {

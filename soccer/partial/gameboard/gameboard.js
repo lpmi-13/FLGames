@@ -48,6 +48,7 @@ angular.module('soccer').controller('soccerGameboardCtrl',function($scope, $stat
         }
       }
     }
+		$scope.allTopics.sort();
   });
 
   $scope.goHome = function() {

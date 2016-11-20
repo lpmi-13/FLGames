@@ -66,6 +66,7 @@ angular.module('carrace').controller('CarraceGameboardCtrl',function($scope, $st
         }
       }
     }
+		$scope.allTopics.sort();
   });
   
   $scope.selectTopic = function(topic) {
