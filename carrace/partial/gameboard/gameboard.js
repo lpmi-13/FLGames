@@ -10,7 +10,7 @@ angular.module('carrace').controller('CarraceGameboardCtrl',function($scope, $st
   $scope.newGame = true;
   $scope.started = false;
   // Set teams
-  $scope.logoList = ['carrace/media/img/f1.png', 'carrace/media/img/beetle_01.png', 'carrace/media/img/bike.png', 'carrace/media/img/2cv.png', 'carrace/media/img/4x4.png', 'carrace/media/img/car.png', 'carrace/media/img/tractor_01.png', 'carrace/media/img/motorbike_01.png','carrace/media/img/truck.png', 'carrace/media/img/scooter.png', 'carrace/media/img/mini.png', 'carrace/media/img/police_car.png', 'carrace/media/img/monster_truck.png', 'carrace/media/img/bus_02.png', 'carrace/media/img/vintage_02.png'];
+  $scope.logoList = ['media/img/f1.png', 'media/img/beetle_01.png', 'media/img/bike.png', 'media/img/2cv.png', 'media/img/4x4.png', 'media/img/car.png', 'media/img/tractor_01.png', 'media/img/motorbike_01.png','media/img/truck.png', 'media/img/scooter.png', 'media/img/mini.png', 'media/img/police_car.png', 'media/img/monster_truck.png', 'media/img/bus_02.png', 'media/img/vintage_02.png'];
   $scope.negatives = ['work', 'breakdown', 'traffic', 'redlight', 'flat', 'fuel', 'accident', 'policeman'];
   $scope.positives = ['speed', 'downhill', 'highway', 'escort'];
   $scope.transition = 'left 2s ease-in';
@@ -52,7 +52,7 @@ angular.module('carrace').controller('CarraceGameboardCtrl',function($scope, $st
   };
 
   // Load data
-  Data.get('carrace/data/myData.txt').then( function(result) { 
+  Data.get('data/carrace-data.txt').then( function(result) { 
     $scope.questions = JSON.parse(result); 
     //console.log($scope.questions);
     

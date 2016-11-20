@@ -21,7 +21,7 @@ angular.module('FLGames').factory('Data',function($http) {
               if (currentline !== '') {
                 // TODO : Test if image
                 // Add images links
-                currentline = currentline.replace(/\[(.*)\]/g, "<img class='img-rounded' src=img/$1 alt=? />");
+                currentline = currentline.replace(/\[(.*)\]/g, "<img class='img-rounded' src=data/img/$1 alt=? />");
                 obj['question'] = currentline;
                 result.push(obj);
               }

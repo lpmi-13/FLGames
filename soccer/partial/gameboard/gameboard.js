@@ -34,7 +34,7 @@ angular.module('soccer').controller('soccerGameboardCtrl',function($scope, $stat
   };
 
   // Load data
-  Data.get('soccer/data/myData.txt').then( function(result) { 
+  Data.get('data/soccer-data.txt').then( function(result) { 
     $scope.questions = JSON.parse(result); 
     //console.log($scope.questions);
     
