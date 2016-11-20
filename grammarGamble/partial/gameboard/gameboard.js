@@ -20,7 +20,7 @@ angular.module('grammarGamble').controller('GameboardCtrl',function($scope, $sta
   };
 	
   // Load data
-  Data.get('grammarGamble/data/myData.txt').then( function(result) { 
+  Data.get('data/grammarGamble-data.txt').then( function(result) { 
     $scope.questions = JSON.parse(result); 
     //console.log($scope.questions);
     

@@ -13,7 +13,7 @@ angular.module('tictactoe').controller('tictactoeGameboardCtrl',function($scope,
   };
 
   // Load data
-  Data.get('tictactoe/data/myData.txt').then( function(result) { 
+  Data.get('data/tictactoe-data.txt').then( function(result) { 
     $scope.questions = JSON.parse(result); 
     //console.log($scope.questions);
     
@@ -46,7 +46,7 @@ angular.module('tictactoe').controller('tictactoeGameboardCtrl',function($scope,
   $scope.winner = false;
   $scope.started = false;
   $scope.gameTeams = [];
-  $scope.logoList = ['img/tick.png', 'img/cross.png'];
+  $scope.logoList = ['media/img/tick.png', 'media/img/cross.png'];
   for (var i=0; i<2; i++) {
     if (Teams.savedTeams.length > 0 ) {
       $scope.gameTeams.push({'logo': $scope.logoList[i], 'name': 'Team '+i, 'score':0, 'winner':false, 'players': $filter('filter')(Teams.savedTeams, {'team':i})});
