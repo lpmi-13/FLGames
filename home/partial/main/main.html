@@ -4,11 +4,10 @@
   </div>
 
   <div class="row well text-center">
-    <ul class="list-inline">
-      <li ng-repeat="game in allGames">
-      <a ui-sref="{{game.id}}"><img class="img-thumbnail" ng-src="media/img/{{game.id}}-logo.png" alt="{{game.name}}-logo" width="200" /><p class="text-center"><span class="badge">{{game.name}}</span></p></a>
-      </li>
-    </ul>
+		<a ui-sref="{{game.id}}" class="col-md-2 thumbnail" ng-repeat="game in allGames">
+			<img class="img-thumbnail" ng-src="media/img/{{game.id}}-logo.png" alt="{{game.name}}-logo" width="200" />
+			<h4 class="text-center"><span class="label label-default">{{game.name}}</span></h4>
+		</a>
   </div>
 
   <div class="row well text-center">
