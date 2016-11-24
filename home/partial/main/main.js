@@ -14,5 +14,4 @@ angular.module('home').controller('MainCtrl',function($scope, gettextCatalog){
     gettextCatalog.currentLanguage = lang;
     $scope.currentLanguage = lang;
   };
-
 });

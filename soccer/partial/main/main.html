@@ -4,7 +4,7 @@
     <h1 class="gameTitle">Soccer <span class="badge badge-info">Configuration</span></h1>
   </div>
 
-  <div class="row well">
+  <div class="row well" ng-show="!showRules">
     <span class="title badge badge-success" translate>Class</span>
     <ul class="list-inline">
       <li class="btn btn-primary btn-lg" ui-sref-active="selected"><a ui-sref="soccer({classId: ''})" translate>No class</a></li>
@@ -12,7 +12,7 @@
     </ul>
   </div>
 
-  <div class="row well">
+  <div class="row well" ng-show="!showRules">
     <h3 class="text-center" ng-show="isSelected">{{playersList.length}} <span translate>pupils</span> / {{remaining()}} <span translate>players</span></h3>
     <ul ng-show="isSelected" id="playersList" class="playersList list-unstyled">
       <li>
@@ -34,11 +34,27 @@
     </p>
   </div>
 
+  <div class="row well" ng-show="showRules">
+		<span class="title badge badge-success" translate>Game rules</span>
+		<ul>
+			<li translate>1 player in each team is randomly chosen.</li>
+			<li translate>A question is displayed.</li>
+			<li translate>The fastest player to give a correct answer passes the ball.</li>
+			<li translate>Don't raise your hand ! Repeat if the teacher asks you so ! 'Steal' the answer from the opponent by speaking faster ! Change your mind...</li>
+			<li translate>Wrong answer ? The ball stays where it is :(</li>
+			<li translate>Correct answer ? A click on the player's name passes the ball to the teammates. Be lucky : 1, 2, 3 passes? Short or long?</li>
+			<li translate>Will you be in the winning team?</li>
+			<li translate>If a player is too loud during the game : Yellow and Red cards are available by clicking on the player's name in the lists.</li>
+		</ul>
+		<p class="text-center"><button ng-click="showRules = !showRules;" class="btn btn-primary" translate>Ok, I got it !</button></p>
+	</div>
+
   <div class="row">
     <nav class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
       <div class="container-fluid">
         <div class="navbar-header">
           <a class="navbar-brand" ui-sref="home"><i class="fa fa-home fa-fw"></i></a>
+					<a class="navbar-brand" ng-click="showRules = !showRules;" title="See game rules"><i class="fa fa-question-circle fa-fw"></i></a>
         </div>
       </div><!-- /.container-fluid -->
     </nav>

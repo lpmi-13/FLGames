@@ -1,6 +1,7 @@
 angular.module('soccer').controller('SoccerCtrl',function($scope, Teams, $stateParams){
 
   $scope.init = function() {
+		$scope.showRules = false;
     // Disable selection
     if (typeof document.body.onselectstart !== "undefined") { //IE 
       document.body.onselectstart = function(){ return false; };

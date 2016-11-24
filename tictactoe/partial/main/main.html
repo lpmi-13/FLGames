@@ -4,7 +4,7 @@
     <h1 class="gameTitle">Tic Tac Toe <span class="badge badge-info">Configuration</span></h1>
   </div>
 
-  <div class="row well">
+  <div class="row well" ng-show="!showRules">
     <span class="title badge badge-success" translate>Class</span>
     <ul class="list-inline">
       <li class="btn btn-primary btn-lg" ui-sref-active="selected"><a ui-sref="tictactoe({classId: ''})" translate>No class</a></li>
@@ -12,7 +12,7 @@
     </ul>
   </div>
 
-  <div class="row well">
+  <div class="row well" ng-show="!showRules">
     <h3 class="text-center" ng-show="isSelected">{{playersList.length}} <span translate>pupils</span> / {{remaining()}} <span translate>players</span></h3>
     <ul ng-show="isSelected" id="playersList" class="playersList list-unstyled">
       <li>
@@ -34,11 +34,27 @@
     </p>
   </div>
 
+  <div class="row well" ng-show="showRules">
+		<span class="title badge badge-success" translate>Game rules</span>
+		<ul>
+			<li translate>Choose a topic to prepare the gameboard.</li>
+			<li translate>Click on 'Start the Game' (or on the gameboard).</li>
+			<li translate>A player is randomly chosen.</li>
+			<li translate>He or she has to choose a square/question/image/prompt...</li>
+			<li translate>Wrong answer ? 'Switch team' !</li>
+			<li translate>Correct answer ? Click on the succeeded square and the team mark will go there.</li>
+			<li translate>Try to align 3 marks to get a point !</li>
+			<li translate>The first team with 5 points is the winning team !</li>
+		</ul>
+		<p class="text-center"><button ng-click="showRules = !showRules;" class="btn btn-primary" translate>Ok, I got it !</button></p>
+	</div>
+
   <div class="row">
     <nav class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
       <div class="container-fluid">
         <div class="navbar-header">
           <a class="navbar-brand" ui-sref="home"><i class="fa fa-home fa-fw"></i></a>
+					<a class="navbar-brand" ng-click="showRules = !showRules;" title="See game rules"><i class="fa fa-question-circle fa-fw"></i></a>
         </div>
       </div><!-- /.container-fluid -->
     </nav>

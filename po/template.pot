@@ -3,8 +3,28 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#: carrace/partial/main/main.html
+msgid "'Throw dice' will pick a random number between 1 and 20. The bigger, the longer your vehicle will go forward."
+msgstr ""
+
 #: grammarGamble/partial/gameboard/gameboard.html
 msgid "<u>R</u>ight or <u>W</u>rong ? ⇒ Place your bet !"
+msgstr ""
+
+#: soccer/partial/main/main.html
+msgid "1 player in each team is randomly chosen."
+msgstr ""
+
+#: tictactoe/partial/main/main.html
+msgid "A player is randomly chosen."
+msgstr ""
+
+#: carrace/partial/main/main.html
+msgid "A question is displayed with a timer."
+msgstr ""
+
+#: soccer/partial/main/main.html
+msgid "A question is displayed."
 msgstr ""
 
 #: carrace/partial/gameboard/gameboard.html
@@ -36,6 +56,10 @@ msgstr ""
 msgid "Are you sure?"
 msgstr ""
 
+#: carrace/partial/main/main.html
+msgid "Be the first to cross the finish line !"
+msgstr ""
+
 #: carrace/partial/gameboard/gameboard.html
 msgid "Boards up !!!"
 msgstr ""
@@ -47,6 +71,10 @@ msgstr ""
 #: grammarGamble/partial/gameboard/gameboard.html
 #: soccer/partial/gameboard/gameboard.html
 msgid "Change players"
+msgstr ""
+
+#: tictactoe/partial/main/main.html
+msgid "Choose a topic to prepare the gameboard."
 msgstr ""
 
 #: carrace/partial/gameboard/gameboard.html
@@ -62,9 +90,21 @@ msgstr ""
 msgid "Class"
 msgstr ""
 
+#: tictactoe/partial/main/main.html
+msgid "Click on 'Start the Game' (or on the gameboard)."
+msgstr ""
+
 #: carrace/partial/gameboard/gameboard.html
 #: grammarGamble/partial/gameboard/gameboard.html
 msgid "Close"
+msgstr ""
+
+#: soccer/partial/main/main.html
+msgid "Correct answer ? A click on the player's name passes the ball to the teammates. Be lucky : 1, 2, 3 passes? Short or long?"
+msgstr ""
+
+#: tictactoe/partial/main/main.html
+msgid "Correct answer ? Click on the succeeded square and the team mark will go there."
 msgstr ""
 
 #: carrace/partial/gameboard/gameboard.js
@@ -72,6 +112,10 @@ msgstr ""
 #: soccer/partial/gameboard/gameboard.js
 #: tictactoe/partial/gameboard/gameboard.js
 msgid "Do you really want to quit the game and go back to configuration page?"
+msgstr ""
+
+#: soccer/partial/main/main.html
+msgid "Don't raise your hand ! Repeat if the teacher asks you so ! 'Steal' the answer from the opponent by speaking faster ! Change your mind..."
 msgstr ""
 
 #: carrace/partial/gameboard/gameboard.html
@@ -84,6 +128,10 @@ msgstr ""
 #: soccer/partial/main/main.html
 #: tictactoe/partial/main/main.html
 msgid "Draw new teams"
+msgstr ""
+
+#: carrace/partial/main/main.html
+msgid "Each group has a vehicle."
 msgstr ""
 
 #: grammarGamble/partial/gameboard/gameboard.html
@@ -102,7 +150,10 @@ msgstr ""
 msgid "Free kick for the opposite team."
 msgstr ""
 
+#: carrace/partial/main/main.html
 #: grammarGamble/partial/main/main.html
+#: soccer/partial/main/main.html
+#: tictactoe/partial/main/main.html
 msgid "Game rules"
 msgstr ""
 
@@ -111,6 +162,22 @@ msgstr ""
 #: soccer/partial/gameboard/gameboard.js
 #: tictactoe/partial/gameboard/gameboard.js
 msgid "Go home?"
+msgstr ""
+
+#: tictactoe/partial/main/main.html
+msgid "He or she has to choose a square/question/image/prompt..."
+msgstr ""
+
+#: carrace/partial/main/main.html
+msgid "If a group is too noisy or too unlucky, the teacher can use the Bonus and Malus buttons ;)"
+msgstr ""
+
+#: soccer/partial/main/main.html
+msgid "If a player is too loud during the game : Yellow and Red cards are available by clicking on the player's name in the lists."
+msgstr ""
+
+#: carrace/partial/main/main.html
+msgid "If the answer is correct, your vehicle is selected."
 msgstr ""
 
 #: grammarGamble/partial/main/main.html
@@ -164,6 +231,12 @@ msgstr ""
 #: carrace/partial/main/main.html
 #: soccer/partial/main/main.html
 #: tictactoe/partial/main/main.html
+msgid "Ok, I got it !"
+msgstr ""
+
+#: carrace/partial/main/main.html
+#: soccer/partial/main/main.html
+#: tictactoe/partial/main/main.html
 msgid "Order by name"
 msgstr ""
 
@@ -189,6 +262,10 @@ msgstr ""
 #: soccer/partial/main/main.html
 #: tictactoe/partial/main/main.html
 msgid "players"
+msgstr ""
+
+#: carrace/partial/main/main.html
+msgid "Players write the answer on the board."
 msgstr ""
 
 #: service/DialogService.js
@@ -240,6 +317,14 @@ msgstr ""
 msgid "Switch team"
 msgstr ""
 
+#: soccer/partial/main/main.html
+msgid "The fastest player to give a correct answer passes the ball."
+msgstr ""
+
+#: tictactoe/partial/main/main.html
+msgid "The first team with 5 points is the winning team !"
+msgstr ""
+
 #: tictactoe/partial/gameboard/gameboard.js
 msgid "There isn't enough items in your list. You should check the data file and restart the game or choose another topic."
 msgstr ""
@@ -252,12 +337,32 @@ msgstr ""
 msgid "Throw dice"
 msgstr ""
 
+#: tictactoe/partial/main/main.html
+msgid "Try to align 3 marks to get a point !"
+msgstr ""
+
 #: carrace/partial/main/main.html
 msgid "Vehicles"
 msgstr ""
 
 #: grammarGamble/partial/gameboard/gameboard.html
 msgid "Welcome to Grammar Gamble !"
+msgstr ""
+
+#: carrace/partial/main/main.html
+msgid "When you hear the horn, put up your board !"
+msgstr ""
+
+#: soccer/partial/main/main.html
+msgid "Will you be in the winning team?"
+msgstr ""
+
+#: tictactoe/partial/main/main.html
+msgid "Wrong answer ? 'Switch team' !"
+msgstr ""
+
+#: soccer/partial/main/main.html
+msgid "Wrong answer ? The ball stays where it is :("
 msgstr ""
 
 #: soccer/partial/gameboard/gameboard.js

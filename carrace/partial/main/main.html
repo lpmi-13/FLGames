@@ -4,7 +4,7 @@
     <h1 class="gameTitle">Car race <span class="badge badge-info">Configuration</span></h1>
   </div>
 
-  <div class="row well">
+  <div class="row well" ng-show="!showRules">
     <span class="title badge badge-success" translate>Class</span>
     <ul class="list-inline">
       <li class="btn btn-primary btn-lg" ui-sref-active="selected"><a ui-sref="carrace({classId: ''})" translate>No class</a></li>
@@ -12,14 +12,14 @@
     </ul>
   </div>
 
-  <div class="row well">
+  <div class="row well" ng-show="!showRules">
     <span class="title badge badge-success" translate>Vehicles</span>
     <ul class="list-inline">
       <li ng-repeat="i in getNumber(maxGroups) track by $index" ng-click="select($index+1)" ng-class="$index+1 == nbGroups ? 'btn btn-default btn-lg sel' : 'btn btn-lg btn-primary'"><span>{{$index+1}}</span></li>
     </ul>
   </div>
 
-  <div class="row well">
+  <div class="row well" ng-show="!showRules">
     <h3 class="text-center" ng-show="isSelected">{{playersList.length}} <span translate>pupils</span> / {{remaining()}} <span translate>players</span></h3>
     <ul ng-show="isSelected" id="playersList" class="playersList list-unstyled">
       <li>
@@ -41,15 +41,30 @@
     </p>
   </div>
 
+  <div class="row well" ng-show="showRules">
+		<span class="title badge badge-success" translate>Game rules</span>
+		<ul>
+			<li translate>Each group has a vehicle.</li>
+			<li translate>A question is displayed with a timer.</li>
+			<li translate>Players write the answer on the board.</li>
+			<li translate>When you hear the horn, put up your board !</li>
+			<li translate>If the answer is correct, your vehicle is selected.</li>
+			<li translate>'Throw dice' will pick a random number between 1 and 20. The bigger, the longer your vehicle will go forward.</li>
+			<li translate>Be the first to cross the finish line !</li>
+			<li translate>If a group is too noisy or too unlucky, the teacher can use the Bonus and Malus buttons ;)</li>
+		</ul>
+		<p class="text-center"><button ng-click="showRules = !showRules;" class="btn btn-primary" translate>Ok, I got it !</button></p>
+	</div>
+
   <div class="row">
     <nav class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
       <div class="container-fluid">
         <div class="navbar-header">
           <a class="navbar-brand" ui-sref="home"><i class="fa fa-home fa-fw"></i></a>
+					<a class="navbar-brand" ng-click="showRules = !showRules;" title="See game rules"><i class="fa fa-question-circle fa-fw"></i></a>
         </div>
       </div><!-- /.container-fluid -->
     </nav>
   </div>
-
 
 </div>
