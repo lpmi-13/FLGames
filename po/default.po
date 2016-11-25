@@ -22,7 +22,7 @@ msgstr ""
 
 #: grammarGamble/partial/gameboard/gameboard.html
 msgid "<u>R</u>ight or <u>W</u>rong ? ⇒ Place your bet !"
-msgstr "<u>V</u>rai ou <u>F</u>aux ? ⇒ Indiquez votre mise !"
+msgstr "<u>J</u>uste ou <u>F</u>aux ? ⇒ Indiquez votre mise !"
 
 #: soccer/partial/main/main.html
 msgid "1 player in each team is randomly chosen."
