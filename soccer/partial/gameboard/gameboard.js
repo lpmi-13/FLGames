@@ -104,12 +104,24 @@ angular.module('soccer').controller('soccerGameboardCtrl',function($scope, $stat
     // TODO ? Copy selectedTopic and delete selected question to avoid repetition / Restart if copy is empty
     $scope.questionStart = true;
     var randQuestion = $scope.selectedTopic[Math.floor(Math.random()*$scope.selectedTopic.length)].question;
+		// Parse selected question to get rid of eventual answer (for the moment)
+		questionParts = randQuestion.split('::');
+		// if (questionParts[1]) {
+		// 	$scope.questionAnswer = $sce.trustAsHtml(questionParts[1]);
+		// } else {
+		// 	$scope.questionAnswer = '---';
+		// }
+		// if (questionParts[2]) {
+		// 	$scope.questionTimer = questionParts[2];
+		// } else {
+		// 	$scope.questionTimer = 60; // Default : 60 seconds
+		// }
 
     // Pick a random player in each team
     $scope.selectPlayer();
 
     $timeout( function() {
-      $scope.question = $sce.trustAsHtml(randQuestion); // Trigger question display
+      $scope.question = $sce.trustAsHtml(questionParts[0]); // Trigger question display
     }, 3000);
   };
   
