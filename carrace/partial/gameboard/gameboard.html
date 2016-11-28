@@ -28,7 +28,7 @@
       <img ng-src="{{team.logo}}" ng-style="{'left': team.left+'px', 'transition': transition}" /></span>
       </li>
     </ul>
-    <div id="finish" ng-class="{'checkered': true, 'blink': winner}">
+		<div id="finish" ng-class="{'checkered': true, 'blink': winner}" fl-draggable="{axis:'x', containment:'parent'}">
       <img id="flags" src="media/img/racing_flag.png" />
     </div>
   </div>
@@ -52,7 +52,8 @@
 
       <ul class="nav navbar-nav">
         <li ng-show="selectedTopic"><a ng-click="drawQuestion()"><i class="fa fa-question-circle fa-fw"></i> <span translate>Draw a question</draw></a></li>  
-        <li><a ng-show="selectedTopic" ng-click="throwDie(10)"><i class="fa fa-tachometer fa-fw"></i> <span translate>Throw dice</draw></a></li>  
+        <!-- <li><a ng-show="selectedTopic" ng-click="throwDie(10)"><i class="fa fa-tachometer fa-fw"></i> <span translate>Throw dice</draw></a></li> -->  
+        <li><a ng-show="selectedTopic" ng-click="throwDie(10)"><img class="" src="media/img/die.png" /> <span translate>Throw dice</draw></a></li>  
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-file fa-fw"></i> <span translate>Choose topic</span></a>
           <ul class="dropdown-menu topics" role="menu">

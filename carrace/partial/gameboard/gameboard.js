@@ -281,7 +281,10 @@ angular.module('carrace').controller('CarraceGameboardCtrl',function($scope, $st
 
   $scope.checkWinner = function(team) {
     // img width = 100px (runners)
-    if (team.left > 870-100) {
+		// Find left position of dragged finishing line
+		var finishPosition = $('#finish').offset();
+    // if (team.left > 870-100) {
+    if (team.left > finishPosition.left-236) {
       team.winner = true;
       $scope.winner = true;
       return true;
