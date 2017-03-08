@@ -29,6 +29,18 @@ angular.module('FLGames').factory('Teams',function($http) {
       return promise;
     },
 
+		selected : function(teamName, myClasses) {
+			var teamList = [];
+			if (teamName != 'no-class') {
+        angular.forEach(myClasses, function (pupil) {
+          if (pupil.class === teamName) {
+						teamList.push(pupil);
+					}
+				})
+			}
+			return teamList;
+		},
+
     draw: function(nb, pupilsList) {
       var team;
       if (pupilsList) {

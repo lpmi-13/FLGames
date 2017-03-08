@@ -17,7 +17,7 @@
   </header>
 
   <div class="row">
-    <h1 id="team0Name" ng-if="gameTeams[0].players.length > 0"><span class="label label-default">Team 01</span></h1>
+    <h3 id="team0Name" ng-if="gameTeams[0].players.length > 0"><span class="label label-default">Team 01</span></h3>
     <ul id="team0" class="team">
       <li ng-repeat="pupil in gameTeams[0].players | orderBy:'name'">
         <span class="yellowCard" ng-show="pupil.yellow == 1"></span>
@@ -25,7 +25,7 @@
         <span ng-click="setFoul(0, pupil);">{{pupil.name}}</span>
       </li>
     </ul>
-    <h1 id="team1Name" ng-if="gameTeams[1].players.length > 0"><span class="label label-default">Team 02</span></h1>
+    <h3 id="team1Name" ng-if="gameTeams[1].players.length > 0"><span class="label label-default">Team 02</span></h3>
     <ul id="team1" class="team">
       <li ng-repeat="pupil in gameTeams[1].players | orderBy:'name'">
         <span class="yellowCard" ng-show="pupil.yellow == 1"></span>
@@ -44,7 +44,6 @@
     <div class="container-fluid">
       <div class="navbar-header">
         <a ng-click="goHome();" class="navbar-brand"><i class="fa fa-home fa-fw"></i></a>
-        <a class="navbar-brand" ng-click="myAlert();"><i class="fa fa-cogs fa-fw"></i></a>
       </div>
 
       <ul class="nav navbar-nav">

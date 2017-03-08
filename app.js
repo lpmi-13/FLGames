@@ -10,22 +10,22 @@ angular.module('FLGames').config(function($stateProvider, $urlRouterProvider) {
 
     .state('carrace', {
       url: "/carrace/:classId",
-      templateUrl: "carrace/partial/main/main.html"
+      templateUrl: "carrace/partial/gameboard/gameboard.html"
     })
 
     .state('soccer', {
       url: "/soccer/:classId",
-      templateUrl: "soccer/partial/main/main.html"
+      templateUrl: "soccer/partial/gameboard/gameboard.html"
     })
 
     .state('tictactoe', {
       url: "/tictactoe/:classId",
-      templateUrl: "tictactoe/partial/main/main.html"
+      templateUrl: "tictactoe/partial/gameboard/gameboard.html"
     })
 
     .state('grammarGamble', {
       url: "/grammarGamble/:classId",
-      templateUrl: "grammarGamble/partial/main/main.html"
+      templateUrl: "grammarGamble/partial/gameboard/gameboard.html"
     })
 
     .state('gameboard', {
