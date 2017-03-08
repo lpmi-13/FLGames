@@ -19,7 +19,7 @@ class, name
 4BC, Lia
 4BC, Ophélia
 4BC, Louys-Jean
-4BC, Léokadia
+4BC, Leokadia
 4BC, Océane
 4BC, Lilian
 4BC, Kenny
@@ -27,6 +27,7 @@ class, name
 4BC, Apolline
 4BC, Maëva
 4BC, Alan
+5D, Anis
 5D, Mathis
 5D, Andréa B
 5D, Estéban
@@ -80,7 +81,7 @@ class, name
 4F, Gaël
 4F, Julian
 4F, Stacy
-4F, Djéna
+4F, Djena
 4F, Gian
 4F, Lucas
 4F, Pierre
@@ -125,6 +126,7 @@ class, name
 6CD, Alicia
 6CD, Tristan
 6CD, Lola
+6CD, Louane
 6CD, Lucas
 6CD, Noé
 6CD, Clara

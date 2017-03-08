@@ -1098,6 +1098,37 @@ Traduis en anglais : Il n'a pas parlé anglais depuis 2005. :: He hasn't spoken 
 Traduis en anglais : Il a parlé anglais hier. :: He spoke English yesterday. :: 45
 
 
+: HAVE
+Traduis en anglais : J'ai un chat noir. :: I have a black cat.::50
+Traduis en anglais : J'ai une poule noire. :: I have a black hen.::50
+Traduis en anglais : J'ai un vélo bleu. :: I have a blue bike.::50
+Traduis en anglais : Elle a un serpent. :: She has a snake.::50
+Traduis en anglais : Elle a une soeur. :: She has a sister.::50
+Traduis en anglais : Il a un chien. :: He has a dog.::45
+Remets les mots dans l'ordre : has / He / a / brother / . / little :: He has a little brother :: 47
+Remets les mots dans l'ordre : I / have / mouse / ! / a / don't :: I don't have a mouse ! :: 42
+Remets les mots dans l'ordre : you / have / Do / turtle / ? / a :: Do you have a turtle ? :: 41
+Pour dire "J'ai" en anglais, j'utilise ... :: I have :: 30
+Pour dire "Nous n'avons pas" en anglais, j'utilise ... :: We don't have / We haven't got :: 35
+Traduis les pronoms suivants : Nous, vous, tu::We, you, you::30
+Traduis les pronoms suivants : Elles, ils, il, elle::They, they, he, she::30
+Traduis les pronoms suivants : Ils, il, elles::They, he, they::25
+Traduis les pronoms suivants : Je, tu, elle::I, you, she::50
+Traduis en français : She has a cat but she hasn't got a dog. :: Elle a un chat mais elle n'a pas de chien. :: 60
+Traduis en français : He hasn't got a guinea-pig. :: Il n'a pas de cochon d'Inde. :: 55
+Traduis en français : He doesn't have a donkey. :: Il n'a pas d'âne. :: 55
+Traduis en français : I haven't got a pet. :: Je n'ai pas d'animal (domestique). :: 60
+Traduis en anglais : As-tu une tortue? :: Do you have / Have you got a turtle ?::50
+Traduis en anglais : As-tu un cheval? :: Do you have / Have you got a horse ?::50
+Recopie en corrigeant l'erreur : He doesn't got a donkey. :: He doesn't have a donkey. / He hasn't got a donkey. :: 60
+Recopie en corrigeant l'erreur : She doesn't got a hen. :: She doesn't have a hen. / She hasn't got a hen. :: 60
+Mets à la forme négative : They have a dog.:: They haven't got / don't have a dog.::45
+Mets à la forme négative : I have a turtle.:: I haven't got / don't have a turtle.::40
+Mets à la forme négative : She has a little brother.:: She doesn't have / hasn't got a little brother.::50
+Mets à la forme négative : Mike has a sister.:: Mike doesn't have / hasn't got a sister.::45
+Mets à la forme négative : They have a dog.:: They don't have / haven't got a dog.::45
+
+
 : Negative form (BE/HAVE)
 Mets à la forme négative : I am tall.::I am not tall.::35
 Mets à la forme négative : He is stupid.::He isn't (is not) stupid.::35

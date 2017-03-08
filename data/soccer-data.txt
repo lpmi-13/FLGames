@@ -14,15 +14,22 @@ Find the question : I went somewhere.
 Find the question : I said something.
 Find the question : He said something.
 Find the question : She saw someone.
+Find the question : I met someone.
+Find the question : They did something.
+Find the question : She told me something.
+Find the question : She went somewhere.
+Find the question : He ran somewhere.
 J'ai vu quelque chose!
 Il a vu quelqu'un!
 Je suis allé quelque part.
 J'ai fait quelque chose.
-Qu'as-tu fais?
-Où es-tu allé?
-Qu'est-ce que tu as dit?
-Qu'est-ce qu'il a dit?
-Qu'avez-vous dit?
+Qu'as-tu fais ?
+Où es-tu allé ?
+Qui as-tu vu ?
+Qui a-t-il rencontré ?
+Qu'est-ce que tu as dit ?
+Qu'est-ce qu'il a dit ?
+Qu'avez-vous dit ?
 Nous avons acheté quelque chose.
 J'ai acheté un truc.
 Ils ont pris quelque chose.
@@ -35,8 +42,7 @@ Translate in French : Who did she see?
 Translate in French : What did she say?
 Find the word : OSHWEEERM
 Find the word : OESEONM
-
-
+Find the word : NOIESTGMH
 
 : Countries & Nationalities
 Country? [countries/world_south_africa_flag.png]
@@ -595,7 +601,43 @@ C'est en face du commissariat.
 C'est en face du parc.
 C'est en face de l'hôpital.
 
-:Likes
+:Likes 01
+J'aime bien le thé.
+Je n'aime pas le café.
+Je déteste le chocolat.
+J'adore le fromage.
+Je déteste les pommes.
+J'aime bien l'Anglais.
+J'aime bien le Français.
+Je n'aime pas le thé.
+Je déteste le fromage.
+Je déteste les bananes.
+Je déteste le lait.
+Nous adorons le lait.
+Tu adores le football.
+Ils aiment bien les gâteaux.
+Je n'aime pas les gâteaux.
+J'adore l'été.
+Je n'aime pas l'hiver.
+Je déteste le printemps.
+J'adore l'hiver.
+Tu aimes le printemps.
+Tu n'aimes pas l'hiver.
+Elles n'aiment pas l'été.
+Nous n'aimons pas les petits pois.
+Tu n'aimes pas le fromage.
+Aimes-tu le café?
+Aimes-tu le thé?
+Aimes-tu le poisson?
+Aimes-tu les Arts plastiques?
+Aimes-tu le jaune?
+Aimes-tu l'Histoire?
+Aimez-vous le vert?
+Aimez-vous la Géographie?
+Aimez-vous l'Anglais?
+Aimez-vous le Français?
+
+:Likes 02
 J'aime bien le thé.
 Je n'aime pas le café.
 Je déteste le chocolat.
@@ -858,7 +900,7 @@ He (work) in his bedroom.
 Sarah (draw) in the garden.
 My friends (ski).
 
-:WH Questions prétérit
+:WH Questions (prétérit)
 Où es-tu allé?
 Où est-il allé?
 Où est-elle allée?
@@ -984,8 +1026,8 @@ venir
 Je suis venu
 Ils sont venus
 do
-faire
 J'ai fait
+Ils ont fait
 drink
 boire
 j'ai bu
@@ -1010,8 +1052,7 @@ put
 poser/mettre
 read
 lire
-Je n'ai pas lu
-ride
+J'ai lu
 faire du vélo/du cheval
 run
 courir
@@ -1034,7 +1075,7 @@ J'ai pris
 tell
 dire
 think
-pensé
+Je pensais
 J'ai pensé
 understand
 comprendre

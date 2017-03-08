@@ -461,6 +461,7 @@ Date of birth
 :Irregular verbs 01
 be
 break
+buy
 come
 do
 drink
@@ -478,6 +479,7 @@ see
 sit
 sleep
 speak
+spend
 swim
 take
 tell

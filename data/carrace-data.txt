@@ -440,6 +440,49 @@ Indique la syllabe accentuée dans : American / Elizabeth / Obama :: A'merican /
 Indique la syllabe accentuée dans : nationality :: nation'nality::30
 Indique la syllabe accentuée dans : seventeen / forty / thirty / thirteen :: seven'teen / 'forty / 'thirty / thir'teen
 
+: Physical Description (all forms)
+Remplace les mots soulignés par le pronom qui convient : <u>Sam</u> is English.::<u>He</u>is English.::30
+Remplace les mots soulignés par le pronom qui convient : <u>Kelly</u> has a dog.::<u>She</u> has a dog.::30
+Remplace les mots soulignés par le pronom qui convient : <u>Sam and Tom</u> like school.::<u>They</u> like school.::30
+Remplace les mots soulignés par le pronom qui convient : <u>English</u> is very nice.::<u>It</u> is very nice.::40
+Remplace les mots soulignés par le pronom qui convient : <u>Jim and I</u> love playing video games.::<u>We</u> love playing video games.::40
+Remplace les mots soulignés par le pronom qui convient : <u>Jack</u> is 16.::<u>He</u>is 16.::30
+Traduis les pronoms suivants : Je, tu, elle::I, you, she::40
+Traduis les pronoms suivants : Ils, il, elles::They, he, they::40
+Traduis les pronoms suivants : Nous, vous, tu::We, you, you::40
+Traduis les pronoms suivants : Vous, il, nous::You, he, we::40
+Traduis les pronoms suivants : Elles, ils, il, elle::They, they, he, she::35
+Conjugue le verbe souligné : Donna <u>(have)</u> blue eyes.::Donna <u>has</u> blue eyes.::60
+Conjugue le verbe souligné : He <u>(be)</u> very strong.::He <u>is</u> very strong.::60
+Conjugue le verbe souligné : Jack <u>(have)</u> a round face.::Jack <u>has</u> a round face.::60
+Conjugue le verbe souligné : Terry <u>(be)</u> intelligent.::Terry <u>is</u> intelligent.::60
+Conjugue le verbe souligné : I <u>(be)</u> 12.::I <u>am</u> 12.::50
+Conjugue le verbe souligné : I <u>(have)</u> long blond hair.::I <u>have</u> long blond hair.::60
+Conjugue le verbe souligné : Tom <u>(be)</u> tall.::Tom <u>is</u> tall.::50
+Conjugue le verbe souligné : She <u>(be)</u> beautiful.::She <u>is</u> beautiful.::60
+Conjugue le verbe souligné : I <u>(have)</u> a TV in my bedroom.::I <u>have</u> a TV in my bedroom.::60
+Conjugue le verbe souligné : Sarah <u>(have)</u> a guinea pig.::Sarah <u>has</u> a guinea pig.::60
+Indique le mot manquant : She ... blonde hair. :: has :: 40
+Indique le mot manquant : They ... straight black hair. :: have :: 40
+Indique le mot manquant : We ... strong ! :: are :: 40
+Indique le mot manquant : I ... tall. :: am :: 40
+Indique le mot manquant : He ... young. :: is :: 40
+Indique le mot manquant : I ... a big nose. :: have :: 40
+Indique le mot manquant : He ... a square face. :: has :: 40
+Mets à la forme négative : He is tall. :: He isn't (is not) tall. :: 50
+Mets à la forme négative : She is beautiful. :: She isn't (is not) beautiful. :: 60
+Mets à la forme négative : They are strong. :: They aren't (are not) strong. :: 60
+Mets à la forme négative : He has long hair. :: He hasn't got (doesn't have) long hair. :: 60
+Mets à la forme négative : I have a round face. :: I haven't got (don't have) a round face. :: 60
+Mets à la forme négative : We have glasses. :: We haven't got (don't have) glasses. :: 60
+Mets à la forme négative : I am French. :: I am not ('m not) French. :: 50
+Traduis : J'ai des lunettes noires. :: I have ('ve got) black glasses. :: 60
+Traduis : Il a les yeux bleus. :: He has ('s got) blue eyes. :: 60
+Traduis : Elles ont les yeux verts. :: They have ('ve got) green eyes. :: 60
+Traduis : Tu n'es pas grand. :: You aren't (are not/'re not) tall :: 60
+Traduis : Tu es belle. :: You are ('re) beautiful. :: 60
+Traduis : Nous ne sommes pas maigres ! :: We aren't (are not/'re not) thin/slim ! :: 60
+
 :Révisions 6 02
 Remplace les mots soulignés par le pronom qui convient : <u>Sam</u> is English.::<u>He</u>is English.::50
 Remplace les mots soulignés par le pronom qui convient : <u>Kelly</u> has a dog.::<u>She</u> has a dog.::50
@@ -497,14 +540,14 @@ Demande a un anglais s'il a un frère :: Have you got a brother?::60
 Demande a un anglais s'il aime les frites :: Do you like chips?::60
 Demande a un anglais s'il aime l'anglais :: Do you like English?::60
 Demande a un anglais s'il aime le printemps :: Do you like spring?::60
+
+
+:Révisions 6 bilan 04
 Recopie en conjuguant le verbe au présent BE+ING: He (go) to the cinema.:: He is going to the cinema::60
 Recopie en conjuguant le verbe au présent BE+ING: They (play) football in the garden.::They are playing football in the garden.::60
 Recopie en conjuguant le verbe au présent BE+ING: I (make) a chocolate cake.::I am making a chocolate cake.::60
 Traduis les mots suivants : Où? Quand? Qui? Quoi? :: Where? When? Who? What? :: 35
 Traduis les mots suivants : Quand? Où? Quoi? Qui? :: When? Where? What? Who? :: 35
-
-
-:Révisions 6 bilan 04
 Remplace les mots soulignés par le pronom qui convient : <u>Sam</u> is English.::<u>He</u>is English.::50
 Remplace les mots soulignés par le pronom qui convient : <u>Kelly</u> has a dog.::<u>She</u> has a dog.::50
 Remplace les mots soulignés par le pronom qui convient : <u>Sam and Tom</u> like school.::<u>They</u> like school.::50
@@ -1096,6 +1139,37 @@ Traduis en anglais : Je n'ai jamais fait de cheval. :: I have never ridden a hor
 Traduis en anglais : Je n'ai pas encore fait mes devoirs. :: I haven't done my homework yet. :: 50
 Traduis en anglais : Il n'a pas parlé anglais depuis 2005. :: He hasn't spoken English since 2005. :: 60
 Traduis en anglais : Il a parlé anglais hier. :: He spoke English yesterday. :: 45
+
+
+: HAVE
+Traduis en anglais : J'ai un chat noir. :: I have a black cat.::50
+Traduis en anglais : J'ai une poule noire. :: I have a black hen.::50
+Traduis en anglais : J'ai un vélo bleu. :: I have a blue bike.::50
+Traduis en anglais : Elle a un serpent. :: She has a snake.::50
+Traduis en anglais : Elle a une soeur. :: She has a sister.::50
+Traduis en anglais : Il a un chien. :: He has a dog.::45
+Remets les mots dans l'ordre : has / He / a / brother / . / little :: He has a little brother :: 47
+Remets les mots dans l'ordre : I / have / mouse / ! / a / don't :: I don't have a mouse ! :: 42
+Remets les mots dans l'ordre : you / have / Do / turtle / ? / a :: Do you have a turtle ? :: 41
+Pour dire "J'ai" en anglais, j'utilise ... :: I have :: 30
+Pour dire "Nous n'avons pas" en anglais, j'utilise ... :: We don't have / We haven't got :: 35
+Traduis les pronoms suivants : Nous, vous, tu::We, you, you::30
+Traduis les pronoms suivants : Elles, ils, il, elle::They, they, he, she::30
+Traduis les pronoms suivants : Ils, il, elles::They, he, they::25
+Traduis les pronoms suivants : Je, tu, elle::I, you, she::50
+Traduis en français : She has a cat but she hasn't got a dog. :: Elle a un chat mais elle n'a pas de chien. :: 60
+Traduis en français : He hasn't got a guinea-pig. :: Il n'a pas de cochon d'Inde. :: 55
+Traduis en français : He doesn't have a donkey. :: Il n'a pas d'âne. :: 55
+Traduis en français : I haven't got a pet. :: Je n'ai pas d'animal (domestique). :: 60
+Traduis en anglais : As-tu une tortue? :: Do you have / Have you got a turtle ?::50
+Traduis en anglais : As-tu un cheval? :: Do you have / Have you got a horse ?::50
+Recopie en corrigeant l'erreur : He doesn't got a donkey. :: He doesn't have a donkey. / He hasn't got a donkey. :: 60
+Recopie en corrigeant l'erreur : She doesn't got a hen. :: She doesn't have a hen. / She hasn't got a hen. :: 60
+Mets à la forme négative : They have a dog.:: They haven't got / don't have a dog.::45
+Mets à la forme négative : I have a turtle.:: I haven't got / don't have a turtle.::40
+Mets à la forme négative : She has a little brother.:: She doesn't have / hasn't got a little brother.::50
+Mets à la forme négative : Mike has a sister.:: Mike doesn't have / hasn't got a sister.::45
+Mets à la forme négative : They have a dog.:: They don't have / haven't got a dog.::45
 
 
 : Negative form (BE/HAVE)
