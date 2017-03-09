@@ -460,30 +460,55 @@ Date of birth
 
 :Irregular verbs 01
 be
+être
 break
+casser
 come
+venir
 do
+faire
 drink
+boire
 eat
+manger
 find
+trouver
 get
+obtenir|devenir
 go
+aller
 have
+avoir
 meet
+rencontrer
 put
+poser|mettre
 read
+lire
 ride
+faire du vélo|du cheval
 run
+courir
 see
+voir
 sit
+s'asseoir
 sleep
+dormir
 speak
+parler
 swim
+nager
 take
+prendre
 tell
+dire|raconter
 think
+penser
 understand
+comprendre
 write
+écrire
 
 :Can - Can't - Likes
 [can_cant_likes/he_can_draw.png]

@@ -1,15 +1,15 @@
 <div class="col-md-12" ng-controller="WinnerCtrl">
   <div class="page-header text-center">
-    <h1 class="gameTitle">Car race <span class="badge badge-info">Results!</span></h1>
+    <h1 class="gameTitle">Car race <span class="badge badge-info" translate>Results!</span></h1>
   </div>
 
   <div class="row well text-center" ng-if="winner">
-    <h1>Congratulations to <img ng-src="{{winner.logo}}" alt="logo" /> !</h1>
-    <h2>The team won the race!</h2>
+		<h1><span translate>Congratulations to </span><img ng-src="{{winner.logo}}" alt="logo" /> !</h1>
+    <h2 translate>The team won the race!</h2>
     <ul ng-hide="{winner.players.class : false}" class="playersList list-unstyled">
       <li ng-repeat="player in winner.players | orderBy: 'name' ">{{player.name}}</li>
     </ul>
-    <h3>Followed by :</h3>
+    <h3 translate>Followed by :</h3>
     <ul class="list-unstyled">
       <li ng-repeat="loose in looser | orderBy: 'left':'reverse' ">
         <img title="{{loose.left}} px" ng-src="{{loose.logo}}" alt="logo" />

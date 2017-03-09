@@ -11,12 +11,16 @@
   <!-- </div> -->
 
   <div class="row well text-center">
-		<span class="col-md-2 thumbnail" ng-click="selectGame(game)" ng-class="{ 'selected' : game.id == mainParams.gameId}" ng-repeat="game in allGames">
+		<span class="col-md-2 thumbnail" ng-click="selectGame(game)" ng-class="{ 'selectedGame' : game.id == mainParams.gameId}" ng-repeat="game in allGames">
 			<img class="img-thumbnail" ng-src="media/img/{{game.id}}-logo.png" alt="{{game.name}}-logo" width="200" />
 			<h4 class="text-center"><span class="gameTitle">{{game.name}}</span></h4>
 		</span>
   </div>
 
+  <div class="row well" ng-show="!isSelected">
+		<h2 translate>No class selected !</h2>
+	</div>
+	
 	<div class="row well" ng-show="isSelected && mainParams.maxTeams > 0">
     <span class="title badge badge-success" translate># of Teams / Groups</span>
     <ul class="list-inline">

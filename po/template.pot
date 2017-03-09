@@ -7,6 +7,10 @@ msgstr ""
 msgid "'Throw dice' will pick a random number between 1 and 20. The bigger, the longer your vehicle will go forward."
 msgstr ""
 
+#: home/partial/main/main.html
+msgid "# of Teams / Groups"
+msgstr ""
+
 #: grammarGamble/partial/gameboard/gameboard.html
 msgid "<u>R</u>ight or <u>W</u>rong ? ⇒ Place your bet !"
 msgstr ""
@@ -99,6 +103,15 @@ msgstr ""
 msgid "Close"
 msgstr ""
 
+#: soccer/partial/winner/winner.html
+msgid "Congratulations !"
+msgstr ""
+
+#: carrace/partial/winner/winner.html
+#: tictactoe/partial/winner/winner.html
+msgid "Congratulations to"
+msgstr ""
+
 #: soccer/partial/main/main.html
 msgid "Correct answer ? A click on the player's name passes the ball to the teammates. Be lucky : 1, 2, 3 passes? Short or long?"
 msgstr ""
@@ -125,6 +138,7 @@ msgid "Draw a question"
 msgstr ""
 
 #: carrace/partial/main/main.html
+#: home/partial/main/main.html
 #: soccer/partial/main/main.html
 #: tictactoe/partial/main/main.html
 msgid "Draw new teams"
@@ -144,6 +158,10 @@ msgstr ""
 #: soccer/partial/gameboard/gameboard.js
 #: tictactoe/partial/gameboard/gameboard.js
 msgid "End game?"
+msgstr ""
+
+#: carrace/partial/winner/winner.html
+msgid "Followed by :"
 msgstr ""
 
 #: soccer/partial/gameboard/gameboard.js
@@ -192,8 +210,17 @@ msgstr ""
 msgid "If your answer is wrong : substract your bet :("
 msgstr ""
 
+#: soccer/partial/winner/winner.html
+#: tictactoe/partial/winner/winner.html
+msgid "It's a tie! No winner..."
+msgstr ""
+
 #: carrace/partial/gameboard/gameboard.html
 msgid "Malus"
+msgstr ""
+
+#: home/partial/main/main.html
+msgid "Manage class"
 msgstr ""
 
 #: tictactoe/partial/gameboard/gameboard.html
@@ -218,9 +245,14 @@ msgid "No"
 msgstr ""
 
 #: carrace/partial/main/main.html
+#: home/partial/main/main.html
 #: soccer/partial/main/main.html
 #: tictactoe/partial/main/main.html
 msgid "No class"
+msgstr ""
+
+#: home/partial/main/main.html
+msgid "No class selected !"
 msgstr ""
 
 #: carrace/partial/gameboard/gameboard.js
@@ -235,12 +267,14 @@ msgid "Ok, I got it !"
 msgstr ""
 
 #: carrace/partial/main/main.html
+#: home/partial/main/main.html
 #: soccer/partial/main/main.html
 #: tictactoe/partial/main/main.html
 msgid "Order by name"
 msgstr ""
 
 #: carrace/partial/main/main.html
+#: home/partial/main/main.html
 #: soccer/partial/main/main.html
 #: tictactoe/partial/main/main.html
 msgid "Order by teams"
@@ -259,6 +293,7 @@ msgid "Play the free kick"
 msgstr ""
 
 #: carrace/partial/main/main.html
+#: home/partial/main/main.html
 #: soccer/partial/main/main.html
 #: tictactoe/partial/main/main.html
 msgid "players"
@@ -273,6 +308,7 @@ msgid "Proceed?"
 msgstr ""
 
 #: carrace/partial/main/main.html
+#: home/partial/main/main.html
 #: soccer/partial/main/main.html
 #: tictactoe/partial/main/main.html
 msgid "pupils"
@@ -286,8 +322,19 @@ msgstr ""
 msgid "Red card!"
 msgstr ""
 
+#: carrace/partial/winner/winner.html
+#: grammarGamble/partial/winner/winner.html
+#: soccer/partial/winner/winner.html
+#: tictactoe/partial/winner/winner.html
+msgid "Results!"
+msgstr ""
+
 #: grammarGamble/partial/gameboard/gameboard.html
 msgid "Save"
+msgstr ""
+
+#: home/partial/main/main.html
+msgid "See list (absent, teams...) ?"
 msgstr ""
 
 #: tictactoe/partial/gameboard/gameboard.js
@@ -300,6 +347,7 @@ msgstr ""
 
 #: carrace/partial/main/main.html
 #: grammarGamble/partial/main/main.html
+#: home/partial/main/main.html
 #: soccer/partial/main/main.html
 #: tictactoe/partial/main/main.html
 msgid "Start the game!"
@@ -317,12 +365,25 @@ msgstr ""
 msgid "Switch team"
 msgstr ""
 
+#: grammarGamble/partial/winner/winner.html
+msgid "Tell your score to the class!"
+msgstr ""
+
 #: soccer/partial/main/main.html
 msgid "The fastest player to give a correct answer passes the ball."
 msgstr ""
 
 #: tictactoe/partial/main/main.html
 msgid "The first team with 5 points is the winning team !"
+msgstr ""
+
+#: soccer/partial/winner/winner.html
+#: tictactoe/partial/winner/winner.html
+msgid "The team won the game with a score of"
+msgstr ""
+
+#: carrace/partial/winner/winner.html
+msgid "The team won the race!"
 msgstr ""
 
 #: tictactoe/partial/gameboard/gameboard.js
@@ -337,6 +398,10 @@ msgstr ""
 msgid "Throw dice"
 msgstr ""
 
+#: soccer/partial/winner/winner.html
+msgid "to"
+msgstr ""
+
 #: tictactoe/partial/main/main.html
 msgid "Try to align 3 marks to get a point !"
 msgstr ""
@@ -349,8 +414,16 @@ msgstr ""
 msgid "Welcome to Grammar Gamble !"
 msgstr ""
 
+#: grammarGamble/partial/winner/winner.html
+msgid "What's the Top 5 ?"
+msgstr ""
+
 #: carrace/partial/main/main.html
 msgid "When you hear the horn, put up your board !"
+msgstr ""
+
+#: grammarGamble/partial/winner/winner.html
+msgid "Who is the winner ?"
 msgstr ""
 
 #: soccer/partial/main/main.html

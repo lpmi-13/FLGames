@@ -46,25 +46,24 @@
   <nav class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
     <div class="container-fluid">
       <div class="navbar-header">
-        <a ng-click="goHome();" class="navbar-brand"><i class="fa fa-home fa-fw"></i></a>
+        <a ng-click="goHome();" class="navbar-brand" title="Go home"><i class="fa fa-home fa-fw"></i></a>
       </div>
 
       <ul class="nav navbar-nav">
-        <li ng-show="selectedTopic"><a ng-click="drawQuestion()"><i class="fa fa-question-circle fa-fw"></i> <span translate>Draw a question</draw></a></li>  
-        <!-- <li><a ng-show="selectedTopic" ng-click="throwDie(10)"><i class="fa fa-tachometer fa-fw"></i> <span translate>Throw dice</draw></a></li> -->  
-        <li><a ng-show="selectedTopic" ng-click="throwDie(10)"><img class="" src="media/img/die.png" /> <span translate>Throw dice</draw></a></li>  
+        <li ng-show="selectedTopic"><a ng-click="drawQuestion()" title="Draw a question"><i class="fa fa-question-circle fa-fw"></i> <span class="hideLow" translate>Draw a question</draw></a></li>  
+        <li><a ng-show="selectedTopic" ng-click="throwDie(10)" title="Throw dice"><img class="" src="media/img/die.png" /> <span class="hideLow" translate>Throw dice</draw></a></li>  
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-file fa-fw"></i> <span translate>Choose topic</span></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" title="Choose topic"><i class="fa fa-file fa-fw"></i> <span class="hideLow" translate>Choose topic</span></a>
           <ul class="dropdown-menu topics" role="menu">
             <li ng-repeat="topic in allTopics | orderBy:'title'">
               <a ng-class="{selected : topic == selectedTopic.title }" ng-click="selectTopic(topic)">{{topic}}</a>
             </li>
           </ul>
         </li>
-        <li ng-show="selectedTopic"><a ng-click="setPositive()"><i class="fa fa-thumbs-up fa-fw"></i> <span translate>Bonus</span></a></li>
-        <li ng-show="selectedTopic"><a ng-click="setNegative()"><i class="fa fa-thumbs-down fa-fw"></i> <span translate>Malus</span></a></li>
-        <li ng-show="selectedTopic"><a ng-click="randomBonus()"><i class="fa fa-gift fa-fw"></i> <span translate>Random bonus</span></a></li>
-        <li><a ng-click="mixTeams()"><i class="fa fa-refresh fa-fw"></i> <span translate>Mix vehicles</span></a></li>
+        <li ng-show="selectedTopic"><a ng-click="setPositive()" title="Bonus"><i class="fa fa-thumbs-up fa-fw"></i> <span class="hideLow" translate>Bonus</span></a></li>
+        <li ng-show="selectedTopic"><a ng-click="setNegative()" title="Malus"><i class="fa fa-thumbs-down fa-fw"></i> <span class="hideLow" translate>Malus</span></a></li>
+        <li ng-show="selectedTopic"><a ng-click="randomBonus()" title="Random"><i class="fa fa-gift fa-fw"></i> <span class="hideLow" translate>Random bonus</span></a></li>
+        <li><a ng-click="mixTeams()" title="Mix vehicles"><i class="fa fa-refresh fa-fw"></i> <span class="hideLow" translate>Mix vehicles</span></a></li>
         </ul>
         <div>
           <p class="navbar-text">{{selectedTopic[0].topic}}</p>
