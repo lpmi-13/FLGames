@@ -30,8 +30,9 @@ angular.module('home').controller('MainCtrl',function($scope, Teams, $state, $st
     return new Array(num);   
   };
 
-  $scope.setNbGroups = function(num) {
-    $scope.mainParams.nbTeams = num;
+  $scope.setNbGroups = function(nb) {
+    $scope.mainParams.nbTeams = nb;
+		$scope.drawTeams(nb);
   };
 
   $scope.lang = ['en', 'fr'];
