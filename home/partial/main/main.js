@@ -117,6 +117,7 @@ angular.module('home').controller('MainCtrl',function($scope, Teams, $state, $st
 		$scope.mainParams.gameId = activity.id;
 		$scope.mainParams.maxTeams = activity.maxTeams; 
 		$scope.mainParams.nbTeams = activity.nbTeams; 
+		$scope.drawTeams(activity.nbTeams);
 	};
 
 	$scope.startGame = function(activity) {

@@ -3,13 +3,6 @@
     <h1>FLGames</h1>
   </div>
 
-  <!-- <div class="row well text-center"> -->
-		<!-- <a ui-sref="{{game.id}}" class="col-md-2 thumbnail" ng-repeat="game in allGames"> -->
-			<!-- <img class="img-thumbnail" ng-src="media/img/{{game.id}}-logo.png" alt="{{game.name}}-logo" width="200" /> -->
-			<!-- <h4 class="text-center"><span class="gameTitle">{{game.name}}</span></h4> -->
-		<!-- </a> -->
-  <!-- </div> -->
-
   <div class="row well text-center">
 		<span class="col-md-2 thumbnail" ng-click="selectGame(game)" ng-class="{ 'selectedGame' : game.id == mainParams.gameId}" ng-repeat="game in allGames">
 			<img class="img-thumbnail" ng-src="media/img/{{game.id}}-logo.png" alt="{{game.name}}-logo" width="200" />
@@ -30,8 +23,8 @@
 
   <div class="row well" ng-show="isSelected">
     <span class="title badge badge-success" translate>Manage class</span>
-    <h3 class="text-center" ng-show="isSelected">{{playersList.length}} <span translate>pupils</span> / {{remaining()}} <span translate>players</span></h3>
-		<h4><label class="label label-warning"><span translate>See list (absent, teams...) ?</span><input type="checkbox" ng-model="checked"></label></h4>
+		<h3 class="text-center">{{mainParams.selectedClass}} : {{playersList.length}} <span translate>pupils</span> / {{remaining()}} <span translate>players</span></h3>
+		<h4><label class="label label-warning"><span translate>See list (absent, teams...) ?</span> <input type="checkbox" ng-model="checked"></label></h4>
   </div>
 
   <div class="teamList row well" ng-show="checked">
