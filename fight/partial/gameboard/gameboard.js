@@ -1,4 +1,4 @@
-angular.module('fight').controller('GameboardCtrl',function($scope, $state, $filter, Teams, Data, $sce, DialogService, gettext, gettextCatalog){
+angular.module('fight').controller('fightGameboardCtrl',function($scope, $state, $filter, Teams, Data, $sce, DialogService, gettext, gettextCatalog){
 
   $scope.questionToSave = $sce.trustAsHtml('');
 	$scope.saved = [];
