@@ -4,7 +4,8 @@ angular.module('home').controller('MainCtrl',function($scope, Teams, $state, $st
     {id:'tictactoe', name:'TicTacToe', nbTeams:2, maxTeams:0},
     {id:'soccer', name:'Soccer', nbTeams:2, maxTeams:0},
     {id:'carrace', name:'Car race', nbTeams:6, maxTeams:8},
-    {id:'grammarGamble', name:'Grammar Gamble', nbTeams:2, maxTeams:0}
+    {id:'grammarGamble', name:'Grammar Gamble', nbTeams:2, maxTeams:0},
+    {id:'fight', name:'Fight', nbTeams:1, maxTeams:0}
   ];
 
 	$scope.setDefaultParams = function() {

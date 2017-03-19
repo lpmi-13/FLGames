@@ -19,7 +19,6 @@
       <div class="navbar-header">
         <a ng-click="goHome();" class="navbar-brand" title="Go home"><i class="fa fa-home fa-fw"></i></a>
       </div>
-
       <ul class="nav navbar-nav">
         <li ng-show="selectedTopic"><a ng-click="drawQuestion()" title="Draw a question"><i class="fa fa-question-circle fa-fw"></i> <span class="hideLow" translate>Draw a question</draw></a></li>  
         <li ng-show="selectedTopic && questionStart" title="Change players"><a ng-click="selectPlayer();"><i class="fa fa-arrows-v fa-fw"></i> <span class="hideLow" translate>Change players</span></a></li>
@@ -32,10 +31,10 @@
               </li>
             </ul>
           </li>
-        </ul>
-        <div>
-          <p class="navbar-text">{{selectedTopic[0].topic}}</p>
-        </div>
+			</ul>
+			<div>
+				<p class="navbar-text">{{selectedTopic[0].topic}}</p>
+			</div>
     </div><!-- /.container-fluid -->
   </nav>
 
