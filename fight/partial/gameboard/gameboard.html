@@ -12,6 +12,8 @@
     <ol id="" class="savedList">
 			<li ng-repeat="l in saved track by $index">
 				<h3>{{l}}</h3>
+				<a class="btn btn-success btn-xs" ng-click="max(0)"><i class="fa fa-thumbs-up"></i></a>
+				<a class="btn btn-danger btn-xs" ng-click="max(1)"><i class="fa fa-thumbs-down"></i></a>
 				<a class="btn btn-primary btn-xs" ng-click="deleteSaved($index)">X</a>
 			</li>
 		</ol>
@@ -20,11 +22,11 @@
   <div id="carrace_questionDiv" class="" ng-show="questionStart">
 		<p>Write your text !</p>
 		<p>
-			<textarea class="reverse" width="150" height="5" ng-model="questionToSave"></textarea>
+			<textarea class="reverse" width="150" rows="5" ng-model="questionToSave"></textarea>
 		</p>
+		<p>Grammar is...</p>
     <button class="btn btn-success" id="rightButton" ng-click="saveAnswer(0)" translate>Right</button>
     <button class="btn btn-danger" id="wrongButton" ng-click="saveAnswer(1)" translate>Wrong</button>
-    <!-- <button class="btn btn-info" id="saveButton" ng-click="saveAnswer()" translate>Save</button> -->
     <button class="btn btn-inverse" id="closeButton" ng-click="close()" translate>Close</button>
 	</div>
 
