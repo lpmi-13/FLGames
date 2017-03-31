@@ -1,4 +1,4 @@
-<div class="col-md-12" ng-controller="GameboardCtrl" ng-init="init()">
+<div class="col-md-12" ng-controller="grammarGambleGameboardCtrl" ng-init="init()">
 
   <header class="casino row">
 		<img src="media/img/money.png" alt="$" width="150" />
@@ -17,26 +17,24 @@
   <nav class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
     <div class="container-fluid">
       <div class="navbar-header">
-        <a ng-click="goHome();" class="navbar-brand"><i class="fa fa-home fa-fw"></i></a>
-        <a class="navbar-brand" ng-click="myAlert();"><i class="fa fa-cogs fa-fw"></i></a>
+        <a ng-click="goHome();" class="navbar-brand" title="Go home"><i class="fa fa-home fa-fw"></i></a>
       </div>
-
       <ul class="nav navbar-nav">
-        <li ng-show="selectedTopic"><a ng-click="drawQuestion()"><i class="fa fa-question-circle fa-fw"></i> <span translate>Draw a question</draw></a></li>  
-        <li ng-show="selectedTopic && questionStart"><a ng-click="selectPlayer();"><i class="fa fa-arrows-v fa-fw"></i> <span translate>Change players</span></a></li>
-        <li ng-show="selectedTopic"><a ng-click="endGame();"><i class="fa fa-times fa-fw"></i> <span translate>End game</span></a></li>
+        <li ng-show="selectedTopic"><a ng-click="drawQuestion()" title="Draw a question"><i class="fa fa-question-circle fa-fw"></i> <span class="hideLow" translate>Draw a question</draw></a></li>  
+        <li ng-show="selectedTopic && questionStart" title="Change players"><a ng-click="selectPlayer();"><i class="fa fa-arrows-v fa-fw"></i> <span class="hideLow" translate>Change players</span></a></li>
+        <li ng-show="selectedTopic"><a ng-click="endGame();" title="End game"><i class="fa fa-times fa-fw"></i> <span class="hideLow" translate>End game</span></a></li>
         <li class="dropdown">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-file fa-fw"></i> <span translate>Choose topic</span></a>
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" title="Choose topic"><i class="fa fa-file fa-fw"></i> <span class="hideLow" translate>Choose topic</span></a>
             <ul class="dropdown-menu topics" role="menu">
               <li ng-repeat="topic in allTopics | orderBy:'title'">
               <a ng-class="{selected : topic == selectedTopic.title }" ng-click="selectTopic(topic)">{{topic}}</a>
               </li>
             </ul>
           </li>
-        </ul>
-        <div>
-          <p class="navbar-text">{{selectedTopic[0].topic}}</p>
-        </div>
+			</ul>
+			<div>
+				<p class="navbar-text">{{selectedTopic[0].topic}}</p>
+			</div>
     </div><!-- /.container-fluid -->
   </nav>
 

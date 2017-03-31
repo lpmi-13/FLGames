@@ -474,7 +474,7 @@ manger
 find
 trouver
 get
-obtenir, devenir
+obtenir|devenir
 go
 aller
 have
@@ -482,11 +482,11 @@ avoir
 meet
 rencontrer
 put
-poser, mettre
+poser|mettre
 read
 lire
 ride
-faire du vélo, du cheval
+faire du vélo|du cheval
 run
 courir
 see
@@ -502,7 +502,7 @@ nager
 take
 prendre
 tell
-dire, raconter
+dire|raconter
 think
 penser
 understand

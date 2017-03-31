@@ -1,4 +1,4 @@
-angular.module('FLGames', ['ui.bootstrap', 'ui.utils', 'ui.router', 'ngAnimate', 'tictactoe', 'home', 'gettext', 'soccer', 'carrace', 'grammarGamble']);
+angular.module('FLGames', ['ui.bootstrap', 'ui.utils', 'ui.router', 'ngAnimate', 'tictactoe', 'home', 'gettext', 'soccer', 'carrace', 'grammarGamble', 'fight']);
 
 angular.module('FLGames').config(function($stateProvider, $urlRouterProvider) {
 
@@ -10,22 +10,27 @@ angular.module('FLGames').config(function($stateProvider, $urlRouterProvider) {
 
     .state('carrace', {
       url: "/carrace/:classId",
-      templateUrl: "carrace/partial/main/main.html"
+      templateUrl: "carrace/partial/gameboard/gameboard.html"
     })
 
     .state('soccer', {
       url: "/soccer/:classId",
-      templateUrl: "soccer/partial/main/main.html"
+      templateUrl: "soccer/partial/gameboard/gameboard.html"
     })
 
     .state('tictactoe', {
       url: "/tictactoe/:classId",
-      templateUrl: "tictactoe/partial/main/main.html"
+      templateUrl: "tictactoe/partial/gameboard/gameboard.html"
     })
 
     .state('grammarGamble', {
       url: "/grammarGamble/:classId",
-      templateUrl: "grammarGamble/partial/main/main.html"
+      templateUrl: "grammarGamble/partial/gameboard/gameboard.html"
+    })
+
+    .state('fight', {
+      url: "/fight/:classId",
+      templateUrl: "fight/partial/gameboard/gameboard.html"
     })
 
     .state('gameboard', {

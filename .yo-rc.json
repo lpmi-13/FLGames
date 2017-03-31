@@ -38,6 +38,10 @@
       {
         "name": "grammarGamble",
         "file": "grammarGamble/grammarGamble.js"
+      },
+      {
+        "name": "fight",
+        "file": "fight/fight.js"
       }
     ]
   }

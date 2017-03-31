@@ -1,4 +1,4 @@
-angular.module('grammarGamble').controller('GameboardCtrl',function($scope, $state, $filter, Teams, Data, $sce, $timeout, DialogService, gettext, gettextCatalog){
+angular.module('grammarGamble').controller('grammarGambleGameboardCtrl',function($scope, $state, $filter, Teams, Data, $sce, $timeout, DialogService, gettext, gettextCatalog){
 
   $scope.question = $sce.trustAsHtml('');
   $scope.showAnswer = false;
@@ -22,7 +22,7 @@ angular.module('grammarGamble').controller('GameboardCtrl',function($scope, $sta
   // Load data
   Data.get('data/grammarGamble-data.txt').then( function(result) { 
     $scope.questions = JSON.parse(result); 
-    //console.log($scope.questions);
+    // console.log($scope.questions);
     
     // Build topic list
     $scope.allTopics = [];

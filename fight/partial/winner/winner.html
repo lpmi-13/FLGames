@@ -1,0 +1,35 @@
+<div class="col-md-12" ng-controller="WinnerCtrl">
+
+  <div class="page-header text-center">
+    <h1 class="gameTitle">Quiz Fight <span class="badge badge-info" translate>Results!</span></h1>
+  </div>
+
+  <div class="row well text-center" ng-if="winner">
+    <h1 translate>Congratulations !</h1>
+		<h3><span translate>This is a</span> <span class="label label-success" translate>Successful Team Mission</span> !</h3>
+		<h3>You've won with a score of {{winner[0]}} to {{winner[1]}}</h3>
+		<img class="" src="media/img/fight03.png" alt="img" width="300" />
+	</div>
+
+  <div class="row well text-center" ng-if="looser">
+		<h1><span translate>This is a</span> <span class="label label-danger">Failed Team Mission</span> !</h1>
+		<h3>You've lost with a score of {{looser[0]}} to {{looser[1]}}</h3>
+		<img class="" src="media/img/fight03.png" alt="img" width="300" />
+	</div>
+
+	<div class="row well text-center" ng-hide="winner || looser">
+		<h1><span translate>This is a tie !</span></h1>
+		<h3><span translate>No winner, no looser...</span></h3>
+		<img class="" src="media/img/fight03.png" alt="img" width="300" />
+	</div>
+
+
+  <nav class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" ui-sref="home" href="#"><i class="fa fa-home fa-fw"></i></a>
+      </div>
+    </div><!-- /.container-fluid -->
+  </nav>
+
+</div>

@@ -1,19 +1,19 @@
 <div class="col-md-12" ng-controller="WinnerCtrl">
 
   <div class="page-header text-center">
-    <h1 class="gameTitle">Soccer <span class="badge badge-info">Results!</span></h1>
+    <h1 class="gameTitle">Soccer <span class="badge badge-info" translate>Results!</span></h1>
   </div>
 
   <div class="row well text-center" ng-if="winner">
-    <h1>Congratulations !</h1>
-    <h2>The team won the game with a score of <span class="label label-default">{{winner.score}} to {{looser.score}}</span>.</h2>
+    <h1 translate>Congratulations !</h1>
+		<h2><span translate>The team won the game with a score of </span><span class="label label-default">{{winner.score}}</span><span translate> to </span><span class="label label-default">{{looser.score}}</span>.</h2>
     <ul class="playersList list-unstyled">
       <li ng-repeat="player in winner.players | orderBy: 'name' "><span ng-class="{scorer: player.scorer == 1}">{{player.name}}</span></li>
     </ul>
   </div>
 
   <div class="row well text-center" ng-if="winner == false">
-    <h1>It's a tie! No winner...</h1>
+    <h1 translate>It's a tie! No winner...</h1>
   </div>
 
   <nav class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
