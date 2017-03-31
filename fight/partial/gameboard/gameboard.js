@@ -1,9 +1,11 @@
-angular.module('fight').controller('fightGameboardCtrl',function($scope, $state, $filter, Teams, Data, $sce, DialogService, gettext, gettextCatalog){
+angular.module('fight').controller('fightGameboardCtrl',function($scope, $state, $filter, $timeout, Teams, Data, $sce, DialogService, gettext, gettextCatalog){
 
   $scope.questionToSave = $sce.trustAsHtml('');
 	$scope.saved = [];
   $scope.audio_winner = document.getElementById('audio_winner');
-	$scope.playersList = Teams.playersList;
+	if (Teams.savedTeams) {
+		$scope.playersList = Teams.savedTeams;
+	}
 	$scope.score01 = 0;
 	$scope.score02 = 0;
 
@@ -50,11 +52,16 @@ angular.module('fight').controller('fightGameboardCtrl',function($scope, $state,
 		$scope.questionToSave = '';
 	}
 
+	$scope.closeCurrent = function() {
+		$scope.currentPlayer = '';
+	}
+
 	$scope.saveAnswer = function(good) {
 		if ( good == 1 ) {
 			$scope.questionToSave += " ⇒ Wrong !";
 			$scope.score02++;
 		} else {
+			$scope.questionToSave += " ⇒ Right !";
 			$scope.score01++;
 		}
 		$scope.saved.push($scope.questionToSave);
@@ -79,6 +86,22 @@ angular.module('fight').controller('fightGameboardCtrl',function($scope, $state,
 
 	$scope.deleteSaved = function(index) {
 		$scope.saved.splice(index, 1);
+	};
+
+  $scope.selectPlayer = function() {
+		// Draw a random player
+		$scope.activePlayers = $filter('filter')($scope.playersList, {active:1});
+		// $timeout( function() { 
+		// 	$scope.currentPlayer = Teams.drawPlayer($scope.activePlayers, 1);
+		// }, 500 );
+		$scope.currentPlayer = Teams.drawPlayer($scope.activePlayers, 1);
+		// Check remaining active players
+		if ($scope.activePlayers.length === 1) { // Restart list
+			angular.forEach($scope.playersList, function(player) {
+				player.active = 1;
+			});
+		}
+		return false;
 	};
 
 });

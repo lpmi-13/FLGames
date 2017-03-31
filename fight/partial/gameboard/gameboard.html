@@ -8,9 +8,14 @@
 		</h2>
 	</header>
 
+	<div class="current" ng-show="currentPlayer">
+		<p>{{currentPlayer.name}}</p>
+    <button class="btn" ng-click="closeCurrent()" translate>Close</button>
+	</div>
+
   <div class="row gambleFeedback">
     <ol id="" class="savedList">
-			<li ng-repeat="l in saved track by $index">
+			<li ng-repeat="l in saved track by $index | orderBy:'$index':true">
 				<h3>{{l}}</h3>
 				<a class="btn btn-success btn-xs" ng-click="max(0)"><i class="fa fa-thumbs-up"></i></a>
 				<a class="btn btn-danger btn-xs" ng-click="max(1)"><i class="fa fa-thumbs-down"></i></a>
@@ -36,6 +41,7 @@
         <a ng-click="goHome();" class="navbar-brand" title="Go home"><i class="fa fa-home fa-fw"></i></a>
       </div>
 			<ul class="nav navbar-nav">
+				<li><a ng-click="selectPlayer();" ng-show="playersList" class="" title="Pick a player"><i class="fa fa-user fa-fw"></i> Pick a player</a></li>
 				<li><a ng-click="addSentence();" class="" title="Add a sentence"><i class="fa fa-plus-circle fa-fw"></i> Add sentence</a></li>
 				<li><a ng-click="max(0);" class="" title="Add 1pt"><i class="fa fa-plus-square"></i> +1 for Team</a></li>
 				<li><a ng-click="max(1);" class="" title="Add 1pt"><i class="fa fa-plus-square-o"></i> +1 for Teacher </a></li>
