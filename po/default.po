@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: utf-8\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Poedit 1.8.7.1\n"
 
 #: carrace/partial/main/main.html
 msgid ""
@@ -53,13 +53,19 @@ msgstr "Réponse"
 msgid "Are you sure you want to change all vehicles?"
 msgstr "Êtes-vous certain de vouloir changer tous les véhicules?"
 
+#: alphabet/partial/gameboard/gameboard.js fight/partial/gameboard/gameboard.js
 #: grammarGamble/partial/gameboard/gameboard.js
 #: soccer/partial/gameboard/gameboard.js
 #: tictactoe/partial/gameboard/gameboard.js
 msgid "Are you sure you want to end the game?"
 msgstr "Êtes-vous certain de vouloir terminer la partie?"
 
-#: carrace/partial/gameboard/gameboard.js
+#: alphabet/partial/gameboard/gameboard.js
+msgid "Are you sure you want to generate a new grid ?"
+msgstr "Êtes-vous certain de vouloir générer une nouvelle grille ?"
+
+#: alphabet/partial/gameboard/gameboard.js
+#: carrace/partial/gameboard/gameboard.js fight/partial/gameboard/gameboard.js
 #: grammarGamble/partial/gameboard/gameboard.js
 #: soccer/partial/gameboard/gameboard.js
 #: tictactoe/partial/gameboard/gameboard.js
@@ -111,10 +117,12 @@ msgid "Click on 'Start the Game' (or on the gameboard)."
 msgstr "Clique sur 'Commencer la partie' (ou bien sur le plateau de jeu)."
 
 #: carrace/partial/gameboard/gameboard.html
-#: grammarGamble/partial/gameboard/gameboard.html
+#: fight/partial/gameboard/gameboard.html
+#: grammarGamble/partial/gameboard/gameboard.html home/partial/main/main.html
 msgid "Close"
 msgstr "Fermer"
 
+#: alphabet/partial/winner/winner.html fight/partial/winner/winner.html
 #: soccer/partial/winner/winner.html
 msgid "Congratulations !"
 msgstr "Félicitations !"
@@ -171,12 +179,15 @@ msgstr "Mélanger les équipes"
 msgid "Each group has a vehicle."
 msgstr "Chaque groupe possède un véhicule."
 
+#: alphabet/partial/gameboard/gameboard.html
+#: fight/partial/gameboard/gameboard.html
 #: grammarGamble/partial/gameboard/gameboard.html
 #: soccer/partial/gameboard/gameboard.html
 #: tictactoe/partial/gameboard/gameboard.html
 msgid "End game"
 msgstr "Terminer la partie"
 
+#: alphabet/partial/gameboard/gameboard.js fight/partial/gameboard/gameboard.js
 #: grammarGamble/partial/gameboard/gameboard.js
 #: soccer/partial/gameboard/gameboard.js
 #: tictactoe/partial/gameboard/gameboard.js
@@ -196,7 +207,8 @@ msgstr "Coup-franc pour l'équipe adverse."
 msgid "Game rules"
 msgstr "Règles du jeu"
 
-#: carrace/partial/gameboard/gameboard.js
+#: alphabet/partial/gameboard/gameboard.js
+#: carrace/partial/gameboard/gameboard.js fight/partial/gameboard/gameboard.js
 #: grammarGamble/partial/gameboard/gameboard.js
 #: soccer/partial/gameboard/gameboard.js
 #: tictactoe/partial/gameboard/gameboard.js
@@ -241,7 +253,7 @@ msgstr "Si ta réponse est fausse : soustrait ta mise :("
 
 #: soccer/partial/winner/winner.html tictactoe/partial/winner/winner.html
 msgid "It's a tie! No winner..."
-msgstr "Match nul ! Aucun gagant..."
+msgstr "Match nul ! Aucun gagnant..."
 
 #: carrace/partial/gameboard/gameboard.html
 msgid "Malus"
@@ -250,6 +262,14 @@ msgstr "Malus"
 #: home/partial/main/main.html
 msgid "Manage class"
 msgstr "Gestion de la classe"
+
+#: alphabet/partial/gameboard/gameboard.html
+msgid "Mix Letters"
+msgstr "Mélanger les lettres"
+
+#: alphabet/partial/gameboard/gameboard.js
+msgid "Mix letters?"
+msgstr "Mélanger les lettres ?"
 
 #: tictactoe/partial/gameboard/gameboard.html
 msgid "Mix topic"
@@ -284,6 +304,10 @@ msgstr "Aucune classe n'est sélectionnée !"
 #: tictactoe/partial/gameboard/gameboard.js
 msgid "No topic!"
 msgstr "Aucun thème!"
+
+#: alphabet/partial/winner/winner.html fight/partial/winner/winner.html
+msgid "No winner, no looser..."
+msgstr "Pas de gagnant, pas de perdant..."
 
 #: carrace/partial/main/main.html soccer/partial/main/main.html
 #: tictactoe/partial/main/main.html
@@ -342,10 +366,15 @@ msgstr "Bonus aléatoire"
 msgid "Red card!"
 msgstr "Carton rouge!"
 
-#: carrace/partial/winner/winner.html grammarGamble/partial/winner/winner.html
+#: alphabet/partial/winner/winner.html carrace/partial/winner/winner.html
+#: fight/partial/winner/winner.html grammarGamble/partial/winner/winner.html
 #: soccer/partial/winner/winner.html tictactoe/partial/winner/winner.html
 msgid "Results!"
 msgstr "Résultat !"
+
+#: fight/partial/gameboard/gameboard.html
+msgid "Right"
+msgstr "Juste"
 
 #: grammarGamble/partial/gameboard/gameboard.html
 msgid "Save"
@@ -373,6 +402,14 @@ msgstr "Commencer la partie"
 msgid "Stop"
 msgstr "Arrêter"
 
+#: alphabet/partial/winner/winner.html
+msgid "Successful Collective Mission"
+msgstr "Mission collective réussie"
+
+#: fight/partial/winner/winner.html
+msgid "Successful Team Mission"
+msgstr "Mission en équipe réussie"
+
 #: tictactoe/partial/gameboard/gameboard.html
 msgid "Switch player"
 msgstr "Changer de joueur"
@@ -384,6 +421,10 @@ msgstr "Changer d'équipe"
 #: grammarGamble/partial/winner/winner.html
 msgid "Tell your score to the class!"
 msgstr "Dis ton score à la classe !"
+
+#: alphabet/partial/gameboard/gameboard.html
+msgid "The Alphabet Game !"
+msgstr "The Alphabet Game !"
 
 #: soccer/partial/main/main.html
 msgid "The fastest player to give a correct answer passes the ball."
@@ -409,6 +450,14 @@ msgstr ""
 "Il n'y a pas suffisamment de données pour créer une grille. Vérifiez votre "
 "fichier de données et rechargez la page, ou bien choisissez un autre thème."
 
+#: alphabet/partial/winner/winner.html fight/partial/winner/winner.html
+msgid "This is a"
+msgstr "C'est un"
+
+#: alphabet/partial/winner/winner.html fight/partial/winner/winner.html
+msgid "This is a tie !"
+msgstr "Match nul !"
+
 #: tictactoe/partial/gameboard/gameboard.js
 msgid "This will clear the board from all logos! Are you sure?"
 msgstr ""
@@ -419,7 +468,7 @@ msgstr ""
 msgid "Throw dice"
 msgstr "Jeter les dés"
 
-#: soccer/partial/winner/winner.html
+#: alphabet/partial/winner/winner.html soccer/partial/winner/winner.html
 msgid "to"
 msgstr "à"
 
@@ -450,6 +499,18 @@ msgstr "Qui est le gagnant ?"
 #: soccer/partial/main/main.html
 msgid "Will you be in the winning team?"
 msgstr "Serez-vous dans l'équipe gagnante ?"
+
+#: alphabet/partial/winner/winner.html
+msgid "won with a score of"
+msgstr "a gagné sur le score de"
+
+#: fight/partial/gameboard/gameboard.html
+msgid "Writing Fight !"
+msgstr "Writing Fight !"
+
+#: fight/partial/gameboard/gameboard.html
+msgid "Wrong"
+msgstr "Faux"
 
 #: tictactoe/partial/main/main.html
 msgid "Wrong answer ? 'Switch team' !"

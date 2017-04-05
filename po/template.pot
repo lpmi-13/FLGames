@@ -40,13 +40,21 @@ msgstr ""
 msgid "Are you sure you want to change all vehicles?"
 msgstr ""
 
+#: alphabet/partial/gameboard/gameboard.js
+#: fight/partial/gameboard/gameboard.js
 #: grammarGamble/partial/gameboard/gameboard.js
 #: soccer/partial/gameboard/gameboard.js
 #: tictactoe/partial/gameboard/gameboard.js
 msgid "Are you sure you want to end the game?"
 msgstr ""
 
+#: alphabet/partial/gameboard/gameboard.js
+msgid "Are you sure you want to generate a new grid ?"
+msgstr ""
+
+#: alphabet/partial/gameboard/gameboard.js
 #: carrace/partial/gameboard/gameboard.js
+#: fight/partial/gameboard/gameboard.js
 #: grammarGamble/partial/gameboard/gameboard.js
 #: soccer/partial/gameboard/gameboard.js
 #: tictactoe/partial/gameboard/gameboard.js
@@ -99,10 +107,14 @@ msgid "Click on 'Start the Game' (or on the gameboard)."
 msgstr ""
 
 #: carrace/partial/gameboard/gameboard.html
+#: fight/partial/gameboard/gameboard.html
 #: grammarGamble/partial/gameboard/gameboard.html
+#: home/partial/main/main.html
 msgid "Close"
 msgstr ""
 
+#: alphabet/partial/winner/winner.html
+#: fight/partial/winner/winner.html
 #: soccer/partial/winner/winner.html
 msgid "Congratulations !"
 msgstr ""
@@ -148,12 +160,16 @@ msgstr ""
 msgid "Each group has a vehicle."
 msgstr ""
 
+#: alphabet/partial/gameboard/gameboard.html
+#: fight/partial/gameboard/gameboard.html
 #: grammarGamble/partial/gameboard/gameboard.html
 #: soccer/partial/gameboard/gameboard.html
 #: tictactoe/partial/gameboard/gameboard.html
 msgid "End game"
 msgstr ""
 
+#: alphabet/partial/gameboard/gameboard.js
+#: fight/partial/gameboard/gameboard.js
 #: grammarGamble/partial/gameboard/gameboard.js
 #: soccer/partial/gameboard/gameboard.js
 #: tictactoe/partial/gameboard/gameboard.js
@@ -175,7 +191,9 @@ msgstr ""
 msgid "Game rules"
 msgstr ""
 
+#: alphabet/partial/gameboard/gameboard.js
 #: carrace/partial/gameboard/gameboard.js
+#: fight/partial/gameboard/gameboard.js
 #: grammarGamble/partial/gameboard/gameboard.js
 #: soccer/partial/gameboard/gameboard.js
 #: tictactoe/partial/gameboard/gameboard.js
@@ -223,6 +241,14 @@ msgstr ""
 msgid "Manage class"
 msgstr ""
 
+#: alphabet/partial/gameboard/gameboard.html
+msgid "Mix Letters"
+msgstr ""
+
+#: alphabet/partial/gameboard/gameboard.js
+msgid "Mix letters?"
+msgstr ""
+
 #: tictactoe/partial/gameboard/gameboard.html
 msgid "Mix topic"
 msgstr ""
@@ -258,6 +284,11 @@ msgstr ""
 #: carrace/partial/gameboard/gameboard.js
 #: tictactoe/partial/gameboard/gameboard.js
 msgid "No topic!"
+msgstr ""
+
+#: alphabet/partial/winner/winner.html
+#: fight/partial/winner/winner.html
+msgid "No winner, no looser..."
 msgstr ""
 
 #: carrace/partial/main/main.html
@@ -322,11 +353,17 @@ msgstr ""
 msgid "Red card!"
 msgstr ""
 
+#: alphabet/partial/winner/winner.html
 #: carrace/partial/winner/winner.html
+#: fight/partial/winner/winner.html
 #: grammarGamble/partial/winner/winner.html
 #: soccer/partial/winner/winner.html
 #: tictactoe/partial/winner/winner.html
 msgid "Results!"
+msgstr ""
+
+#: fight/partial/gameboard/gameboard.html
+msgid "Right"
 msgstr ""
 
 #: grammarGamble/partial/gameboard/gameboard.html
@@ -357,6 +394,14 @@ msgstr ""
 msgid "Stop"
 msgstr ""
 
+#: alphabet/partial/winner/winner.html
+msgid "Successful Collective Mission"
+msgstr ""
+
+#: fight/partial/winner/winner.html
+msgid "Successful Team Mission"
+msgstr ""
+
 #: tictactoe/partial/gameboard/gameboard.html
 msgid "Switch player"
 msgstr ""
@@ -367,6 +412,10 @@ msgstr ""
 
 #: grammarGamble/partial/winner/winner.html
 msgid "Tell your score to the class!"
+msgstr ""
+
+#: alphabet/partial/gameboard/gameboard.html
+msgid "The Alphabet Game !"
 msgstr ""
 
 #: soccer/partial/main/main.html
@@ -390,6 +439,16 @@ msgstr ""
 msgid "There isn't enough items in your list. You should check the data file and restart the game or choose another topic."
 msgstr ""
 
+#: alphabet/partial/winner/winner.html
+#: fight/partial/winner/winner.html
+msgid "This is a"
+msgstr ""
+
+#: alphabet/partial/winner/winner.html
+#: fight/partial/winner/winner.html
+msgid "This is a tie !"
+msgstr ""
+
 #: tictactoe/partial/gameboard/gameboard.js
 msgid "This will clear the board from all logos! Are you sure?"
 msgstr ""
@@ -398,6 +457,7 @@ msgstr ""
 msgid "Throw dice"
 msgstr ""
 
+#: alphabet/partial/winner/winner.html
 #: soccer/partial/winner/winner.html
 msgid "to"
 msgstr ""
@@ -428,6 +488,18 @@ msgstr ""
 
 #: soccer/partial/main/main.html
 msgid "Will you be in the winning team?"
+msgstr ""
+
+#: alphabet/partial/winner/winner.html
+msgid "won with a score of"
+msgstr ""
+
+#: fight/partial/gameboard/gameboard.html
+msgid "Writing Fight !"
+msgstr ""
+
+#: fight/partial/gameboard/gameboard.html
+msgid "Wrong"
 msgstr ""
 
 #: tictactoe/partial/main/main.html
