@@ -1,0 +1,27 @@
+<div class="col-md-12" ng-controller="WinnerCtrl">
+
+  <div class="page-header text-center">
+    <h1 class="gameTitle">The Alphabet Game <span class="badge badge-info" translate>Results!</span></h1>
+  </div>
+
+  <div class="row well text-center" ng-if="winner">
+    <h1 translate>Congratulations !</h1>
+		<h3><span translate>This is a</span> <span class="label label-success" translate>Successful Collective Mission</span> !</h3>
+		<h3>{{winner[0].name}} <span translate>won with a score of</span> <span class="label label-primary">{{winner[0].score}}</span> <span translate>to</span> <span class="label label-primary">{{looser[0].score}}</span></h3>
+	</div>
+
+	<div class="row well text-center" ng-hide="winner || looser">
+		<h1><span translate>This is a tie !</span></h1>
+		<h3><span translate>No winner, no looser...</span></h3>
+	</div>
+
+
+  <nav class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" ui-sref="home" href="#"><i class="fa fa-home fa-fw"></i></a>
+      </div>
+    </div><!-- /.container-fluid -->
+  </nav>
+
+</div>

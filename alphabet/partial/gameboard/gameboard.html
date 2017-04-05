@@ -1,0 +1,34 @@
+<div class="col-md-12" ng-controller="alphabetGameboardCtrl" ng-init="init()">
+  <header class="gameTitle row">
+		<h2 class="pull-left">Team 01 : {{gameTeams[0].score}}</h2>
+		<h1 class="" translate>The Alphabet Game !</h1>
+		<h2 class="pull-right">Team 02 : {{gameTeams[1].score}}</h2>
+	</header>
+
+	<div class="row">
+    <table id="alphaTable">
+      <tr ng-repeat="row in board track by $index">
+				<td ng-class="{'letter': true, 'done': done,  'letterSelected': selected}" ng-repeat="cell in row track by $index" ng-click="selectLetter(this, $parent.$index, $index)">{{cell}}</td>
+      </tr>
+    </table>
+	</div>
+
+  <nav class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a ng-click="goHome();" class="navbar-brand" title="Go home"><i class="fa fa-home fa-fw"></i></a>
+      </div>
+			<ul class="nav navbar-nav">
+				<li><a ng-click="selectPlayer();" ng-show="playersList" class="" title="Pick a player"><i class="fa fa-user fa-fw"></i> Pick a player</a></li>
+				<li><a ng-click="score(0);" class="" title="Add 1pt"><i class="fa fa-plus-square"></i> Team 01</a></li>
+				<li><a ng-click="score(1);" class="" title="Add 1pt"><i class="fa fa-plus-square-o"></i> Team 02 </a></li>
+				<li><a ng-click="minus(0);" class="" title="Add 1pt"><i class="fa fa-minus-square"></i> Team 01</a></li>
+				<li><a ng-click="minus(1);" class="" title="Add 1pt"><i class="fa fa-minus-square-o"></i> Team 02 </a></li>
+        <li><a ng-click="mixLetters();" title="Mix letters"><i class="fa fa-refresh fa-fw"></i> <span class="" translate>Mix Letters</span></a></li>
+        <li><a ng-click="endGame();" title="End game"><i class="fa fa-times fa-fw"></i> <span class="hideLow" translate>End game</span></a></li>
+			</ul>
+    </div><!-- /.container-fluid -->
+  </nav>
+
+
+</div>

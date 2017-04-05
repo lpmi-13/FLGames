@@ -5,13 +5,15 @@ angular.module('home').controller('MainCtrl',function($scope, Teams, $state, $st
     {id:'soccer', name:'Soccer', nbTeams:2, maxTeams:0},
     {id:'carrace', name:'Car race', nbTeams:6, maxTeams:8},
     {id:'grammarGamble', name:'Grammar Gamble', nbTeams:2, maxTeams:0},
-    {id:'fight', name:'Writing Fight', nbTeams:1, maxTeams:0}
+    {id:'fight', name:'Writing Fight', nbTeams:1, maxTeams:0},
+    {id:'alphabet', name:'Alphabet Game', nbTeams:1, maxTeams:0}
   ];
 
 	$scope.setDefaultParams = function() {
 		$scope.mainParams = { // Default parameters
 			selectedClass: false,
 			gameId: 'tictactoe',
+			gameName: 'Tictactoe',
 			pupils: [
 				{ name:'',
 					active:1,
@@ -116,6 +118,7 @@ angular.module('home').controller('MainCtrl',function($scope, Teams, $state, $st
 
 	$scope.selectGame = function(activity) {
 		$scope.mainParams.gameId = activity.id;
+		$scope.mainParams.gameName = activity.name;
 		$scope.mainParams.maxTeams = activity.maxTeams; 
 		$scope.mainParams.nbTeams = activity.nbTeams; 
 		$scope.drawTeams(activity.nbTeams);

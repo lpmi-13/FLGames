@@ -1,19 +1,17 @@
 <div class="col-md-12" ng-controller="MainCtrl">
   <div class="row well text-center">
-    <h1>FLGames</h1>
+		<img src="media/img/logo.png" alt="FLGames"/>
+		<h4 class="pull-right">
+			<span class="label label-success">{{mainParams.gameName}}</span>
+		</h4>
+		<h4 class="pull-right" ng-show="!isSelected">
+			<span class="label label-danger" translate>No class selected !</span>
+		</h4>
+		<h4 class="pull-right" ng-show="isSelected">
+			<span class="label label-primary">{{mainParams.selectedClass}}</span>
+		</h4>
   </div>
 
-  <div class="row well text-center">
-		<span class="col-md-2 thumbnail" ng-click="selectGame(game)" ng-class="{ 'selectedGame' : game.id == mainParams.gameId}" ng-repeat="game in allGames">
-			<img class="img-thumbnail" ng-src="media/img/{{game.id}}-logo.png" alt="{{game.name}}-logo" width="200" />
-			<h4 class="text-center"><span class="gameTitle">{{game.name}}</span></h4>
-		</span>
-  </div>
-
-  <div class="row well" ng-show="!isSelected">
-		<h2 translate>No class selected !</h2>
-	</div>
-	
 	<div class="row well" ng-show="isSelected && mainParams.maxTeams > 0">
     <span class="title badge badge-success" translate># of Teams / Groups</span>
     <ul class="list-inline">
@@ -25,6 +23,13 @@
     <span class="title badge badge-success" translate>Manage class</span>
 		<h3 class="text-center">{{mainParams.selectedClass}} : {{playersList.length}} <span translate>pupils</span> / {{remaining()}} <span translate>players</span></h3>
 		<h4><label class="label label-warning"><span translate>See list (absent, teams...) ?</span> <input type="checkbox" ng-model="checked"></label></h4>
+  </div>
+
+  <div class="row well index">
+		<span class="col-md-2 thumbnail" ng-click="selectGame(game)" ng-class="{ 'selectedGame' : game.id == mainParams.gameId}" ng-repeat="game in allGames">
+			<img class="img-thumbnail" ng-src="media/img/{{game.id}}-logo.png" alt="{{game.name}}-logo" width="200" />
+			<h4 class="text-center"><span class="gameTitle">{{game.name}}</span></h4>
+		</span>
   </div>
 
   <div class="teamList row well" ng-show="checked">
@@ -43,6 +48,7 @@
       </li>
 			<li><button class="btn btn-success btn-mini" ng-click="drawTeams(mainParams.nbTeams)" translate>Draw new teams</button></li>
     </ul>
+		<button class="btn btn-success btn-mini" ng-click="checked = 0" translate>Close</button>
   </div>
 
 	<div class="navbar navbar-inverse navbar-fixed-bottom">

@@ -1,4 +1,4 @@
-angular.module('FLGames', ['ui.bootstrap', 'ui.utils', 'ui.router', 'ngAnimate', 'tictactoe', 'home', 'gettext', 'soccer', 'carrace', 'grammarGamble', 'fight']);
+angular.module('FLGames', ['ui.bootstrap', 'ui.utils', 'ui.router', 'ngAnimate', 'tictactoe', 'home', 'gettext', 'soccer', 'carrace', 'grammarGamble', 'fight', 'alphabet']);
 
 angular.module('FLGames').config(function($stateProvider, $urlRouterProvider) {
 
@@ -31,6 +31,11 @@ angular.module('FLGames').config(function($stateProvider, $urlRouterProvider) {
     .state('fight', {
       url: "/fight/:classId",
       templateUrl: "fight/partial/gameboard/gameboard.html"
+    })
+
+    .state('alphabet', {
+      url: "/alphabet/:classId",
+      templateUrl: "alphabet/partial/gameboard/gameboard.html"
     })
 
     .state('gameboard', {
