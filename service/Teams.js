@@ -110,7 +110,20 @@ angular.module('FLGames').factory('Teams',function($http) {
       var rand = Math.floor(Math.random() * pupilsList.length);
       pupilsList[rand].active = 0;
       return pupilsList[rand];
-    }
+    },
+
+		drawPlayers: function(pupilsList, nb) {
+			if (nb > 0) {
+        pupilsList = this.shuffle(pupilsList);
+				for (var i=0; i<nb; i++) {
+					pupilsList[i].active = 0;
+				}
+			} else { // Select all players
+				for (var i=0; i<pupilsList.length; i++) {
+					pupilsList[i].active = 0;
+				}
+			}
+		}
   };
 
 	return Teams;

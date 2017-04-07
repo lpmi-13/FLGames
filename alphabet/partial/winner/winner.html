@@ -7,7 +7,10 @@
   <div class="row well text-center" ng-if="winner">
     <h1 translate>Congratulations !</h1>
 		<h3><span translate>This is a</span> <span class="label label-success" translate>Successful Collective Mission</span> !</h3>
-		<h3>{{winner[0].name}} <span translate>won with a score of</span> <span class="label label-primary">{{winner[0].score}}</span> <span translate>to</span> <span class="label label-primary">{{looser[0].score}}</span></h3>
+		<h3><span translate>The team won the game with a score of</span> <span class="label label-primary">{{winner[0].score}}</span> <span translate>to</span> <span class="label label-primary">{{looser[0].score}}</span></h3>
+    <ul class="playersList list-unstyled">
+      <li ng-repeat="player in winner[0].players | orderBy: 'name' "><span class="winners">{{player.name}}</span></li>
+    </ul>
 	</div>
 
 	<div class="row well text-center" ng-hide="winner || looser">

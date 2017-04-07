@@ -1,11 +1,23 @@
 <div class="col-md-12" ng-controller="alphabetGameboardCtrl" ng-init="init()">
   <header class="gameTitle row">
-		<h2 class="pull-left">Team 01 : {{gameTeams[0].score}}</h2>
+		<!-- <h2 class="pull-left">Team 01 : {{gameTeams[0].score}}</h2> -->
 		<h1 class="" translate>The Alphabet Game !</h1>
-		<h2 class="pull-right">Team 02 : {{gameTeams[1].score}}</h2>
+		<!-- <h2 class="pull-right">Team 02 : {{gameTeams[1].score}}</h2> -->
 	</header>
 
 	<div class="row">
+    <h1 id="team0Name"><span class="label label-default">Team 01 : {{gameTeams[0].score}}</span></h1>
+    <ul id="team0" class="team">
+      <li ng-repeat="pupil in gameTeams[0].players | orderBy:'name'">
+				<span ng-class="{'selected': pupil.active == 0}">{{pupil.name}}</span>
+      </li>
+    </ul>
+    <h1 id="team1Name"><span class="label label-default">Team 02 : {{gameTeams[1].score}}</span></h1>
+    <ul id="team1" class="team">
+      <li ng-repeat="pupil in gameTeams[1].players | orderBy:'name'">
+				<span ng-class="{'selected': pupil.active == 0}">{{pupil.name}}</span>
+      </li>
+    </ul>
     <table id="alphaTable">
       <tr ng-repeat="row in board track by $index">
 				<td ng-class="{'letter': true, 'done': done,  'letterSelected': selected}" ng-repeat="cell in row track by $index" ng-click="selectLetter(this, $parent.$index, $index)">{{cell}}</td>
@@ -19,9 +31,12 @@
         <a ng-click="goHome();" class="navbar-brand" title="Go home"><i class="fa fa-home fa-fw"></i></a>
       </div>
 			<ul class="nav navbar-nav">
-				<li><a ng-click="selectPlayer();" ng-show="playersList" class="" title="Pick a player"><i class="fa fa-user fa-fw"></i> Pick a player</a></li>
-				<li><a ng-click="score(0);" class="" title="Add 1pt"><i class="fa fa-plus-square"></i> Team 01</a></li>
-				<li><a ng-click="score(1);" class="" title="Add 1pt"><i class="fa fa-plus-square-o"></i> Team 02 </a></li>
+				<li><a ng-click="selectPlayer(0);" ng-show="playersList" class="" title="Select player"><i class="fa fa-user fa-fw"></i> All</a></li>
+				<li><a ng-click="selectPlayer(1);" ng-show="playersList" class="" title="Select player"><i class="fa fa-user fa-fw"></i> 1</a></li>
+				<li><a ng-click="selectPlayer(2);" ng-show="playersList" class="" title="Select player"><i class="fa fa-user fa-fw"></i> 2</a></li>
+				<li><a ng-click="selectPlayer(3);" ng-show="playersList" class="" title="Select player"><i class="fa fa-user fa-fw"></i> 3</a></li>
+				<li><a ng-click="max(0);" class="" title="Add 1pt"><i class="fa fa-plus-square"></i> Team 01</a></li>
+				<li><a ng-click="max(1);" class="" title="Add 1pt"><i class="fa fa-plus-square-o"></i> Team 02 </a></li>
 				<li><a ng-click="minus(0);" class="" title="Add 1pt"><i class="fa fa-minus-square"></i> Team 01</a></li>
 				<li><a ng-click="minus(1);" class="" title="Add 1pt"><i class="fa fa-minus-square-o"></i> Team 02 </a></li>
         <li><a ng-click="mixLetters();" title="Mix letters"><i class="fa fa-refresh fa-fw"></i> <span class="" translate>Mix Letters</span></a></li>
@@ -29,6 +44,5 @@
 			</ul>
     </div><!-- /.container-fluid -->
   </nav>
-
 
 </div>

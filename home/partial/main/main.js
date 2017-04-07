@@ -6,7 +6,7 @@ angular.module('home').controller('MainCtrl',function($scope, Teams, $state, $st
     {id:'carrace', name:'Car race', nbTeams:6, maxTeams:8},
     {id:'grammarGamble', name:'Grammar Gamble', nbTeams:2, maxTeams:0},
     {id:'fight', name:'Writing Fight', nbTeams:1, maxTeams:0},
-    {id:'alphabet', name:'Alphabet Game', nbTeams:1, maxTeams:0}
+    {id:'alphabet', name:'Alphabet Game', nbTeams:2, maxTeams:0}
   ];
 
 	$scope.setDefaultParams = function() {
