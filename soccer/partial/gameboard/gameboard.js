@@ -157,7 +157,7 @@ angular.module('soccer').controller('soccerGameboardCtrl',function($scope, $stat
     $scope.testGoal(team);
     // Pick a random player from team
     // TODO? Keep history and avoid repetition of same player
-    $scope.currentSelectedPlayer = Teams.drawPlayer($scope.gameTeams[team].players, 1);
+    $scope.currentSelectedPlayer = Teams.drawPlayers($scope.gameTeams[team].players, 1)[0];
 
     if (!$scope.goal) { // No goal : pass the ball from 1 to 3 times
           // Random pass : long or short (minimun 20px)
@@ -313,7 +313,7 @@ angular.module('soccer').controller('soccerGameboardCtrl',function($scope, $stat
         closeButtonText: gettext('No'),
         actionButtonText: gettext('Play the free kick'),
         callback: function () {
-          $scope.currentSelectedPlayer = Teams.drawPlayer($scope.gameTeams[team].players, 1);
+          $scope.currentSelectedPlayer = Teams.drawPlayers($scope.gameTeams[team].players, 1)[0];
           $scope.playerWin(oppTeam);
         }
       };
@@ -326,7 +326,7 @@ angular.module('soccer').controller('soccerGameboardCtrl',function($scope, $stat
         closeButtonText: gettext('No'),
         actionButtonText: gettext('Play the free kick'),
         callback: function () {
-          $scope.currentSelectedPlayer = Teams.drawPlayer($scope.gameTeams[team].players, 1);
+          $scope.currentSelectedPlayer = Teams.drawPlayers($scope.gameTeams[team].players, 1)[0];
           $scope.playerWin(oppTeam);
         }
       };
@@ -348,25 +348,25 @@ angular.module('soccer').controller('soccerGameboardCtrl',function($scope, $stat
       // Get active players
       $scope.activePlayers[0] = $filter('filter')(Teams.savedTeams, { team:0, active:1}, true);
       if ( $scope.activePlayers[0].length > 1) { // Pick a player among active
-        $scope.currentPlayer[0] = Teams.drawPlayer($scope.activePlayers[0], 1);
+        $scope.currentPlayer[0] = Teams.drawPlayers($scope.activePlayers[0], 1)[0];
       } else { // Not enough players left : re-activate all players and pick 1
         angular.forEach($scope.gameTeams[0].players, function(player) {
             player.active = 1;
         });
         $scope.activePlayers[0] = $filter('filter')(Teams.savedTeams, { team:0, active:1}, true);
-        $scope.currentPlayer[0] = Teams.drawPlayer($scope.activePlayers[0], 1);
+        $scope.currentPlayer[0] = Teams.drawPlayers($scope.activePlayers[0], 1)[0];
       }
       // Team 1
       // Get active players
       $scope.activePlayers[1] = $filter('filter')(Teams.savedTeams, { team:1, active:1}, true);
       if ( $scope.activePlayers[1].length > 1) { // Pick a player among active
-        $scope.currentPlayer[1] = Teams.drawPlayer($scope.activePlayers[1], 1);
+        $scope.currentPlayer[1] = Teams.drawPlayers($scope.activePlayers[1], 1)[0];
       } else { // Not enough players left : re-activate all players and pick 1
         angular.forEach($scope.gameTeams[1].players, function(player) {
             player.active = 1;
         });
         $scope.activePlayers[1] = $filter('filter')(Teams.savedTeams, { team:1, active:1}, true);
-        $scope.currentPlayer[1] = Teams.drawPlayer($scope.activePlayers[1], 1);
+        $scope.currentPlayer[1] = Teams.drawPlayers($scope.activePlayers[1], 1)[0];
       }
     }
   };

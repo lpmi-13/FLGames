@@ -41,7 +41,6 @@ angular.module('tictactoe').controller('tictactoeGameboardCtrl',function($scope,
   $scope.currentPlayer = false;
   $scope.selectedTopic = false;
   $scope.newGame = true;
-  $scope.currentPlayer = false;
   $scope.nextTeam = 0;
   $scope.winner = false;
   $scope.started = false;
@@ -116,8 +115,7 @@ angular.module('tictactoe').controller('tictactoeGameboardCtrl',function($scope,
     } else { // A class is selected
       // Draw a random player
       $scope.activePlayers = $filter('filter')(Teams.savedTeams, {team:$scope.nextTeam, active:1});
-      //console.log($scope.activePlayers.length);
-      $scope.currentPlayer = Teams.drawPlayer($scope.activePlayers, 1);
+      $scope.currentPlayer = Teams.drawPlayers($scope.activePlayers, 1)[0];
       // Set logo
       $scope.currentPlayer.logo = $scope.gameTeams[$scope.currentPlayer.team].logo;
       // Check remaining active players
