@@ -26,6 +26,7 @@ angular.module('home').controller('MainCtrl',function($scope, Teams, $state, $st
 			nbTeams: 2,
 			maxTeams: 0
 		};
+    $scope.orderProp = 'name';
 	};
 	$scope.setDefaultParams();
 

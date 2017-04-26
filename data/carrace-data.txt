@@ -837,20 +837,29 @@ Recopie en traduisant le verbe : I didn't (lire) a book, I (ÉCRIRE) one! :: I d
 
 : Prétérit : 50 irregular verbs
 Traduis en anglais : Il a acheté un ordinateur et des jeux. :: He bought a computer and (video) games. :: 60
-Traduis en anglais : Ils n'ont pas oublié leur cahier! :: They didn't forget their notebook/copybook! :: 60
+Traduis en anglais : Elle n'a pas acheté de livre. :: She didn't buy (any) books. :: 50
+Traduis en anglais : Ils n'ont pas oublié leur cahier! :: They didn't forget their notebook/copybook! :: 58
+Traduis en anglais : Ils ont oublié leur cahier! :: They forgot their notebook/copybook! :: 50
 Traduis en anglais : Il a chanté et il a gagné. Il est très fort! :: He sang and he won. He's very good! :: 60
 Traduis en anglais : J'ai fait un gâteau au chocolat avec ma soeur. :: I made a chocolate cake with my sister. :: 60
 Traduis en anglais : Tu n'étais pas malade, tu étais en retard. :: You weren't sick, you were late. :: 60
 Traduis en anglais :  Ce n'était pas drôle! :: It wasn't funny! :: 60
 Traduis en anglais :  Il a gardé le secret. :: He kept the secret. :: 50
 Traduis en français : They didn't go to the cinema. :: Ils ne sont pas allés au cinéma. :: 45
-Traduis en français : He left the city yesterday. :: Il a quitté la ville hier. :: 55
+Traduis en français : He left the city yesterday. :: Il a quitté la ville hier. :: 50
 Traduis en français : She said she wanted to buy a new dress. :: Elle a dit qu'elle voulait acheter une nouvelle robe. :: 55
 Traduis en français : They stole my car so I called the police. :: Ils ont volé ma voiture donc j'ai appelé la police. :: 55
 Traduis en français : Last week, we went to London and we saw The Shard. :: La semaine dernière, nous sommes allés à Londres et nous avons vu le Shard. :: 55
 Quels sont les 2 verbes au prétérit qui se cachent dans ALSIODTD ? Indique aussi leur base verbale. :: SAID (SAY) / TOLD (TELL) 
 Quels sont les 2 verbes au prétérit qui se cachent dans TAGTEUSTOHL ? Indique aussi leur base verbale. :: TAUGHT (TEACH) / STOLE (STEAL) 
-
+Remets dans l'ordre  et ajoute la ponctuation : went / they / new york / city / last / to / week :: They went to New York City last week. :: 45
+Remets dans l'ordre  et ajoute la ponctuation : visited / first / i / MOMA / the  :: First, I visited the MOMA. :: 45
+Remets dans l'ordre  et ajoute la ponctuation : saw / then / i / liberty / the / of / statue  :: Then, I saw the Statue of Liberty. :: 45
+Remets dans l'ordre  et ajoute la ponctuation : ride / didn't / we / taxi / a / yellow  :: We didn't ride a yellow taxi. :: 45
+What's the past participle of 'être' ? :: been :: 23
+What's the past participle of 'say' ? :: said :: 22
+What's the past participle of 'voir' ? :: seen :: 23
+What's the past participle of 'prendre' ? :: taken :: 23
 
 : Pronouns
 Remplace les mots soulignés par le pronom qui convient : <u>Sam</u> is English.::<u>He</u>is English.::60

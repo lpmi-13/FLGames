@@ -41,7 +41,7 @@
         </div>
       </li>
       <li ng-repeat="pupil in playersList | orderBy:orderProp">
-       <label class="absent-{{pupil.absent}} team-{{pupil.team}}"><input type="checkbox" ng-model="pupil.absent" ng-change="drawTeams()">
+       <label class="absent-{{pupil.absent}} team-{{pupil.team}}"><input type="checkbox" ng-model="pupil.absent" ng-change="drawTeams(mainParams.nbTeams)">
          {{pupil.name}}
          <span ng-show="orderProp=='team' && pupil.absent==0">({{pupil.team+1}})</span>
        </label>
