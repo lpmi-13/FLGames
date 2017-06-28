@@ -8,14 +8,16 @@
 	<div class="row">
     <h1 id="team0Name"><span class="label label-default">Team 01 : {{gameTeams[0].score}}</span></h1>
     <ul id="team0" class="team">
-      <li ng-repeat="pupil in gameTeams[0].players | orderBy:'name'">
-				<span ng-class="{'selected': pupil.active == 0}">{{pupil.name}}</span>
+      <li class="team" ng-repeat="pupil in gameTeams[0].players | orderBy:'name'">
+				<button class="btn btn-xs btn-primary" ng-click="max(0, pupil)">✓</button>
+				<span ng-click="pupil.active == 1 ? pupil.active=0 : pupil.active=1" ng-class="{'selected': pupil.active == 0}">{{pupil.name}}</span>
       </li>
     </ul>
     <h1 id="team1Name"><span class="label label-default">Team 02 : {{gameTeams[1].score}}</span></h1>
     <ul id="team1" class="team">
       <li ng-repeat="pupil in gameTeams[1].players | orderBy:'name'">
-				<span ng-class="{'selected': pupil.active == 0}">{{pupil.name}}</span>
+				<button class="btn btn-xs btn-primary" ng-click="max(1)">✓</button>
+				<span ng-click="pupil.active == 1 ? pupil.active=0 : pupil.active=1" ng-class="{'selected': pupil.active == 0}">{{pupil.name}}</span>
       </li>
     </ul>
     <table id="alphaTable">

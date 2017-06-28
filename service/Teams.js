@@ -19,6 +19,7 @@ angular.module('FLGames').factory('Teams',function($http) {
             obj['absent'] = 0;
             obj['active'] = 1;
             obj['team'] = '';
+            obj['score'] = 0;
             result.push(obj);
           }
 

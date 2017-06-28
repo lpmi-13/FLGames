@@ -118,7 +118,7 @@ angular.module('alphabet').controller('alphabetGameboardCtrl',function($scope, $
 		}
 	}
 
-	$scope.selectPlayer = function(nb) {
+	$scope.resetPlayers = function() {
 		// Reset players active state
 		for (var i=0; i<$scope.gameTeams[0].players.length; i++) {
 			$scope.gameTeams[0].players[i].active = 1;
@@ -126,6 +126,11 @@ angular.module('alphabet').controller('alphabetGameboardCtrl',function($scope, $
 		for (var i=0; i<$scope.gameTeams[1].players.length; i++) {
 			$scope.gameTeams[1].players[i].active = 1;
 		}
+	}
+
+	$scope.selectPlayer = function(nb) {
+		// Reset players active state
+		$scope.resetPlayers();
 		// Pick nb random players in each team
     if ( Teams.savedTeams.length > 0) {
 			Teams.drawPlayers($scope.gameTeams[0].players, nb);
@@ -133,7 +138,12 @@ angular.module('alphabet').controller('alphabetGameboardCtrl',function($scope, $
     }
 	}
 
-	$scope.max = function(team) {
+	$scope.max = function(team, player) {
+		if (player) {
+			player.score++;
+		}
+		// Reset players active state
+		$scope.resetPlayers();
 		$scope.gameTeams[team].score++;
 		if ($scope.selectedEl) {
 			$scope.history.push($scope.selectedEl);
@@ -144,6 +154,8 @@ angular.module('alphabet').controller('alphabetGameboardCtrl',function($scope, $
 	}
 
 	$scope.minus = function(team) {
+		// Reset players active state
+		$scope.resetPlayers();
 		$scope.gameTeams[team].score--;
 	}
 });
