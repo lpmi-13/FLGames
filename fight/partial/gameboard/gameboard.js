@@ -58,10 +58,10 @@ angular.module('fight').controller('fightGameboardCtrl',function($scope, $state,
 
 	$scope.saveAnswer = function(good) {
 		if ( good == 1 ) {
-			$scope.questionToSave += " ⇒ Wrong !";
+			//$scope.questionToSave += " ⇒ Wrong !";
 			$scope.score02++;
 		} else {
-			$scope.questionToSave += " ⇒ Right !";
+			//$scope.questionToSave += " ⇒ Right !";
 			$scope.score01++;
 		}
 		$scope.saved.push($scope.questionToSave);

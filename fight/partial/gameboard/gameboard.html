@@ -29,7 +29,7 @@
 		<p>
 			<textarea class="reverse" width="150" rows="5" ng-model="questionToSave"></textarea>
 		</p>
-		<p>Grammar is...</p>
+		<!-- <p>Grammar is...</p> -->
     <button class="btn btn-success" id="rightButton" ng-click="saveAnswer(0)" translate>Right</button>
     <button class="btn btn-danger" id="wrongButton" ng-click="saveAnswer(1)" translate>Wrong</button>
     <button class="btn btn-inverse" id="closeButton" ng-click="close()" translate>Close</button>
@@ -41,7 +41,6 @@
         <a ng-click="goHome();" class="navbar-brand" title="Go home"><i class="fa fa-home fa-fw"></i></a>
       </div>
 			<ul class="nav navbar-nav">
-				<li><a ng-click="selectPlayer();" ng-show="playersList" class="" title="Pick a player"><i class="fa fa-user fa-fw"></i> Pick a player</a></li>
 				<li><a ng-click="addSentence();" class="" title="Add a sentence"><i class="fa fa-plus-circle fa-fw"></i> Add sentence</a></li>
 				<li><a ng-click="max(0);" class="" title="Add 1pt"><i class="fa fa-plus-square"></i> +1 for Team</a></li>
 				<li><a ng-click="max(1);" class="" title="Add 1pt"><i class="fa fa-plus-square-o"></i> +1 for Teacher </a></li>
