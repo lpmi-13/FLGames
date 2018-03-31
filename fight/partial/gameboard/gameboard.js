@@ -85,7 +85,14 @@ angular.module('fight').controller('fightGameboardCtrl',function($scope, $state,
 	}
 
 	$scope.deleteSaved = function(index) {
-		$scope.saved.splice(index, 1);
+    var dialogOptions = {
+        headerText: gettext('Delete sentence ?'),
+        bodyText: gettext('Are you sure you want to delete this sentence ?'),
+        callback: function () {
+					$scope.saved.splice(index, 1);
+        }
+    };
+    DialogService.showModalDialog({}, dialogOptions);
 	};
 
   $scope.selectPlayer = function() {
