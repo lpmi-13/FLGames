@@ -1,0 +1,46 @@
+: All about me
+Whats your name ? :: Wrong :: <u>What's</u>
+I'm french and I live in Raon. :: Wrong :: I'm <u>F</u>rench. (Majuscules aux pays et nationalités)
+Have you got a swimming-pool ? :: Right
+Do you have a big house ? :: Right
+Eric and Mike always makes me laugh! :: Wrong :: They always <u>make</u> me laugh!
+I'm afraid of spiders and snakes! :: Right
+I haven't a cat. :: Wrong :: I haven't GOT a cat (= I don't have a cat).
+What do you like do at week-ends? :: Wrong! ...like do<u>ING</u> (V-ING après verbe exprimant les goûts)
+I can't stand to listen to rap music! :: Wrong :: I can't stand listen<u>ING</u> (V-ING après verbe exprimant les goûts)
+I'm not small. :: Right
+I not like coffee but I love tea. :: WRONG! I <u>DON'T</u> like coffee.
+I'm interested in learning English and I'm crazy about doing my homework. :: Right
+Do have you got a swimming-pool? :: Wrong :: 'Have you got...?' or 'Do you have...?'
+Do you enjoy going to the cinema? :: Right :: Do you enjoy... = Do you like...
+I'm quite polite and extremely honest, but I'm not at all patient! :: Wrong :: I'm <u>not</u> patient <u>at all</u>.
+I love playing video games! :: Right
+He love dancing! :: Wrong :: He/She love<u>S</u> dancing.
+Where do you live :: Wrong :: Where do you live <u>?</u>
+Do you have childrens ? :: Wrong :: Do you have childr<u>en</u> ?
+Do you live near the ocean ? :: Right
+Have you got any pets ? :: Right
+My little sister is 8 years. :: Wrong :: 8 years <u>old</u>
+
+: Identity
+My names Mike ! :: Wrong :: My name<u>'</u>s Mike !
+I haven't any brothers. :: Wrong :: I haven't <u>got</u> any...
+I have two cats and three dogs ! :: Right
+What do you like doing in you spare time ? :: Wrong :: you<u>r</u> spare time
+What your name ? :: Wrong :: What<u>'s</u> your name ?
+How old are you ? :: Right
+When are you born ? :: Wrong :: When <u>were</u> you born ?
+Do you have any pets ? :: Right
+Have you got any pets ? :: Right
+Have you any sisters ? :: Wrong :: Have you <u>got</u>...?
+Do you any pets ? :: Wrong :: Do you <u>have</u> any...?
+My brother has 10. :: Wrong :: My brother <u>is</u> 10.
+She live in London. :: Wrong :: She live<u>s</u> in London.
+I'm french and I live in Raon. :: Wrong :: I'm <u>F</u>rench.
+I was born on May 5, 2004. :: Right
+He was born on June 12, 2003. :: Right
+What's you phone number ? :: Wrong :: What's you<u>r</u> phone number ?
+What's your nationality ? :: Right
+I don't have any brothers or sisters. :: Right
+I've got a dog. His name is Rex. :: Right
+I have a sister. She's name is Melinda. :: Wrong :: sister → <u>Her</u> name is...
