@@ -32,12 +32,12 @@ angular.module('FLGames').factory('Teams',function($http) {
 
 		selected : function(teamName, myClasses) {
 			var teamList = [];
-			if (teamName != 'no-class') {
+			if (teamName !== 'no-class') {
         angular.forEach(myClasses, function (pupil) {
           if (pupil.class === teamName) {
 						teamList.push(pupil);
 					}
-				})
+				});
 			}
 			return teamList;
 		},
@@ -116,9 +116,9 @@ angular.module('FLGames').factory('Teams',function($http) {
 					selectedPlayers.push(pupilsList[i]);
 				}
 			} else { // Select all players
-				for (var i=0; i<pupilsList.length; i++) {
-					pupilsList[i].active = 0;
-					selectedPlayers.push(pupilsList[i]);
+				for (var j=0; j<pupilsList.length; j++) {
+					pupilsList[j].active = 0;
+					selectedPlayers.push(pupilsList[j]);
 				}
 			}
 

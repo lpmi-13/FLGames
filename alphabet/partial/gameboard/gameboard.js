@@ -44,7 +44,7 @@ angular.module('alphabet').controller('alphabetGameboardCtrl',function($scope, $
 		var $picked = $data[randomnumber];
 		$scope.alphabet.splice(randomnumber, 1);
 		return $picked;
-	}
+	};
 
 	$scope.mixLetters = function() {
 		var dialogOptions = {
@@ -67,7 +67,7 @@ angular.module('alphabet').controller('alphabetGameboardCtrl',function($scope, $
       }
     };
     DialogService.showModalDialog({}, dialogOptions);
-	}
+	};
 
   $scope.goHome = function() {
     var dialogOptions = {
@@ -104,7 +104,7 @@ angular.module('alphabet').controller('alphabetGameboardCtrl',function($scope, $
 	$scope.selectLetter = function(e, row, col) {
 		if ($scope.selectedEl) { 
 			$scope.selectedEl.selected = false;
-			if ($scope.selectedEl != e && $scope.board[row][col] != '') {
+			if ($scope.selectedEl !== e && $scope.board[row][col] !== '') {
 				e.selected = !e.selected;
 				$scope.selectedEl = e;
 				$scope.selectedEl.row = row;
@@ -116,17 +116,17 @@ angular.module('alphabet').controller('alphabetGameboardCtrl',function($scope, $
 				$scope.selectedEl.row = row;
 				$scope.selectedEl.col = col;
 		}
-	}
+	};
 
 	$scope.resetPlayers = function() {
 		// Reset players active state
 		for (var i=0; i<$scope.gameTeams[0].players.length; i++) {
 			$scope.gameTeams[0].players[i].active = 1;
 		}
-		for (var i=0; i<$scope.gameTeams[1].players.length; i++) {
-			$scope.gameTeams[1].players[i].active = 1;
+		for (var j=0; j<$scope.gameTeams[1].players.length; i++) {
+			$scope.gameTeams[1].players[j].active = 1;
 		}
-	}
+	};
 
 	$scope.selectPlayer = function(nb) {
 		// Reset players active state
@@ -136,7 +136,7 @@ angular.module('alphabet').controller('alphabetGameboardCtrl',function($scope, $
 			Teams.drawPlayers($scope.gameTeams[0].players, nb);
 			Teams.drawPlayers($scope.gameTeams[1].players, nb);
     }
-	}
+	};
 
 	$scope.max = function(team, player) {
 		if (player) {
@@ -151,11 +151,11 @@ angular.module('alphabet').controller('alphabetGameboardCtrl',function($scope, $
 			$scope.board[$scope.selectedEl.row][$scope.selectedEl.col] = $sce.trustAsHtml('');
 			$scope.selectedEl.selected = false;
 		}
-	}
+	};
 
 	$scope.minus = function(team) {
 		// Reset players active state
 		$scope.resetPlayers();
 		$scope.gameTeams[team].score--;
-	}
+	};
 });

@@ -28,6 +28,8 @@ angular.module('FLGames').factory('DialogService',function(gettext, $modal) {
         //Map dialog.html $scope custom properties to defaults defined in this service
         angular.extend(tempDialogOptions, this.dialogOptions, customDialogOptions);
 
+        var d = $modal.open(tempDialogDefaults);
+
         if (!tempDialogDefaults.controller) {
             tempDialogDefaults.controller = function ($scope, $modal) {
                 $scope.dialogOptions = tempDialogOptions;
@@ -43,8 +45,6 @@ angular.module('FLGames').factory('DialogService',function(gettext, $modal) {
             };
         }
 
-        var d = $modal.open(tempDialogDefaults);
-        //d.open();
     },
 
     showModalDialog : function (customDialogDefaults, customDialogOptions) {

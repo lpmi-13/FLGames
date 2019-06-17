@@ -1,4 +1,38 @@
 angular.module('tictactoe').controller('tictactoeGameboardCtrl',function($scope, $state, $filter, Teams, Data, $sce, $timeout, DialogService, gettext, gettextCatalog){
+
+  function same(a, b, c) { return (a===b && b===c) ? a : '';}
+
+  function grade() { // Test if winner
+    var b = $scope.board;
+    function row(r) { return same($sce.getTrustedHtml(b[r][0]), $sce.getTrustedHtml(b[r][1]), $sce.getTrustedHtml(b[r][2]));}
+    function col(c) { return same($sce.getTrustedHtml(b[0][c]), $sce.getTrustedHtml(b[1][c]), $sce.getTrustedHtml(b[2][c]));}
+    function diagonal(i) { return same($sce.getTrustedHtml(b[0][1-i]), $sce.getTrustedHtml(b[1][1]), $sce.getTrustedHtml(b[2][1+i]));}
+    $scope.winner =
+      row(0) || row(1) || row(2) ||
+      col(0) || col(1) || col(2) ||
+      diagonal(-1) || diagonal(1);
+  }
+
+  function toBoard(e) {
+    var el = document.getElementById('logoTeam'+$scope.currentPlayer.team);
+    // Get mouse position
+    var left =  e.clientX-100;
+    var top =  e.clientY-50;
+    el.setAttribute("style","left: " + left + "px; top: " + top + "px;");
+
+    // Logo position back to normal
+    // Timeout based upon CSS animation time
+    $timeout( function() { 
+      el.setAttribute("style","display: none;"); 
+      }, 500)
+    .then( function() { 
+      $timeout( function() { 
+        el.setAttribute("style",""); 
+        }, 700
+      );
+    });
+    return true;
+  }
   
   $scope.init = function() {
     // Disable selection
@@ -184,47 +218,6 @@ angular.module('tictactoe').controller('tictactoeGameboardCtrl',function($scope,
     }
   };
 
-  function toBoard(e) {
-    var el = document.getElementById('logoTeam'+$scope.currentPlayer.team);
-    // Get mouse position
-    var left =  e.clientX-100;
-    var top =  e.clientY-50;
-    el.setAttribute("style","left: " + left + "px; top: " + top + "px;");
-
-    // Logo position back to normal
-    // Timeout based upon CSS animation time
-    $timeout( function() { 
-      el.setAttribute("style","display: none;"); 
-      }, 500)
-    .then( function() { 
-      $timeout( function() { 
-        el.setAttribute("style",""); 
-        }, 700
-      );
-    });
-    return true;
-  }
-  
-  /*
-  $scope.$watch('gameTeams[0].score', function() {
-    console.log('ok0');
-  });
-  $scope.$watch('gameTeams[1].score', function() {
-    console.log('ok1');
-  });
-  */
-
-  function grade() { // Test if winner
-    var b = $scope.board;
-    function row(r) { return same($sce.getTrustedHtml(b[r][0]), $sce.getTrustedHtml(b[r][1]), $sce.getTrustedHtml(b[r][2]));}
-    function col(c) { return same($sce.getTrustedHtml(b[0][c]), $sce.getTrustedHtml(b[1][c]), $sce.getTrustedHtml(b[2][c]));}
-    function diagonal(i) { return same($sce.getTrustedHtml(b[0][1-i]), $sce.getTrustedHtml(b[1][1]), $sce.getTrustedHtml(b[2][1+i]));}
-    function same(a, b, c) { return (a===b && b===c) ? a : '';}
-    $scope.winner =
-      row(0) || row(1) || row(2) ||
-      col(0) || col(1) || col(2) ||
-      diagonal(-1) || diagonal(1);
-  }
 
   $scope.mixTopic = function() {
     var dialogOptions = {

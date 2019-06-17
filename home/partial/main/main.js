@@ -61,26 +61,6 @@ angular.module('home').controller('MainCtrl',function($scope, Teams, $state, $st
       }
     }
 		
-    // Test if a class is already selected (from URL) or already saved
-    // $scope.classId = $stateParams.classId;
-    // if ($scope.classId !== '') {
-    //   if (Teams.savedTeams && Teams.savedTeams.length === 0 || (Teams.savedTeams && Teams.savedTeams.length > 0 && Teams.savedTeams[0].class !== $scope.classId)) {
-    //     $scope.playersList = [];
-    //     for (var j=0; j<$scope.myClasses.length; j++) {
-    //       if ($scope.myClasses[j]['class'] === $scope.classId) {
-    //         $scope.playersList.push($scope.myClasses[j]);
-    //       }
-    //     }
-    //     // Select 2 new teams
-    //     Teams.draw(2, $scope.playersList);
-    //   } else {
-    //     $scope.playersList = Teams.savedTeams;
-    //   }
-
-    //   $scope.isSelected = true;
-    // } else {
-    //   $scope.isSelected = false;
-    // }
 		$scope.isSelected = false;
   });
 
@@ -100,19 +80,18 @@ angular.module('home').controller('MainCtrl',function($scope, Teams, $state, $st
   };
 
 	$scope.selectMyClass = function(item) {
-		if (item != 'no-class') {
+		if (item !== 'no-class') {
 			$scope.playersList = Teams.selected(item, $scope.myClasses);
 			$scope.isSelected = true;
 			// Prepare class list
 			$scope.mainParams.selectedClass = item;
 			$scope.mainParams.pupils = item.pupils;
-			if ($scope.mainParams.nbTeams != 0) {
+			if ($scope.mainParams.nbTeams !== 0) {
 				$scope.teams = $scope.drawTeams($scope.mainParams.nbTeams, $scope.mainParams.pupils);
 			}
 		} else { // No class selected, back to defaults
 			$scope.setDefaultParams();
 			$scope.isSelected = false;
-			// $scope.teams = Teams.draw($scope.mainParams.nbTeams, $scope.mainParams.pupils);
 		}
 		return false;
 	};

@@ -32,7 +32,6 @@ angular.module('fight').controller('fightGameboardCtrl',function($scope, $state,
 					if ($scope.score01 < $scope.score02) {
 						Teams.looser.push($scope.score01);
 						Teams.looser.push($scope.score02);
-					} else { // A tie
 					}
 				}
         $state.go('winner', {gameId: 'fight'});
@@ -50,14 +49,14 @@ angular.module('fight').controller('fightGameboardCtrl',function($scope, $state,
 	$scope.close = function() {
 		$scope.questionStart = false;
 		$scope.questionToSave = '';
-	}
+	};
 
 	$scope.closeCurrent = function() {
 		$scope.currentPlayer = '';
-	}
+	};
 
 	$scope.saveAnswer = function(good) {
-		if ( good == 1 ) {
+		if ( good === 1 ) {
 			//$scope.questionToSave += " ⇒ Wrong !";
 			$scope.score02++;
 		} else {
@@ -69,20 +68,20 @@ angular.module('fight').controller('fightGameboardCtrl',function($scope, $state,
 	};
 
 	$scope.max = function(good) {
-		if ( good == 1 ) {
+		if ( good === 1 ) {
 			$scope.score02++;
 		} else {
 			$scope.score01++;
 		}
-	}
+	};
 
 	$scope.min = function(good) {
-		if ( good == 1 ) {
+		if ( good === 1 ) {
 			$scope.score02--;
 		} else {
 			$scope.score01--;
 		}
-	}
+	};
 
 	$scope.deleteSaved = function(index) {
     var dialogOptions = {

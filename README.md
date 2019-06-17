@@ -1,6 +1,6 @@
 # FLGames
 
- ## What is it?
+## What is it?
 FLGames is a package of games I use in class to teach English
 
 For the moment, 4 games are developed :
@@ -20,19 +20,46 @@ I was curious on using AngularJS so that's what I'm doing in this FLGames packag
 All my work is placed under the GNU GPL v3.0 license (found in LICENSE.txt).
 All images come from the Open Source Clipart Library and icons from the Font Awesome Icons Library.
 
- ## What future for FLGames?
+## What future for FLGames?
 
 - Cleaner code
 - Unit tests
 - More games :)
 - ...
 
- ## What else?
-Hope someone will find this inspiring.
+## How to install it if I'm interested?
 
- ## How to install it if I'm interested ?
+```
+npm install
+```
+then
+```
+npm install -g bower
+bower install
+```
 
-You can download simply the dist/ folder. In this folder, all you have to do to test the games is to open index.html in your browser (tested only in Firefox so far...). Once you understand how it goes, feel free to change the data files found in the... 'data/' folder ;)
+to run the development environment, you will need grunt.
+```
+npm install -g grunt
+```
+
+Once that's all installed, you should be able to run
+```
+grunt serve
+```
+to start up the server on `http://localhost:9001`
+
+## build for production/deployment
+
+to create a production build, you can use
+`grunt build`
+
+which will create minified assets in the `/dist` folder.
+
+
+## download and run locally
+
+On the other hand, you can also download simply the dist/ folder. In this folder, all you have to do to test the games is to open index.html in your browser (tested only in Firefox so far...). Once you understand how it goes, feel free to change the data files found in the... 'data/' folder ;)
 
 A few remarks :
 - Topics are lines staring with ':'.
