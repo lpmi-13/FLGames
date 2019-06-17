@@ -27,7 +27,9 @@ All images come from the Open Source Clipart Library and icons from the Font Awe
 - More games :)
 - ...
 
-## How to install it if I'm interested?
+
+
+## How to install and run locally?
 
 ```
 npm install
