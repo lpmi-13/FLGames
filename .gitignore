@@ -3,5 +3,5 @@ bower_components/
 *.log
 *.swp
 
-build/
-/data/
+build
+dist
